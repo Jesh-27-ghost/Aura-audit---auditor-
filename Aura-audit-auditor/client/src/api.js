@@ -94,4 +94,9 @@ export const getMyCVProfile = () => API.get('/cv/profile');
 export const getAllCVProfiles = () => API.get('/cv/profiles');
 export const generateAdaptiveTest = (data) => API.post('/cv/generate-test', data);
 
+// Puzzle Arena
+export const startPuzzleSession = () => API.post('/puzzle/start');
+export const getNextPuzzle = (sessionId) => API.get('/puzzle/next', { params: { sessionId } });
+export const submitPuzzleAnswer = (data) => API.post('/puzzle/submit', data);
+
 export default API;

@@ -22,6 +22,7 @@ import CandidateTaskList from './pages/CandidateTaskList';
 import CandidateTaskTest from './pages/CandidateTaskTest';
 import CandidateTaskSubmissionView from './pages/CandidateTaskSubmissionView';
 import CandidateCVUpload from './pages/CandidateCVUpload';
+import PuzzleArena from './pages/PuzzleArena';
 
 function ProtectedRoute({ children, role }) {
     const { user, loading } = useAuth();
@@ -80,6 +81,14 @@ function AppRoutes() {
                     element={
                         <ProtectedRoute role="candidate">
                             <CandidateCVUpload />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/puzzle"
+                    element={
+                        <ProtectedRoute role="candidate">
+                            <PuzzleArena />
                         </ProtectedRoute>
                     }
                 />
