@@ -6,7 +6,7 @@ import { QRCodeSVG } from 'qrcode.react';
 import {
     Search, Users, Award, TrendingUp, AlertTriangle,
     Mail, X, ExternalLink, Filter, Briefcase, ChevronDown,
-    FileText, Zap, Loader2, ClipboardCheck
+    FileText, Zap, Loader2, ClipboardCheck, Brain
 } from 'lucide-react';
 
 const skillLevels = ['', 'Beginner', 'Intermediate', 'Advanced', 'Expert'];
@@ -227,6 +227,19 @@ export default function EmployerDashboard() {
                                         "{item.assessment.employerSummary}"
                                     </p>
 
+                                    {item.puzzle && (
+                                        <div style={{ 
+                                            background: 'rgba(139, 92, 246, 0.05)', border: '1px solid rgba(139, 92, 246, 0.2)',
+                                            padding: '0.75rem', borderRadius: '10px', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center'
+                                        }}>
+                                            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                <Zap size={16} color="#8b5cf6" />
+                                                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: '#8b5cf6' }}>Logic Reasoning</span>
+                                            </div>
+                                            <span style={{ fontSize: '1rem', fontWeight: 800, color: '#8b5cf6' }}>{item.puzzle.metrics.reasoning}/10</span>
+                                        </div>
+                                    )}
+
                                     <div style={{ display: 'flex', gap: '8px' }}>
                                         <button
                                             className="btn btn-primary btn-sm"
@@ -322,6 +335,51 @@ export default function EmployerDashboard() {
                                 </span>
                             </div>
                         </div>
+
+                        {/* Cognitive Reasoning Logic */}
+                        {selectedCandidate.puzzle && (
+                            <div style={{ marginBottom: '2rem', padding: '1.25rem', background: 'rgba(139, 92, 246, 0.03)', borderRadius: '16px', border: '1px solid rgba(139, 92, 246, 0.1)' }}>
+                                <h4 style={{ fontSize: '0.9rem', color: '#8b5cf6', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <Zap size={18} /> Cognitive Reasoning Profile
+                                </h4>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+                                    <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.75rem', borderRadius: '12px' }}>
+                                        <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '4px' }}>Logical Reasoning</div>
+                                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#8b5cf6' }}>{selectedCandidate.puzzle.metrics.reasoning}/10</div>
+                                    </div>
+                                    <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.75rem', borderRadius: '12px' }}>
+                                        <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '4px' }}>Pattern Recognition</div>
+                                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#8b5cf6' }}>{selectedCandidate.puzzle.metrics.patternRecognition}/10</div>
+                                    </div>
+                                    <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.75rem', borderRadius: '12px' }}>
+                                        <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '4px' }}>Solving Speed</div>
+                                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#8b5cf6' }}>{selectedCandidate.puzzle.metrics.speed}/10</div>
+                                    </div>
+                                    <div style={{ background: 'rgba(255,255,255,0.02)', padding: '0.75rem', borderRadius: '12px' }}>
+                                        <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '4px' }}>Cognitive Flexibility</div>
+                                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#8b5cf6' }}>{selectedCandidate.puzzle.metrics.flexibility}/10</div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Dimensions */}
+                        {Object.entries(selectedCandidate.assessment.dimensions || {}).map(([key, dim]) => (
+                            <div key={key} style={{ marginBottom: '1rem' }}>
+                                <div className="dimension-header">
+                                    <span className="dimension-name" style={{ textTransform: 'capitalize' }}>
+                                        {key.replace(/([A-Z])/g, ' $1').trim()}
+                                    </span>
+                                    <span className="dimension-score" style={{ color: getScoreColor(dim.score) }}>
+                                        {dim.score}
+                                    </span>
+                                </div>
+                                <div className="score-bar">
+                                    <div className="score-bar-fill" style={{ width: `${dim.score}%`, background: getBarGradient(dim.score) }}></div>
+                                </div>
+                                <p className="dimension-observation">{dim.observation}</p>
+                            </div>
+                        ))}
 
                         <div className="modal-actions" style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
                             <a href={`mailto:${selectedCandidate.candidate.email}`} className="btn btn-primary flex-1">

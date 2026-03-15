@@ -36,6 +36,17 @@ router.get('/', protect, authorize('employer'), (req, res) => {
             if (!user) continue;
 
             const badge = store.findOne('badges', (b) => b.assessmentId === assessment._id);
+/*
+            const arenaSessions = store.find('arenaSessions', (s) => s.candidateId === assessment.candidateId);
+            const topArenaSession = arenaSessions.length > 0 
+                ? arenaSessions.reduce((prev, current) => (prev.score > current.score) ? prev : current)
+                : null;
+*/
+
+            const puzzleSessions = store.find('puzzleSessions', (s) => s.candidateId === assessment.candidateId && s.completed);
+            const topPuzzleSession = puzzleSessions.length > 0
+                ? puzzleSessions.reduce((prev, current) => (prev.metrics.reasoning > current.metrics.reasoning) ? prev : current)
+                : null;
 
             candidates.push({
                 candidate: {
@@ -57,6 +68,17 @@ router.get('/', protect, authorize('employer'), (req, res) => {
                     employerSummary: assessment.employerSummary,
                     createdAt: assessment.createdAt
                 },
+/*
+                arena: topArenaSession ? {
+                    score: topArenaSession.score,
+                    accuracy: topArenaSession.accuracy,
+                    timeTaken: topArenaSession.timeTaken,
+                    level: topArenaSession.level
+                } : null,
+*/
+                puzzle: topPuzzleSession ? {
+                    metrics: topPuzzleSession.metrics
+                } : null,
                 badgeId: badge ? badge.badgeId : null
             });
         }

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { getMyBadges } from '../api';
-import { Award, Video, Trophy, ArrowRight, Shield } from 'lucide-react';
+import { Award, Video, Trophy, ArrowRight, Shield, Brain, Code2, Zap } from 'lucide-react';
 
 export default function CandidateDashboard() {
     const { user } = useAuth();
@@ -80,28 +80,65 @@ export default function CandidateDashboard() {
                 </div>
             </div>
 
-            {/* Quick Actions */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
-                <Link to="/cv-upload" className="card" style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', textDecoration: 'none' }}>
-                    <div className="card-icon card-icon-gold" style={{ margin: 0, flexShrink: 0 }}>
-                        <Shield size={24} />
+            {/* Game Arena & Verification */}
+            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 700, marginBottom: '1.25rem', fontSize: '1.25rem', color: 'var(--text-secondary)' }}>
+                Game Arena & Verification
+            </h2>
+            <div className="game-task-bar" style={{ 
+                display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginBottom: '2rem' 
+            }}>
+                <Link to="/puzzle-arena" className="card game-task-item" style={{ 
+                    display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem', textDecoration: 'none',
+                    background: 'rgba(245, 158, 11, 0.05)', border: '1px solid rgba(245, 158, 11, 0.15)', borderRadius: '16px',
+                    transition: 'all 0.3s ease'
+                }}>
+                    <div className="card-icon-sm" style={{ 
+                        width: '44px', height: '44px', borderRadius: '12px', background: 'rgba(245, 158, 11, 0.2)', 
+                        display: 'flex', alignItems: 'center', justifyContent: 'center' 
+                    }}>
+                        <Zap size={22} style={{ color: '#f59e0b' }} />
                     </div>
                     <div style={{ flex: 1 }}>
-                        <h4 style={{ marginBottom: '0.15rem' }}>AI CV Analysis</h4>
-                        <p style={{ fontSize: '0.85rem' }}>Optimize your profile & tiers</p>
+                        <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700 }}>Logic Puzzle</h4>
+                        <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>Cognitive Evaluation</p>
                     </div>
-                    <ArrowRight size={20} style={{ color: 'var(--accent-gold)', flexShrink: 0 }} />
+                    <ArrowRight size={16} style={{ color: 'var(--text-muted)', opacity: 0.5 }} />
                 </Link>
 
-                <Link to="/record" className="card" style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', textDecoration: 'none' }}>
-                    <div className="card-icon card-icon-purple" style={{ margin: 0, flexShrink: 0 }}>
-                        <Video size={24} />
+                <Link to="/cv-upload" className="card game-task-item" style={{ 
+                    display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem', textDecoration: 'none',
+                    background: 'rgba(99, 102, 241, 0.05)', border: '1px solid rgba(99, 102, 241, 0.15)', borderRadius: '16px',
+                    transition: 'all 0.3s ease'
+                }}>
+                    <div className="card-icon-sm" style={{ 
+                        width: '44px', height: '44px', borderRadius: '12px', background: 'rgba(99, 102, 241, 0.2)', 
+                        display: 'flex', alignItems: 'center', justifyContent: 'center' 
+                    }}>
+                        <Shield size={22} style={{ color: '#6366f1' }} />
                     </div>
                     <div style={{ flex: 1 }}>
-                        <h4 style={{ marginBottom: '0.15rem' }}>Skill Assessment</h4>
-                        <p style={{ fontSize: '0.85rem' }}>Verify via video demo</p>
+                        <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700 }}>AI CV Analysis</h4>
+                        <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>Optimize Profile</p>
                     </div>
-                    <ArrowRight size={20} style={{ color: 'var(--accent-primary)', flexShrink: 0 }} />
+                    <ArrowRight size={16} style={{ color: 'var(--text-muted)', opacity: 0.5 }} />
+                </Link>
+
+                <Link to="/record" className="card game-task-item" style={{ 
+                    display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem', textDecoration: 'none',
+                    background: 'rgba(16, 185, 129, 0.05)', border: '1px solid rgba(16, 185, 129, 0.15)', borderRadius: '16px',
+                    transition: 'all 0.3s ease'
+                }}>
+                    <div className="card-icon-sm" style={{ 
+                        width: '44px', height: '44px', borderRadius: '12px', background: 'rgba(16, 185, 129, 0.2)', 
+                        display: 'flex', alignItems: 'center', justifyContent: 'center' 
+                    }}>
+                        <Video size={22} style={{ color: '#10b981' }} />
+                    </div>
+                    <div style={{ flex: 1 }}>
+                        <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700 }}>New Assessment</h4>
+                        <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>Record Session</p>
+                    </div>
+                    <ArrowRight size={16} style={{ color: 'var(--text-muted)', opacity: 0.5 }} />
                 </Link>
             </div>
 

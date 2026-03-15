@@ -28,11 +28,17 @@ const badgeRoutes = require('./routes/badge');
 const verifyRoutes = require('./routes/verify');
 const candidateRoutes = require('./routes/candidates');
 const cvRoutes = require('./routes/cv');
+const leaderboardRoutes = require('./routes/leaderboard');
+const analyticsRoutes = require('./routes/analytics');
+// const arenaRoutes = require('./routes/arena');
+const puzzleRoutes = require('./routes/puzzle');
 const { getSkillCategories } = require('./prompts/skillRubrics');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/assess', assessRoutes);
 app.use('/api/badge', badgeRoutes);
+// app.use('/api/arena', arenaRoutes);
+app.use('/api/puzzle', puzzleRoutes);
 app.use('/api/verify', verifyRoutes);
 app.use('/api/candidates', candidateRoutes);
 app.use('/api/cv', cvRoutes);

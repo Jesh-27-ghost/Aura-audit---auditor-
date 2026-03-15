@@ -61,4 +61,14 @@ export const searchCandidates = (params) => API.get('/candidates', { params });
 export const getCVProfiles = () => API.get('/cv/profiles');
 export const generateAdaptiveTest = (data) => API.post('/cv/generate-test', data);
 
+// Arena
+// export const getArenaLevel = () => API.get('/arena/level');
+// export const getArenaChallenge = (level, language) => API.get('/arena/challenge', { params: { level, language } });
+// export const submitArenaAttempt = (data) => API.post('/arena/submit', data);
+
+// Logic Puzzle Arena
+export const startPuzzleSession = () => API.post('/puzzle/start');
+export const getNextPuzzle = (sessionId) => API.get('/puzzle/next', { params: { sessionId } });
+export const submitPuzzleAnswer = (data) => API.post('/puzzle/submit', data);
+
 export default API;

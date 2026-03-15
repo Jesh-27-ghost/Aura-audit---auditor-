@@ -12,6 +12,11 @@ import BadgeView from './pages/BadgeView';
 import EmployerDashboard from './pages/EmployerDashboard';
 import VerifyBadge from './pages/VerifyBadge';
 import CVUpload from './pages/CVUpload';
+import Leaderboard from './pages/Leaderboard';
+import AnalyticsDashboard from './pages/AnalyticsDashboard';
+import Walkthrough from './pages/Walkthrough';
+// import SkillArena from './pages/SkillArena';
+import PuzzleArena from './pages/PuzzleArena';
 
 function ProtectedRoute({ children, role }) {
     const { user, loading } = useAuth();
@@ -38,6 +43,24 @@ function AppRoutes() {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/leaderboard" element={<Leaderboard />} />
+                <Route path="/walkthrough" element={<Walkthrough />} />
+                <Route
+                    path="/puzzle-arena"
+                    element={
+                        <ProtectedRoute role="candidate">
+                            <PuzzleArena />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/analytics"
+                    element={
+                        <ProtectedRoute>
+                            <AnalyticsDashboard />
+                        </ProtectedRoute>
+                    }
+                />
                 <Route
                     path="/dashboard"
                     element={
