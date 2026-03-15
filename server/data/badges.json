@@ -7,8 +7,8 @@
     "candidateName": "Dr. Sarah Connor",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 97,
-    "skillLevel": "Expert",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -23,8 +23,8 @@
     "candidateName": "Marcus Wright",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 96,
-    "skillLevel": "Expert",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -39,8 +39,8 @@
     "candidateName": "Kyle Reese",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 96,
-    "skillLevel": "Expert",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -55,7 +55,7 @@
     "candidateName": "Beginner Bot 3 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 70,
+    "overallScore": 0,
     "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
@@ -71,8 +71,8 @@
     "candidateName": "Intermediate Bot 1 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -87,8 +87,8 @@
     "candidateName": "Intermediate Bot 2 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 78,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -103,8 +103,8 @@
     "candidateName": "Intermediate Bot 3 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -119,8 +119,8 @@
     "candidateName": "Advanced Bot 1 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -135,8 +135,8 @@
     "candidateName": "Advanced Bot 2 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 88,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -151,8 +151,8 @@
     "candidateName": "Advanced Bot 3 - React",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 93,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "React Frontend Development"
     ],
@@ -167,8 +167,8 @@
     "candidateName": "Intermediate Bot 1 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -183,8 +183,8 @@
     "candidateName": "Intermediate Bot 2 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -199,8 +199,8 @@
     "candidateName": "Intermediate Bot 3 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 77,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -215,8 +215,8 @@
     "candidateName": "Advanced Bot 1 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 93,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -231,8 +231,8 @@
     "candidateName": "Advanced Bot 2 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -247,8 +247,8 @@
     "candidateName": "Advanced Bot 3 - Node.js",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Node.js API Development"
     ],
@@ -263,8 +263,8 @@
     "candidateName": "Intermediate Bot 1 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 82,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -279,8 +279,8 @@
     "candidateName": "Intermediate Bot 2 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -295,8 +295,8 @@
     "candidateName": "Intermediate Bot 3 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -311,8 +311,8 @@
     "candidateName": "Advanced Bot 1 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -327,8 +327,8 @@
     "candidateName": "Advanced Bot 2 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 88,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -343,8 +343,8 @@
     "candidateName": "Advanced Bot 3 - JavaScript",
     "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "JavaScript Debugging"
     ],
@@ -359,8 +359,8 @@
     "candidateName": "Intermediate Bot 1 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 72,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -375,8 +375,8 @@
     "candidateName": "Intermediate Bot 2 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -391,8 +391,8 @@
     "candidateName": "Intermediate Bot 3 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 73,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -407,8 +407,8 @@
     "candidateName": "Advanced Bot 1 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 94,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -423,8 +423,8 @@
     "candidateName": "Advanced Bot 2 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -439,8 +439,8 @@
     "candidateName": "Advanced Bot 3 - SQL",
     "skillName": "SQL Database Querying",
     "industry": "IT / Software",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "SQL Database Querying"
     ],
@@ -455,8 +455,8 @@
     "candidateName": "Intermediate Bot 1 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -471,8 +471,8 @@
     "candidateName": "Intermediate Bot 2 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 72,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -487,8 +487,8 @@
     "candidateName": "Intermediate Bot 3 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -503,8 +503,8 @@
     "candidateName": "Advanced Bot 1 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -519,8 +519,8 @@
     "candidateName": "Advanced Bot 2 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 92,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -535,8 +535,8 @@
     "candidateName": "Advanced Bot 3 - Python",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Python Scripting"
     ],
@@ -551,8 +551,8 @@
     "candidateName": "Intermediate Bot 1 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 78,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -567,8 +567,8 @@
     "candidateName": "Intermediate Bot 2 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 74,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -583,8 +583,8 @@
     "candidateName": "Intermediate Bot 3 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 76,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -599,8 +599,8 @@
     "candidateName": "Advanced Bot 1 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 87,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -615,8 +615,8 @@
     "candidateName": "Advanced Bot 2 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -631,8 +631,8 @@
     "candidateName": "Advanced Bot 3 - DevOps",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 87,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "DevOps / Docker"
     ],
@@ -647,8 +647,8 @@
     "candidateName": "Intermediate Bot 1 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 73,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -663,8 +663,8 @@
     "candidateName": "Intermediate Bot 2 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 78,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -679,8 +679,8 @@
     "candidateName": "Intermediate Bot 3 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -695,8 +695,8 @@
     "candidateName": "Advanced Bot 1 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -711,8 +711,8 @@
     "candidateName": "Advanced Bot 2 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -727,8 +727,8 @@
     "candidateName": "Advanced Bot 3 - C++",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "C++ Scripting"
     ],
@@ -743,8 +743,8 @@
     "candidateName": "Intermediate Bot 1 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 78,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -759,8 +759,8 @@
     "candidateName": "Intermediate Bot 2 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -775,8 +775,8 @@
     "candidateName": "Intermediate Bot 3 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 85,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -791,8 +791,8 @@
     "candidateName": "Advanced Bot 1 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 88,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -807,8 +807,8 @@
     "candidateName": "Advanced Bot 2 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 87,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -823,8 +823,8 @@
     "candidateName": "Advanced Bot 3 - Wound",
     "skillName": "Wound Dressing",
     "industry": "Healthcare",
-    "overallScore": 93,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Wound Dressing"
     ],
@@ -839,7 +839,7 @@
     "candidateName": "Beginner Bot 3 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 70,
+    "overallScore": 0,
     "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
@@ -855,8 +855,8 @@
     "candidateName": "Intermediate Bot 1 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -871,8 +871,8 @@
     "candidateName": "Intermediate Bot 2 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 73,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -887,8 +887,8 @@
     "candidateName": "Intermediate Bot 3 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 76,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -903,8 +903,8 @@
     "candidateName": "Advanced Bot 1 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -919,8 +919,8 @@
     "candidateName": "Advanced Bot 2 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -935,8 +935,8 @@
     "candidateName": "Advanced Bot 3 - Circuit",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Circuit Wiring"
     ],
@@ -951,8 +951,8 @@
     "candidateName": "Intermediate Bot 1 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 79,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -967,8 +967,8 @@
     "candidateName": "Intermediate Bot 2 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -983,8 +983,8 @@
     "candidateName": "Intermediate Bot 3 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 77,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -999,8 +999,8 @@
     "candidateName": "Advanced Bot 1 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -1015,8 +1015,8 @@
     "candidateName": "Advanced Bot 2 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -1031,8 +1031,8 @@
     "candidateName": "Advanced Bot 3 - Music",
     "skillName": "Music",
     "industry": "Performing Arts",
-    "overallScore": 87,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Music"
     ],
@@ -1047,8 +1047,8 @@
     "candidateName": "Intermediate Bot 1 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 80,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1063,8 +1063,8 @@
     "candidateName": "Intermediate Bot 2 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 71,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1079,8 +1079,8 @@
     "candidateName": "Intermediate Bot 3 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1095,8 +1095,8 @@
     "candidateName": "Advanced Bot 1 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 94,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1111,8 +1111,8 @@
     "candidateName": "Advanced Bot 2 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1127,8 +1127,8 @@
     "candidateName": "Advanced Bot 3 - Musical",
     "skillName": "Musical Instruments",
     "industry": "Performing Arts",
-    "overallScore": 94,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Musical Instruments"
     ],
@@ -1143,7 +1143,7 @@
     "candidateName": "Beginner Bot 1 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 70,
+    "overallScore": 0,
     "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
@@ -1159,8 +1159,8 @@
     "candidateName": "Intermediate Bot 1 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1175,8 +1175,8 @@
     "candidateName": "Intermediate Bot 2 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1191,8 +1191,8 @@
     "candidateName": "Intermediate Bot 3 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 82,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1207,8 +1207,8 @@
     "candidateName": "Advanced Bot 1 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 91,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1223,8 +1223,8 @@
     "candidateName": "Advanced Bot 2 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 87,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1239,8 +1239,8 @@
     "candidateName": "Advanced Bot 3 - Speech",
     "skillName": "Speech / Public Speaking",
     "industry": "Communication",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Speech / Public Speaking"
     ],
@@ -1255,8 +1255,8 @@
     "candidateName": "Intermediate Bot 1 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 76,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1271,8 +1271,8 @@
     "candidateName": "Intermediate Bot 2 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 85,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1287,8 +1287,8 @@
     "candidateName": "Intermediate Bot 3 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 81,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1303,8 +1303,8 @@
     "candidateName": "Advanced Bot 1 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 93,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1319,8 +1319,8 @@
     "candidateName": "Advanced Bot 2 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 92,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1335,8 +1335,8 @@
     "candidateName": "Advanced Bot 3 - Teaching",
     "skillName": "Teaching / Explaining Concepts",
     "industry": "Education",
-    "overallScore": 89,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Teaching / Explaining Concepts"
     ],
@@ -1351,8 +1351,8 @@
     "candidateName": "Intermediate Bot 1 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 75,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
@@ -1367,8 +1367,8 @@
     "candidateName": "Intermediate Bot 2 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 83,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
@@ -1383,8 +1383,8 @@
     "candidateName": "Intermediate Bot 3 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 78,
-    "skillLevel": "Intermediate",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
@@ -1399,8 +1399,8 @@
     "candidateName": "Advanced Bot 1 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 95,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
@@ -1415,8 +1415,8 @@
     "candidateName": "Advanced Bot 2 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 86,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
@@ -1431,12 +1431,69 @@
     "candidateName": "Advanced Bot 3 - Yoga",
     "skillName": "Yoga / Physical Demonstration",
     "industry": "Fitness / Wellness",
-    "overallScore": 90,
-    "skillLevel": "Advanced",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
     "verifiedSkills": [
       "Yoga / Physical Demonstration"
     ],
     "issuedAt": "2026-03-15T02:10:31.973Z",
     "createdAt": "2026-03-15T02:10:31.973Z"
+  },
+  {
+    "_id": "mmr9w8h3-r3sadxjad",
+    "badgeId": "f770f61e-f8c7-45bf-9859-4293079a9d72",
+    "candidateId": "mmi4rk44-gmin4tlz3",
+    "assessmentId": "mmr9w8h1-e8e8mtf0m",
+    "candidateName": "leon",
+    "skillName": "React Frontend Development",
+    "industry": "Software Engineering",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
+    "verifiedSkills": [
+      "React Hooks",
+      "State Management",
+      "Component Architecture"
+    ],
+    "employerSummary": "Assessment initiated but no progress demonstrated.",
+    "issuedAt": "2026-02-13T04:47:08.771Z",
+    "createdAt": "2026-03-15T04:47:08.775Z"
+  },
+  {
+    "_id": "mmr9w8h5-wy2r3rhg6",
+    "badgeId": "36b5bbea-09a4-4cbc-85fd-879fecdc78ad",
+    "candidateId": "mmi4rk44-gmin4tlz3",
+    "assessmentId": "mmr9w8h4-r4pj5v1ey",
+    "candidateName": "leon",
+    "skillName": "React Frontend Development",
+    "industry": "Software Engineering",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
+    "verifiedSkills": [
+      "Performance Optimization",
+      "Custom Hooks",
+      "React Context"
+    ],
+    "employerSummary": "Assessment initiated but no progress demonstrated.",
+    "issuedAt": "2026-03-05T04:47:08.772Z",
+    "createdAt": "2026-03-15T04:47:08.777Z"
+  },
+  {
+    "_id": "mmr9w8h7-lhpd60gkg",
+    "badgeId": "71d499da-c456-4340-8a3d-a75c95d4dc2d",
+    "candidateId": "mmi4rk44-gmin4tlz3",
+    "assessmentId": "mmr9w8h6-eou89st5u",
+    "candidateName": "leon",
+    "skillName": "Node.js API Development",
+    "industry": "Software Engineering",
+    "overallScore": 0,
+    "skillLevel": "Beginner",
+    "verifiedSkills": [
+      "Express.js",
+      "REST APIs",
+      "Middleware"
+    ],
+    "employerSummary": "Assessment initiated but no progress demonstrated.",
+    "issuedAt": "2026-03-10T04:47:08.772Z",
+    "createdAt": "2026-03-15T04:47:08.779Z"
   }
 ]

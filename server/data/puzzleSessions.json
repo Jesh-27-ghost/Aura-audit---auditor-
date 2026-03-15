@@ -7,10 +7,10 @@
     "currentDifficulty": 4,
     "completed": true,
     "metrics": {
-      "reasoning": "8.4",
-      "patternRecognition": "8.1",
-      "speed": "7.9",
-      "flexibility": "8.3"
+      "reasoning": 0,
+      "patternRecognition": 0,
+      "speed": 0,
+      "flexibility": 0
     },
     "createdAt": "2026-03-15T07:15:00.000Z"
   },
@@ -86,10 +86,10 @@
     "currentDifficulty": 2,
     "completed": true,
     "metrics": {
-      "reasoning": "1.3",
-      "patternRecognition": 6,
-      "speed": 9,
-      "flexibility": 7.5
+      "reasoning": 0,
+      "patternRecognition": 0,
+      "speed": 0,
+      "flexibility": 0
     },
     "createdAt": "2026-03-15T02:01:09.728Z"
   },
@@ -165,10 +165,10 @@
     "currentDifficulty": 1,
     "completed": true,
     "metrics": {
-      "reasoning": "0.0",
-      "patternRecognition": 6,
-      "speed": 9,
-      "flexibility": 7.5
+      "reasoning": 0,
+      "patternRecognition": 0,
+      "speed": 0,
+      "flexibility": 0
     },
     "createdAt": "2026-03-15T02:02:24.722Z"
   }

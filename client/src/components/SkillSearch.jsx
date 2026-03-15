@@ -2,14 +2,12 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, X, ArrowUpDown } from 'lucide-react';
 
 const mockSkillsData = [
-  { name: "Python", candidates: 23 },
   { name: "React Frontend Development", candidates: 18 },
-  { name: "UI/UX Design", candidates: 12 },
   { name: "Node.js API Development", candidates: 15 },
   { name: "JavaScript Debugging", candidates: 20 },
   { name: "SQL Database Querying", candidates: 10 },
-  { name: "DevOps / Docker", candidates: 5 },
-  { name: "Data Analysis", candidates: 8 }
+  { name: "Python Scripting", candidates: 8 },
+  { name: "DevOps / Docker", candidates: 5 }
 ];
 
 export default function SkillSearch({ value = '', onSelectSkill, onClear }) {

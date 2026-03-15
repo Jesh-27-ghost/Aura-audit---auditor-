@@ -9,57 +9,57 @@ const assessments = [
     candidateId: LEON_ID,
     skillName: 'React Frontend Development',
     industry: 'Software Engineering',
-    passed: true,
-    overallScore: 85,
-    skillLevel: 'Advanced',
+    passed: false,
+    overallScore: 0,
+    skillLevel: 'Beginner',
     verifiedSkills: ['React Hooks', 'State Management', 'Component Architecture'],
-    employerSummary: 'Strong understanding of React fundamentals and advanced patterns. Excellent state management.',
+    employerSummary: 'Assessment initiated but no progress demonstrated.',
     dimensions: {
-      technicalCorrectness: { score: 88, observation: 'Wrote clean, bug-free components.' },
-      depthOfKnowledge: { score: 82, observation: 'Demonstrated deep knowledge of React lifecycle.' },
-      problemSolving: { score: 85, observation: 'Resolved edge cases efficiently.' },
-      communication: { score: 85, observation: 'Clear explanations.' }
+      technicalCorrectness: { score: 0, observation: 'No evidence provided.' },
+      depthOfKnowledge: { score: 0, observation: 'No evidence provided.' },
+      problemSolving: { score: 0, observation: 'No evidence provided.' },
+      communication: { score: 0, observation: 'No evidence provided.' }
     },
-    strengths: ['Component design', 'React Hooks'],
-    improvements: ['Testing'],
+    strengths: [],
+    improvements: ['Complete the assessment'],
     createdAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString()
   },
   {
     candidateId: LEON_ID,
     skillName: 'React Frontend Development',
     industry: 'Software Engineering',
-    passed: true,
-    overallScore: 92,
-    skillLevel: 'Expert',
+    passed: false,
+    overallScore: 0,
+    skillLevel: 'Beginner',
     verifiedSkills: ['Performance Optimization', 'Custom Hooks', 'React Context'],
-    employerSummary: 'Exceptional performance optimization skills. Built highly reusable custom hooks.',
+    employerSummary: 'Assessment initiated but no progress demonstrated.',
     dimensions: {
-      technicalCorrectness: { score: 95, observation: 'Flawless execution.' },
-      depthOfKnowledge: { score: 90, observation: 'Very deep understanding.' },
-      problemSolving: { score: 92, observation: 'Creative problem solving.' },
-      communication: { score: 90, observation: 'Excellent articulation.' }
+      technicalCorrectness: { score: 0, observation: 'No evidence provided.' },
+      depthOfKnowledge: { score: 0, observation: 'No evidence provided.' },
+      problemSolving: { score: 0, observation: 'No evidence provided.' },
+      communication: { score: 0, observation: 'No evidence provided.' }
     },
-    strengths: ['Performance', 'Context API'],
-    improvements: ['Accessibility'],
+    strengths: [],
+    improvements: ['Complete the assessment'],
     createdAt: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString()
   },
   {
     candidateId: LEON_ID,
     skillName: 'Node.js API Development',
     industry: 'Software Engineering',
-    passed: true,
-    overallScore: 78,
-    skillLevel: 'Intermediate',
+    passed: false,
+    overallScore: 0,
+    skillLevel: 'Beginner',
     verifiedSkills: ['Express.js', 'REST APIs', 'Middleware'],
-    employerSummary: 'Solid API development skills. Good understanding of middleware and routing.',
+    employerSummary: 'Assessment initiated but no progress demonstrated.',
     dimensions: {
-      technicalCorrectness: { score: 80, observation: 'Good API structure.' },
-      depthOfKnowledge: { score: 75, observation: 'Solid basics.' },
-      problemSolving: { score: 78, observation: 'Handled standard problems well.' },
-      communication: { score: 80, observation: 'Good documentation.' }
+      technicalCorrectness: { score: 0, observation: 'No evidence provided.' },
+      depthOfKnowledge: { score: 0, observation: 'No evidence provided.' },
+      problemSolving: { score: 0, observation: 'No evidence provided.' },
+      communication: { score: 0, observation: 'No evidence provided.' }
     },
-    strengths: ['Routing', 'Middleware'],
-    improvements: ['Error handling', 'Security best practices'],
+    strengths: [],
+    improvements: ['Complete the assessment'],
     createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString()
   }
 ];

@@ -1188,5 +1188,35 @@
     "skills": [],
     "bio": "",
     "createdAt": "2026-03-15T04:12:52.199Z"
+  },
+  {
+    "_id": "mmr9adzj-pjfhyrevm",
+    "name": "Test Candidate",
+    "email": "test@candidate.com",
+    "password": "$2a$12$tL3HvR.Ygni5XfYzC1btJOoDo7ZzeSC9cTV27zYlV/obzNHxQKakC",
+    "role": "candidate",
+    "skills": [],
+    "bio": "",
+    "createdAt": "2026-03-15T04:30:09.487Z"
+  },
+  {
+    "_id": "mmr9fdbv-zu3tgeo4n",
+    "name": "Checker",
+    "email": "checker@test.com",
+    "password": "$2a$12$gJP.ZbfIlPJmw/zLZemYEuDCwQOVxkXupX1m9p4rZ4ZU9XOhKhzdy",
+    "role": "candidate",
+    "skills": [],
+    "bio": "",
+    "createdAt": "2026-03-15T04:34:01.915Z"
+  },
+  {
+    "_id": "mmra05d3-aqony6an0",
+    "name": "Test Candidate",
+    "email": "dongdevil102@gmail.com",
+    "password": "$2a$12$mIFTA4JfnvbC/6XrEk2Shu7TXmRKaSdux5NM4bHxTH1SvtJ/WqYKO",
+    "role": "candidate",
+    "skills": [],
+    "bio": "",
+    "createdAt": "2026-03-15T04:50:11.367Z"
   }
 ]
