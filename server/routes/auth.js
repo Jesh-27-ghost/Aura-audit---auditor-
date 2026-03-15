@@ -7,7 +7,7 @@ const router = express.Router();
 
 // Generate JWT token
 const generateToken = (id, role) => {
-    return jwt.sign({ id, role }, process.env.JWT_SECRET || 'fallback_secret_for_development', { expiresIn: '7d' });
+    return jwt.sign({ id, role }, process.env.JWT_SECRET, { expiresIn: '7d' });
 };
 
 // POST /api/auth/register
@@ -103,7 +103,7 @@ router.get('/me', (req, res) => {
         if (!token) {
             return res.status(401).json({ message: 'Not authorized' });
         }
-        const decoded = jwt.verify(token, process.env.JWT_SECRET || 'fallback_secret_for_development');
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
         const user = store.findById('users', decoded.id);
         if (!user) {
             return res.status(404).json({ message: 'User not found' });

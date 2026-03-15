@@ -1,0 +1,15 @@
+John Doe
+Full Stack Developer
+
+Experience:
+- Frontend Engineer at TechCorp (2020 - 2023). Built React dashboards, used Redux and TailwindCSS.
+- Backend Developer at ServerInc (2018 - 2020). Developed REST APIs with Node.js and Express.
+
+Skills:
+- React (3 years)
+- Node.js (5 years)
+- MongoDB (3 years)
+- AWS (1 year)
+
+Projects:
+- E-commerce SPA: A full-stack React and Node application with payment gateway.

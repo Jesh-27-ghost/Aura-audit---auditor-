@@ -53,13 +53,36 @@ export const verifyBadge = (badgeId) => API.get(`/verify/${badgeId}`);
 
 // Skills
 export const getSkills = () => API.get('/skills');
+export const searchSkills = (q) => API.get('/skills/search', { params: q ? { q } : {} });
 
 // Candidates (employer)
 export const searchCandidates = (params) => API.get('/candidates', { params });
 
-// CV & Adaptive (NEW)
-export const getCVProfiles = () => API.get('/cv/profiles');
-export const generateAdaptiveTest = (data) => API.post('/cv/generate-test', data);
+// Leaderboard (public)
+export const getLeaderboard = () => API.get('/leaderboard');
+
+// Analytics
+export const getAnalyticsCandidate = () => API.get('/analytics/candidate');
+export const getAnalyticsTalent = (skill) => API.get('/analytics/talent', { params: skill ? { skill } : {} });
+export const getSkillProgress = () => API.get('/analytics/skill-progress');
+
+// Task Endpoints
+export const createTask = (data) => API.post('/tasks', data);
+export const generateTaskAI = (data) => API.post('/tasks/generate', data);
+export const getTasks = (params) => API.get('/tasks', { params });
+export const getTaskById = (id) => API.get(`/tasks/${id}`);
+export const updateTask = (id, data) => API.put(`/tasks/${id}`, data);
+export const deleteTask = (id) => API.delete(`/tasks/${id}`);
+
+// Task Submissions (Candidate)
+export const submitTaskTest = (taskId, formData) =>
+    API.post(`/task-submissions/${taskId}`, formData, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+        timeout: 180000 // 3 minutes for dual video processing
+    });
+export const getTaskSubmission = (id) => API.get(`/task-submissions/${id}`);
+export const getMyTaskSubmissions = () => API.get('/task-submissions/my');
+export const getTaskSubmissions = (taskId) => API.get(`/task-submissions/task/${taskId}`);
 
 // Arena
 // export const getArenaLevel = () => API.get('/arena/level');

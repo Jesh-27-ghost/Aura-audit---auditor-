@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { getMyBadges } from '../api';
-import { Award, Video, Trophy, ArrowRight, Shield, Brain, Code2, Zap } from 'lucide-react';
+import { getMyBadges, getMyTaskSubmissions } from '../api';
+import { Award, Video, Trophy, ArrowRight, Shield, Brain, Code2, Zap, Briefcase } from 'lucide-react';
 
 export default function CandidateDashboard() {
     const { user } = useAuth();
@@ -10,17 +10,43 @@ export default function CandidateDashboard() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchBadges = async () => {
+        const fetchBadges = async (isBackground = false) => {
+            if (!isBackground) setLoading(true);
             try {
-                const { data } = await getMyBadges();
-                setBadges(data);
+                const [badgesRes, tasksRes] = await Promise.all([
+                    getMyBadges(),
+                    getMyTaskSubmissions()
+                ]);
+                
+                // Format task submissions to look like badges for the grid
+                const formattedTasks = tasksRes.data.map(task => ({
+                    ...task,
+                    badgeId: task._id, // Use submission ID as route target
+                    industry: `Employer Task: ${task.taskTitle}`,
+                    issuedAt: task.createdAt,
+                    isEmployerTask: true
+                }));
+
+                const combined = [...badgesRes.data, ...formattedTasks].sort((a, b) => 
+                    new Date(b.issuedAt) - new Date(a.issuedAt)
+                );
+
+                setBadges(combined);
             } catch (err) {
-                console.error('Failed to fetch badges:', err);
+                console.error('Failed to fetch data:', err);
             } finally {
-                setLoading(false);
+                if (!isBackground) setLoading(false);
             }
         };
+        
         fetchBadges();
+
+        // Auto-refresh every 10 seconds
+        const interval = setInterval(() => {
+            fetchBadges(true);
+        }, 10000);
+
+        return () => clearInterval(interval);
     }, []);
 
     const getLevelClass = (level) => {
@@ -105,24 +131,6 @@ export default function CandidateDashboard() {
                     <ArrowRight size={16} style={{ color: 'var(--text-muted)', opacity: 0.5 }} />
                 </Link>
 
-                <Link to="/cv-upload" className="card game-task-item" style={{ 
-                    display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem', textDecoration: 'none',
-                    background: 'rgba(99, 102, 241, 0.05)', border: '1px solid rgba(99, 102, 241, 0.15)', borderRadius: '16px',
-                    transition: 'all 0.3s ease'
-                }}>
-                    <div className="card-icon-sm" style={{ 
-                        width: '44px', height: '44px', borderRadius: '12px', background: 'rgba(99, 102, 241, 0.2)', 
-                        display: 'flex', alignItems: 'center', justifyContent: 'center' 
-                    }}>
-                        <Shield size={22} style={{ color: '#6366f1' }} />
-                    </div>
-                    <div style={{ flex: 1 }}>
-                        <h4 style={{ margin: 0, fontSize: '0.95rem', fontWeight: 700 }}>AI CV Analysis</h4>
-                        <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>Optimize Profile</p>
-                    </div>
-                    <ArrowRight size={16} style={{ color: 'var(--text-muted)', opacity: 0.5 }} />
-                </Link>
-
                 <Link to="/record" className="card game-task-item" style={{ 
                     display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem', textDecoration: 'none',
                     background: 'rgba(16, 185, 129, 0.05)', border: '1px solid rgba(16, 185, 129, 0.15)', borderRadius: '16px',
@@ -165,14 +173,19 @@ export default function CandidateDashboard() {
                 <div className="dashboard-grid">
                     {badges.map((badge) => (
                         <Link
-                            to={`/badge/${badge.badgeId}`}
-                            key={badge._id}
-                            className="card"
-                            style={{ textDecoration: 'none', cursor: 'pointer' }}
+                            to={badge.isEmployerTask ? `/tasks/submission/${badge._id}` : `/badge/${badge.badgeId}`}
+                            key={badge._id || badge.badgeId}
+                            className="card dashboard-badge-card"
+                            style={{ textDecoration: 'none', cursor: 'pointer', position: 'relative' }}
                         >
+                            {badge.isEmployerTask && (
+                                <div style={{ position: 'absolute', top: -10, right: -10, background: 'var(--accent-gold)', color: '#000', padding: '4px 8px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                    <Briefcase size={12} /> Employer Task
+                                </div>
+                            )}
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
                                 <div>
-                                    <h3 style={{ marginBottom: '0.25rem' }}>{badge.skillName}</h3>
+                                    <h3 style={{ marginBottom: '0.25rem', paddingRight: '1rem' }}>{badge.skillName}</h3>
                                     <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{badge.industry}</p>
                                 </div>
                                 <span className={`candidate-score-badge ${getScoreClass(badge.overallScore)}`}>

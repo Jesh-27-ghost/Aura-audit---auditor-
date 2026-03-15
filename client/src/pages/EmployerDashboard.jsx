@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { searchCandidates, getCVProfiles, generateAdaptiveTest } from '../api';
+import { searchCandidates } from '../api';
 import { QRCodeSVG } from 'qrcode.react';
+
 import {
     Search, Users, Award, TrendingUp, AlertTriangle,
     Mail, X, ExternalLink, Filter, Briefcase, ChevronDown,
     FileText, Zap, Loader2, ClipboardCheck, Brain
 } from 'lucide-react';
+import SkillSearch from '../components/SkillSearch';
 
 const skillLevels = ['', 'Beginner', 'Intermediate', 'Advanced', 'Expert'];
 const skillOptions = [
@@ -19,62 +21,49 @@ const skillOptions = [
 export default function EmployerDashboard() {
     const { user } = useAuth();
     const [candidates, setCandidates] = useState([]);
-    const [cvProfiles, setCvProfiles] = useState([]);
     const [loading, setLoading] = useState(true);
     const [searchSkill, setSearchSkill] = useState('');
     const [minScore, setMinScore] = useState('');
     const [level, setLevel] = useState('');
     const [selectedCandidate, setSelectedCandidate] = useState(null);
-    const [activeTab, setActiveTab] = useState('badges'); // 'badges' or 'cv'
-    const [isGenerating, setIsGenerating] = useState(false);
+    const [activeTab, setActiveTab] = useState('badges');
     const [generatedTest, setGeneratedTest] = useState(null);
 
-    const fetchData = async () => {
-        setLoading(true);
+    const fetchCandidates = async (isBackground = false) => {
+        if (!isBackground) setLoading(true);
         try {
             const params = {};
             if (searchSkill) params.skill = searchSkill;
             if (minScore) params.minScore = minScore;
             if (level) params.level = level;
 
-            const [{ data: badgeData }, { data: cvData }] = await Promise.all([
-                searchCandidates(params),
-                getCVProfiles().catch(() => ({ data: [] }))
-            ]);
-            
-            setCandidates(badgeData);
-            setCvProfiles(cvData);
+            const { data } = await searchCandidates(params);
+            setCandidates(data);
         } catch (err) {
-            console.error('Failed to fetch data:', err);
+            console.error('Failed to search candidates:', err);
         } finally {
-            setLoading(false);
+            if (!isBackground) setLoading(false);
         }
     };
 
     useEffect(() => {
-        fetchData();
+        fetchCandidates();
+
+        const interval = setInterval(() => {
+            fetchCandidates(true);
+        }, 10000);
+
+        return () => clearInterval(interval);
+    }, [searchSkill, minScore, level]);
+
+    // Callback when a skill is selected from the SkillSearchBar
+    const handleSkillSelect = useCallback((skillName) => {
+        setSearchSkill(skillName);
     }, []);
 
     const handleSearch = (e) => {
         e.preventDefault();
-        fetchData();
-    };
-
-    const handleGenerateTest = async (candidateId, skills) => {
-        setIsGenerating(true);
-        setGeneratedTest(null);
-        try {
-            const { data } = await generateAdaptiveTest({
-                candidateId,
-                selectedSkills: skills,
-                testConfig: { testType: 'Mixed', numberOfQuestions: 5 }
-            });
-            setGeneratedTest(data.assessment);
-        } catch (err) {
-            console.error('Failed to generate test:', err);
-        } finally {
-            setIsGenerating(false);
-        }
+        fetchCandidates();
     };
 
     const getScoreClass = (score) => {
@@ -97,24 +86,34 @@ export default function EmployerDashboard() {
 
     return (
         <div className="dashboard" id="employer-dashboard">
-            <div className="dashboard-header" style={{ marginBottom: '2rem' }}>
+            <div className="dashboard-header">
                 <h1>Employer Dashboard</h1>
-                <p>Find verified candidates and generate adaptive assessments</p>
+                <p>Find verified, AI-assessed candidates for your team</p>
             </div>
 
-            {/* Search Bar */}
-            <form onSubmit={handleSearch} className="search-bar" id="candidate-search" style={{ marginBottom: '2rem' }}>
-                <select
-                    className="form-select"
-                    value={searchSkill}
-                    onChange={(e) => setSearchSkill(e.target.value)}
-                    id="search-skill"
-                >
-                    <option value="">All Skills</option>
-                    {skillOptions.filter(Boolean).map(s => (
-                        <option key={s} value={s}>{s}</option>
-                    ))}
-                </select>
+            {/* Interactive Skill Search Component */}
+            <SkillSearch 
+                value={searchSkill} 
+                onSelectSkill={handleSkillSelect} 
+                onClear={() => handleSkillSelect('')} 
+            />
+
+            {/* Candidate Filters */}
+            <form onSubmit={handleSearch} className="search-bar" id="candidate-search" style={{ marginTop: '-1rem' }}>
+                {searchSkill ? (
+                    <div className="form-select" style={{ display: 'flex', alignItems: 'center', backgroundColor: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '0 12px' }}>
+                        <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+                            {`Skill: ${searchSkill}`}
+                        </span>
+                        <button type="button" onClick={() => handleSkillSelect('')} style={{ background: 'none', border: 'none', marginLeft: 'auto', cursor: 'pointer', color: 'var(--text-muted)' }}>
+                            <X size={14} />
+                        </button>
+                    </div>
+                ) : (
+                    <div className="form-select" style={{ display: 'flex', alignItems: 'center', backgroundColor: 'var(--bg-card)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '0 12px' }}>
+                         <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>All Skills</span>
+                    </div>
+                )}
                 <input
                     type="number"
                     className="form-input"
@@ -142,49 +141,28 @@ export default function EmployerDashboard() {
             </form>
 
             {/* Tabs */}
-            <div className="tabs" style={{ display: 'flex', gap: '2rem', borderBottom: '1px solid var(--border-color)', marginBottom: '2rem' }}>
+            <div className="dashboard-tabs" style={{ display: 'flex', gap: '2rem', borderBottom: '1px solid var(--border-color)', marginBottom: '1.5rem' }}>
                 <button 
-                    className={`tab-btn ${activeTab === 'badges' ? 'active' : ''}`}
                     onClick={() => setActiveTab('badges')}
-                    style={{ 
-                        padding: '1rem 0.5rem', 
-                        background: 'none', 
-                        border: 'none', 
-                        color: activeTab === 'badges' ? 'var(--accent-primary)' : 'var(--text-muted)', 
-                        borderBottom: activeTab === 'badges' ? '2px solid var(--accent-primary)' : 'none', 
-                        cursor: 'pointer', 
-                        fontWeight: 600,
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '8px'
-                    }}
+                    className={`tab-btn ${activeTab === 'badges' ? 'active' : ''}`}
+                    style={{ padding: '0.75rem 0', background: 'none', border: 'none', color: activeTab === 'badges' ? 'var(--accent-primary)' : 'var(--text-muted)', fontWeight: 600, borderBottom: activeTab === 'badges' ? '2px solid var(--accent-primary)' : 'none', cursor: 'pointer' }}
                 >
-                    <Award size={18} /> Verified Badges
+                    Verified Badges
                 </button>
                 <button 
-                    className={`tab-btn ${activeTab === 'cv' ? 'active' : ''}`}
-                    onClick={() => setActiveTab('cv')}
-                    style={{ 
-                        padding: '1rem 0.5rem', 
-                        background: 'none', 
-                        border: 'none', 
-                        color: activeTab === 'cv' ? 'var(--accent-primary)' : 'var(--text-muted)', 
-                        borderBottom: activeTab === 'cv' ? '2px solid var(--accent-primary)' : 'none', 
-                        cursor: 'pointer', 
-                        fontWeight: 600,
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '8px'
-                    }}
+                    onClick={() => setActiveTab('insights')}
+                    className={`tab-btn ${activeTab === 'insights' ? 'active' : ''}`}
+                    style={{ padding: '0.75rem 0', background: 'none', border: 'none', color: activeTab === 'insights' ? 'var(--accent-primary)' : 'var(--text-muted)', fontWeight: 600, borderBottom: activeTab === 'insights' ? '2px solid var(--accent-primary)' : 'none', cursor: 'pointer' }}
                 >
-                    <FileText size={18} /> AI CV Profiles
+                    Hiring Insights
                 </button>
             </div>
 
+            {/* Results Grid */}
             {loading ? (
                 <div className="loading-container" style={{ minHeight: '30vh' }}>
                     <div className="spinner"></div>
-                    <p className="loading-text">Loading candidates...</p>
+                    <p className="loading-text">Searching candidates...</p>
                 </div>
             ) : activeTab === 'badges' ? (
                 <>
@@ -260,79 +238,50 @@ export default function EmployerDashboard() {
                     )}
                 </>
             ) : (
-                <>
-                    <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
-                        <FileText size={16} style={{ verticalAlign: 'middle', marginRight: '6px' }} />
-                        {cvProfiles.length} candidate CV profile{cvProfiles.length !== 1 ? 's' : ''} available
-                    </p>
-
-                    {cvProfiles.length === 0 ? (
-                        <div className="empty-state">
-                            <div className="icon"><FileText size={48} /></div>
-                            <h3>No CV profiles found</h3>
-                            <p>Candidates need to upload their CVs first</p>
-                        </div>
-                    ) : (
-                        <div className="dashboard-grid">
-                            {cvProfiles.map((profile, i) => (
-                                <div className="candidate-card card" key={i}>
-                                    <div className="candidate-header" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
-                                        <div className="candidate-info">
-                                            <h3 style={{ margin: 0 }}>{profile.parsedData.name}</h3>
-                                            <p className="candidate-skill text-accent" style={{ fontSize: '0.9rem', marginTop: '4px' }}>{profile.parsedData.primaryRole}</p>
-                                        </div>
-                                        <div className="exp-badge" style={{ background: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 600 }}>
-                                            {profile.parsedData.totalYearsExperience}Y Exp
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="badge-tags" style={{ justifyContent: 'flex-start', marginTop: '1rem', marginBottom: '1rem' }}>
-                                        {profile.parsedData.skills?.slice(0, 4).map((s, j) => (
-                                            <span className="skill-tag" key={j} style={{ fontSize: '0.75rem' }}>{s.skillName}</span>
-                                        ))}
-                                    </div>
-
-                                    <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: '1.5rem', height: '3.6em', overflow: 'hidden' }}>
-                                        {profile.parsedData.summary}
-                                    </p>
-
-                                    <button 
-                                        className="btn btn-gold btn-sm" 
-                                        style={{ width: '100%' }}
-                                        onClick={() => handleGenerateTest(profile.candidateId, profile.parsedData.skills.slice(0, 2).map(s => s.skillName))}
-                                    >
-                                        <Zap size={14} /> Generate Adaptive Test
-                                    </button>
-                                </div>
-                            ))}
-                        </div>
-                    )}
-                </>
+                <div className="empty-state">
+                    <div className="icon"><TrendingUp size={48} /></div>
+                    <h3>Insights Coming Soon</h3>
+                    <p>Advanced talent analytics are being processed</p>
+                </div>
             )}
 
-            {/* Assessment Detail Modal */}
+            {/* Detail Modal */}
             {selectedCandidate && (
                 <div className="modal-overlay" onClick={() => setSelectedCandidate(null)}>
-                    <div className="modal card" onClick={(e) => e.stopPropagation()} style={{ maxWidth: '600px', padding: '2.5rem' }}>
-                        <div className="modal-header" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2rem' }}>
+                    <div className="modal" onClick={(e) => e.stopPropagation()}>
+                        <div className="modal-header">
                             <h2>{selectedCandidate.candidate.name}</h2>
-                            <button className="modal-close" onClick={() => setSelectedCandidate(null)} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer' }}>
-                                <X size={24} />
+                            <button className="modal-close" onClick={() => setSelectedCandidate(null)}>
+                                <X size={18} />
                             </button>
                         </div>
 
-                        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', marginBottom: '2rem' }}>
-                            <div className="score-display text-center">
-                                <div style={{ fontSize: '3rem', fontWeight: 900, color: getScoreColor(selectedCandidate.assessment.overallScore) }}>
+                        {/* Score Overview */}
+                        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', marginBottom: '2rem' }}>
+                            <div className="score-circle">
+                                <svg width="120" height="120" viewBox="0 0 120 120">
+                                    <circle className="score-circle-bg" cx="60" cy="60" r="52" />
+                                    <circle
+                                        className="score-circle-fill"
+                                        cx="60" cy="60" r="52"
+                                        stroke={getScoreColor(selectedCandidate.assessment.overallScore)}
+                                        strokeDasharray={`${(selectedCandidate.assessment.overallScore / 100) * 326.7} 326.7`}
+                                    />
+                                </svg>
+                                <div className="score-circle-text" style={{ color: getScoreColor(selectedCandidate.assessment.overallScore) }}>
                                     {selectedCandidate.assessment.overallScore}
                                 </div>
-                                <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '1px' }}>Score</div>
                             </div>
                             <div>
-                                <h4 style={{ color: 'var(--accent-primary)', marginBottom: '4px' }}>{selectedCandidate.assessment.skillName}</h4>
+                                <p style={{ color: 'var(--accent-primary)', fontWeight: 600, marginBottom: '0.25rem' }}>
+                                    {selectedCandidate.assessment.skillName}
+                                </p>
                                 <span className={`badge-level badge-level-${selectedCandidate.assessment.skillLevel?.toLowerCase()}`}>
                                     {selectedCandidate.assessment.skillLevel}
                                 </span>
+                                <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+                                    Assessed: {new Date(selectedCandidate.assessment.createdAt).toLocaleDateString()}
+                                </p>
                             </div>
                         </div>
 
@@ -381,61 +330,39 @@ export default function EmployerDashboard() {
                             </div>
                         ))}
 
+                        {/* Strengths & Improvements */}
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', margin: '1.5rem 0' }}>
+                            <div>
+                                <h4 style={{ fontSize: '0.9rem', fontWeight: 600, marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                    <TrendingUp size={14} style={{ color: 'var(--accent-emerald)' }} /> Strengths
+                                </h4>
+                                <ul style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', paddingLeft: '1rem', lineHeight: 1.8 }}>
+                                    {selectedCandidate.assessment.strengths?.map((s, i) => <li key={i}>{s}</li>)}
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style={{ fontSize: '0.9rem', fontWeight: 600, marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                    <AlertTriangle size={14} style={{ color: 'var(--accent-gold)' }} /> To Improve
+                                </h4>
+                                <ul style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', paddingLeft: '1rem', lineHeight: 1.8 }}>
+                                    {selectedCandidate.assessment.improvements?.map((s, i) => <li key={i}>{s}</li>)}
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Verified Skills */}
+                        <div className="badge-tags" style={{ justifyContent: 'flex-start', marginBottom: '1.5rem' }}>
+                            {selectedCandidate.assessment.verifiedSkills?.map((skill, i) => (
+                                <span className="skill-tag" key={i}>{skill}</span>
+                            ))}
+                        </div>
+
                         <div className="modal-actions" style={{ display: 'flex', gap: '1rem', marginTop: '2rem' }}>
                             <a href={`mailto:${selectedCandidate.candidate.email}`} className="btn btn-primary flex-1">
                                 <Mail size={18} /> Contact Candidate
                             </a>
                             <button className="btn btn-secondary" onClick={() => setSelectedCandidate(null)}>Close</button>
                         </div>
-                    </div>
-                </div>
-            )}
-
-            {/* Generated Test Modal */}
-            {generatedTest && (
-                <div className="modal-overlay" onClick={() => setGeneratedTest(null)}>
-                    <div className="modal card" onClick={(e) => e.stopPropagation()} style={{ maxWidth: '800px', padding: '2.5rem' }}>
-                        <div className="modal-header" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2rem' }}>
-                            <div>
-                                <h2 style={{ marginBottom: '4px' }}>Custom <span className="gradient-text">Adaptive Assessment</span></h2>
-                                <p className="text-sm text-secondary">Tailored for {generatedTest.candidateName} profile</p>
-                            </div>
-                            <button className="modal-close" onClick={() => setGeneratedTest(null)} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer' }}>
-                                <X size={24} />
-                            </button>
-                        </div>
-
-                        <div className="test-questions" style={{ maxHeight: '60vh', overflowY: 'auto', paddingRight: '1rem' }}>
-                            {generatedTest.questions.map((q, idx) => (
-                                <div key={idx} className="question-card" style={{ padding: '1.5rem', background: 'rgba(255,255,255,0.03)', borderRadius: '12px', marginBottom: '1.5rem', borderLeft: '4px solid var(--accent-gold)' }}>
-                                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
-                                        <span style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--accent-gold)' }}>Q{idx + 1} • {q.questionType}</span>
-                                        <span className={`badge-pill tint-${q.difficulty.toLowerCase()}`} style={{ fontSize: '0.7rem' }}>{q.difficulty}</span>
-                                    </div>
-                                    <h4 style={{ marginBottom: '1rem', lineHeight: 1.4 }}>{q.question}</h4>
-                                    <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                        <ClipboardCheck size={14} /> Evaluates: {q.expectedSkillsEvaluated}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-
-                        <div className="modal-footer" style={{ marginTop: '2rem', display: 'flex', justifyContent: 'flex-end', gap: '1rem' }}>
-                            <button className="btn btn-secondary" onClick={() => setGeneratedTest(null)}>Close</button>
-                            <button className="btn btn-primary" onClick={() => window.print()}>
-                                <FileText size={18} /> Export PDF
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {isGenerating && (
-                <div className="modal-overlay">
-                    <div className="card-glass text-center p-8" style={{ width: '400px', padding: '3rem' }}>
-                        <Loader2 size={48} className="spinner mx-auto mb-4 text-accent" />
-                        <h3 className="mb-2">Synthesizing Assessment...</h3>
-                        <p className="text-secondary text-sm">Gemini AI is analyzing candidate proficiency and mapping difficulty tiers.</p>
                     </div>
                 </div>
             )}

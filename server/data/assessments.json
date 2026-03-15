@@ -1,148 +1,333 @@
 [
   {
-    "_id": "mmgtaooy-r1vkz4usu",
-    "candidateId": "mmgszzry-xfjfqf3kz",
+    "_id": "mmr4atp8-tycsmkb9y",
+    "candidateId": "mmr4atp7-64dmkdiih",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 79,
+    "overallScore": 97,
     "passed": true,
-    "skillLevel": "Intermediate",
+    "skillLevel": "Expert",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 81,
-        "observation": "Good component structure observed with proper use of functional components and hooks."
+        "score": 97,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 76,
-        "observation": "Code is reasonably efficient. Some optimization opportunities with memoization."
+        "score": 92,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 80,
-        "observation": "Follows React conventions well. Clean JSX with proper key usage in lists."
+        "score": 95,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 78,
-        "observation": "Demonstrated logical approach to building the UI component hierarchy."
+        "score": 97,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Clean component architecture",
-      "Good understanding of React hooks",
-      "Readable code structure"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Consider using TypeScript for type safety",
-      "Add error boundary handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated intermediate-level proficiency in React Frontend Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "React.js",
-      "Hooks",
-      "JSX",
-      "Component Design",
-      "CSS"
+      "React Frontend Development"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772917477733-487370224.webm",
-    "createdAt": "2026-03-07T21:04:47.746Z",
-    "badgeId": "mmgtaooz-jk0n314qu"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.772Z",
+    "badgeId": "mmr4atp9-ygxsivk3y"
   },
   {
-    "_id": "mmgtfr2e-96o8ar6ta",
-    "candidateId": "mmgszzry-xfjfqf3kz",
-    "skillName": "React Frontend Development",
+    "_id": "mmr4atpa-059na1azn",
+    "candidateId": "mmr4atp9-2bei5emya",
+    "skillName": "Node.js API Development",
     "industry": "IT / Software",
     "overallScore": 96,
     "passed": true,
     "skillLevel": "Expert",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 98,
-        "observation": "Good component structure observed with proper use of functional components and hooks."
+        "score": 96,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 93,
-        "observation": "Code is reasonably efficient. Some optimization opportunities with memoization."
+        "score": 91,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 97,
-        "observation": "Follows React conventions well. Clean JSX with proper key usage in lists."
+        "score": 94,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 95,
-        "observation": "Demonstrated logical approach to building the UI component hierarchy."
+        "score": 96,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Clean component architecture",
-      "Good understanding of React hooks",
-      "Readable code structure"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Consider using TypeScript for type safety",
-      "Add error boundary handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated expert-level proficiency in React Frontend Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "React.js",
-      "Hooks",
-      "JSX",
-      "Component Design",
-      "CSS"
+      "Node.js API Development"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772917713751-608248703.webm",
-    "createdAt": "2026-03-07T21:08:44.102Z",
-    "badgeId": "mmgtfr2f-fow0hdp7g"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.774Z",
+    "badgeId": "mmr4atpa-wda3ptbcq"
   },
   {
-    "_id": "mmgto9cs-ubxyhg8na",
-    "candidateId": "mmgszzry-xfjfqf3kz",
-    "skillName": "React Frontend Development",
+    "_id": "mmr4atpb-v16q746sx",
+    "candidateId": "mmr4atpa-w2nhl9ny7",
+    "skillName": "JavaScript Debugging",
     "industry": "IT / Software",
-    "overallScore": 95,
+    "overallScore": 96,
     "passed": true,
     "skillLevel": "Expert",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 97,
-        "observation": "Good component structure observed with proper use of functional components and hooks."
+        "score": 96,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 92,
-        "observation": "Code is reasonably efficient. Some optimization opportunities with memoization."
+        "score": 91,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 96,
-        "observation": "Follows React conventions well. Clean JSX with proper key usage in lists."
+        "score": 94,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 94,
-        "observation": "Demonstrated logical approach to building the UI component hierarchy."
+        "score": 96,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Clean component architecture",
-      "Good understanding of React hooks",
-      "Readable code structure"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Consider using TypeScript for type safety",
-      "Add error boundary handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated expert-level proficiency in React Frontend Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "React.js",
-      "Hooks",
-      "JSX",
-      "Component Design",
-      "CSS"
+      "JavaScript Debugging"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772918114133-561372583.webm",
-    "createdAt": "2026-03-07T21:15:21.052Z",
-    "badgeId": "mmgto9cu-nn07ursj0"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.775Z",
+    "badgeId": "mmr4atpb-0br4mk0qm"
   },
   {
-    "_id": "mmgu43p2-8i38bqimk",
-    "candidateId": "mmgszzry-xfjfqf3kz",
+    "_id": "mmr4atpc-kzbjqzqyh",
+    "candidateId": "mmr4atpc-b0puhicf0",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 68,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 68,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 63,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 66,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 68,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.776Z"
+  },
+  {
+    "_id": "mmr4atpd-r7js7lz83",
+    "candidateId": "mmr4atpd-n4di8x8fa",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.777Z"
+  },
+  {
+    "_id": "mmr4atpe-cyyruism0",
+    "candidateId": "mmr4atpd-yejq6ctxq",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 70,
+    "passed": true,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 70,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 65,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 68,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 70,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.778Z",
+    "badgeId": "mmr4atpe-2gsujq999"
+  },
+  {
+    "_id": "mmr4atpf-3ekiwp46g",
+    "candidateId": "mmr4atpe-8rj4cybrb",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.779Z",
+    "badgeId": "mmr4atpf-gcebxxkks"
+  },
+  {
+    "_id": "mmr4atpg-ptl7auwkc",
+    "candidateId": "mmr4atpg-aglq8jr0n",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 78,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 78,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 73,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 76,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 78,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.780Z",
+    "badgeId": "mmr4atpg-uw9ony1da"
+  },
+  {
+    "_id": "mmr4atph-dim5bd8fb",
+    "candidateId": "mmr4atph-71huh80va",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
     "overallScore": 75,
@@ -150,140 +335,2928 @@
     "skillLevel": "Intermediate",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 77,
-        "observation": "Good component structure observed with proper use of functional components and hooks."
+        "score": 75,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 72,
-        "observation": "Code is reasonably efficient. Some optimization opportunities with memoization."
+        "score": 70,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 76,
-        "observation": "Follows React conventions well. Clean JSX with proper key usage in lists."
+        "score": 73,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 74,
-        "observation": "Demonstrated logical approach to building the UI component hierarchy."
+        "score": 75,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Clean component architecture",
-      "Good understanding of React hooks",
-      "Readable code structure"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Consider using TypeScript for type safety",
-      "Add error boundary handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated intermediate-level proficiency in React Frontend Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "React.js",
-      "Hooks",
-      "JSX",
-      "Component Design",
-      "CSS"
+      "React Frontend Development"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772918849775-779226762.webm",
-    "createdAt": "2026-03-07T21:27:40.214Z",
-    "badgeId": "5d87d4e6-5814-46b5-8cff-a7e04e726b13"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.781Z",
+    "badgeId": "mmr4atph-rdbhs5pu2"
   },
   {
-    "_id": "mmgu8h9n-v4zek1bsx",
-    "candidateId": "mmgszzry-xfjfqf3kz",
-    "skillName": "Node.js API Development",
+    "_id": "mmr4atpj-9pzyrzrcj",
+    "candidateId": "mmr4atpi-mbt3thzra",
+    "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 83,
+    "overallScore": 86,
     "passed": true,
     "skillLevel": "Advanced",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 84,
-        "observation": "API endpoints follow RESTful conventions with proper HTTP methods."
+        "score": 86,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
         "score": 81,
-        "observation": "Good use of async/await patterns. Middleware pipeline is well-structured."
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 83,
-        "observation": "Error handling is present. Status codes are appropriate."
+        "score": 84,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 82,
-        "observation": "Demonstrated ability to structure routes and controllers logically."
+        "score": 86,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "RESTful API design",
-      "Proper error handling",
-      "Clean middleware usage"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Add input validation middleware",
-      "Consider API rate limiting"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated advanced-level proficiency in Node.js API Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "Node.js",
-      "Express.js",
-      "REST API",
-      "Middleware",
-      "Error Handling"
+      "React Frontend Development"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772919057763-889183836.webm",
-    "createdAt": "2026-03-07T21:31:04.427Z",
-    "badgeId": "edc077a0-cca5-4821-9666-1e517000bc3b"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.783Z",
+    "badgeId": "mmr4atpj-3eahb4yvs"
   },
   {
-    "_id": "mmgub6qq-8fre16vhl",
-    "candidateId": "mmgszzry-xfjfqf3kz",
+    "_id": "mmr4atpk-oq3seiczw",
+    "candidateId": "mmr4atpk-fd4wkw0kk",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 96,
+    "overallScore": 88,
     "passed": true,
-    "skillLevel": "Expert",
+    "skillLevel": "Advanced",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 98,
-        "observation": "Good component structure observed with proper use of functional components and hooks."
+        "score": 88,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 93,
-        "observation": "Code is reasonably efficient. Some optimization opportunities with memoization."
+        "score": 83,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 97,
-        "observation": "Follows React conventions well. Clean JSX with proper key usage in lists."
+        "score": 86,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 88,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.784Z",
+    "badgeId": "mmr4atpl-9fzjgxku8"
+  },
+  {
+    "_id": "mmr4atpm-ryjppuw10",
+    "candidateId": "mmr4atpl-3hpb9m1kr",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 93,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 93,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 88,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 91,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 93,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "React Frontend Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.786Z",
+    "badgeId": "mmr4atpm-jixxrzu0r"
+  },
+  {
+    "_id": "mmr4atpn-r2knwkfw8",
+    "candidateId": "mmr4atpn-nygco8wsp",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.787Z"
+  },
+  {
+    "_id": "mmr4atpn-pq1pztewu",
+    "candidateId": "mmr4atpn-s3wzvjali",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 67,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 67,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 62,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 65,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 67,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.787Z"
+  },
+  {
+    "_id": "mmr4atpo-p5x0zrenh",
+    "candidateId": "mmr4atpo-u0uwiggxi",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 66,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 66,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 61,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 64,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 66,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.788Z"
+  },
+  {
+    "_id": "mmr4atpp-8yi3ohgs3",
+    "candidateId": "mmr4atpo-y7vl1gx9s",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.789Z",
+    "badgeId": "mmr4atpp-ollysqevi"
+  },
+  {
+    "_id": "mmr4atpq-wl7qwok7a",
+    "candidateId": "mmr4atpq-tdvnv04yu",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.790Z",
+    "badgeId": "mmr4atpq-7mmqfrew2"
+  },
+  {
+    "_id": "mmr4atpr-oqay1tgde",
+    "candidateId": "mmr4atpr-kfbot1n2j",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 77,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 77,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 72,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 75,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 77,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.791Z",
+    "badgeId": "mmr4atps-da8giwipg"
+  },
+  {
+    "_id": "mmr4atps-simnike78",
+    "candidateId": "mmr4atps-bro7l7buf",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 93,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 93,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 88,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 91,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 93,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.792Z",
+    "badgeId": "mmr4atpt-y1j4h7540"
+  },
+  {
+    "_id": "mmr4atpu-9v4aqosp0",
+    "candidateId": "mmr4atpt-wmw3cyb9b",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
         "score": 95,
-        "observation": "Demonstrated logical approach to building the UI component hierarchy."
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Clean component architecture",
-      "Good understanding of React hooks",
-      "Readable code structure"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Consider using TypeScript for type safety",
-      "Add error boundary handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated expert-level proficiency in React Frontend Development. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "React.js",
-      "Hooks",
-      "JSX",
-      "Component Design",
-      "CSS"
+      "Node.js API Development"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772919180287-683732916.webm",
-    "createdAt": "2026-03-07T21:33:10.754Z",
-    "badgeId": "a8c15633-9d6e-4c3e-b473-a49209c52483"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.794Z",
+    "badgeId": "mmr4atpu-5m749khli"
   },
   {
-    "_id": "mmgucxji-qep3rpekc",
-    "candidateId": "mmgszzry-xfjfqf3kz",
+    "_id": "mmr4atpw-dc5nl4foi",
+    "candidateId": "mmr4atpv-11n8sqes7",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 95,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Node.js API Development"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.796Z",
+    "badgeId": "mmr4atpw-1qoras5ew"
+  },
+  {
+    "_id": "mmr4atpx-qsh9djiqw",
+    "candidateId": "mmr4atpx-85z9lnjfs",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 63,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 63,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 58,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 61,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 63,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.797Z"
+  },
+  {
+    "_id": "mmr4atpy-yal3libv0",
+    "candidateId": "mmr4atpy-f6alnlxti",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 63,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 63,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 58,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 61,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 63,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.798Z"
+  },
+  {
+    "_id": "mmr4atpz-u86row7yz",
+    "candidateId": "mmr4atpy-h3k5231e0",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.799Z"
+  },
+  {
+    "_id": "mmr4atpz-3l4rp2589",
+    "candidateId": "mmr4atpz-f8eibbtst",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 82,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 82,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 77,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 80,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 82,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.800Z",
+    "badgeId": "mmr4atq0-we2i6x7mb"
+  },
+  {
+    "_id": "mmr4atq1-jzdkseimv",
+    "candidateId": "mmr4atq1-lyml49lji",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.801Z",
+    "badgeId": "mmr4atq1-sqfq8mg0s"
+  },
+  {
+    "_id": "mmr4atq2-8fbfj1kmj",
+    "candidateId": "mmr4atq2-7w9s68pco",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.802Z",
+    "badgeId": "mmr4atq3-wtivnfvn0"
+  },
+  {
+    "_id": "mmr4atq4-6bympk9cj",
+    "candidateId": "mmr4atq4-ccw2ujnao",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 86,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 86,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 81,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 84,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 86,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.804Z",
+    "badgeId": "mmr4atqa-r6m37p6x6"
+  },
+  {
+    "_id": "mmr4atqb-dvh64yubk",
+    "candidateId": "mmr4atqb-e51st2pwf",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 88,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 88,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 83,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 86,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 88,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.811Z",
+    "badgeId": "mmr4atqc-hd1ocgp9t"
+  },
+  {
+    "_id": "mmr4atqd-jwr4az6i9",
+    "candidateId": "mmr4atqc-xgzcy0u0s",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "JavaScript Debugging"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.813Z",
+    "badgeId": "mmr4atqd-zoehyz3kx"
+  },
+  {
+    "_id": "mmr4atqe-3c19gbde4",
+    "candidateId": "mmr4atqe-uk2rttz7z",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 62,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 62,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 57,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 60,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 62,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.814Z"
+  },
+  {
+    "_id": "mmr4atqf-frdlkwt74",
+    "candidateId": "mmr4atqf-lum0gq9w1",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 68,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 68,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 63,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 66,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 68,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.815Z"
+  },
+  {
+    "_id": "mmr4atqg-xpldjj6qy",
+    "candidateId": "mmr4atqf-97mtfo37i",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 63,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 63,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 58,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 61,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 63,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.816Z"
+  },
+  {
+    "_id": "mmr4atqg-jhzwt2q1j",
+    "candidateId": "mmr4atqg-ys06hvgap",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 72,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 72,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 67,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 70,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 72,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.816Z",
+    "badgeId": "mmr4atqh-69v4tef2b"
+  },
+  {
+    "_id": "mmr4atqi-kekd5799b",
+    "candidateId": "mmr4atqi-vbvne941s",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.818Z",
+    "badgeId": "mmr4atqj-73dxsz3p9"
+  },
+  {
+    "_id": "mmr4atqk-map74725b",
+    "candidateId": "mmr4atqj-6o5j2s3l1",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 73,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 73,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 68,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 71,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 73,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.820Z",
+    "badgeId": "mmr4atqk-mp7ugt0uu"
+  },
+  {
+    "_id": "mmr4atql-ppx4bxfvg",
+    "candidateId": "mmr4atql-4cjp3z9fs",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 94,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 94,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 89,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 92,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 94,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.821Z",
+    "badgeId": "mmr4atql-6t2fjhg2i"
+  },
+  {
+    "_id": "mmr4atqm-9uscdpmd9",
+    "candidateId": "mmr4atqm-4pmza2bxa",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.822Z",
+    "badgeId": "mmr4atqn-ptlkl0zpc"
+  },
+  {
+    "_id": "mmr4atqo-2ykurld1n",
+    "candidateId": "mmr4atqn-x9wi27ffv",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 86,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 86,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 81,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 84,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 86,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "SQL Database Querying"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.824Z",
+    "badgeId": "mmr4atqo-54fd5lbnv"
+  },
+  {
+    "_id": "mmr4atqp-9vj5gn65f",
+    "candidateId": "mmr4atqp-kau1mjvpt",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 60,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 60,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 55,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 58,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 60,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.825Z"
+  },
+  {
+    "_id": "mmr4atqq-0xg9zas1c",
+    "candidateId": "mmr4atqq-k33rtc4qu",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.826Z"
+  },
+  {
+    "_id": "mmr4atqr-eg3eccbjf",
+    "candidateId": "mmr4atqr-x8aund1rw",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 60,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 60,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 55,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 58,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 60,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.827Z"
+  },
+  {
+    "_id": "mmr4atqs-f0ugfqlc9",
+    "candidateId": "mmr4atqr-fpg2sstah",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.828Z",
+    "badgeId": "mmr4atqs-xi6eos39y"
+  },
+  {
+    "_id": "mmr4atqt-w0ljr8fwp",
+    "candidateId": "mmr4atqt-6f6wiaivn",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 72,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 72,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 67,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 70,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 72,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.829Z",
+    "badgeId": "mmr4atqu-90wefcy1v"
+  },
+  {
+    "_id": "mmr4atqv-pjwd66x3o",
+    "candidateId": "mmr4atqu-rct4l3k9y",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.831Z",
+    "badgeId": "mmr4atqv-wt3ydvsqb"
+  },
+  {
+    "_id": "mmr4atqx-zqxyphx7q",
+    "candidateId": "mmr4atqw-tpk9y24hl",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.833Z",
+    "badgeId": "mmr4atqx-pmukvjy1i"
+  },
+  {
+    "_id": "mmr4atqy-b220l164y",
+    "candidateId": "mmr4atqy-9jckcktwq",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 92,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 92,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 87,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 90,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 92,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.834Z",
+    "badgeId": "mmr4atqz-8mz8sykjk"
+  },
+  {
+    "_id": "mmr4atr0-2g4l883nt",
+    "candidateId": "mmr4atr0-ypmiu79yo",
+    "skillName": "Python Scripting",
+    "industry": "IT / Software",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 95,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Python Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.836Z",
+    "badgeId": "mmr4atr0-bnw9ps39z"
+  },
+  {
+    "_id": "mmr4atr2-mdsnm77kr",
+    "candidateId": "mmr4atr1-vn0gj27b2",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 67,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 67,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 62,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 65,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 67,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.838Z"
+  },
+  {
+    "_id": "mmr4atr3-ieno239yv",
+    "candidateId": "mmr4atr2-hcatlnnih",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.839Z"
+  },
+  {
+    "_id": "mmr4atr4-8t8zxe90q",
+    "candidateId": "mmr4atr3-qpnlqdxc8",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.840Z"
+  },
+  {
+    "_id": "mmr4atr5-nxnlgzrny",
+    "candidateId": "mmr4atr4-0x8h8cfoi",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 78,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 78,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 73,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 76,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 78,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.841Z",
+    "badgeId": "mmr4atr5-o5wm67236"
+  },
+  {
+    "_id": "mmr4atr6-gmllw60lv",
+    "candidateId": "mmr4atr6-oxr0jhfc9",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 74,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 74,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 69,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 72,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 74,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.842Z",
+    "badgeId": "mmr4atr7-vzww7p50b"
+  },
+  {
+    "_id": "mmr4atr8-9xnzmjk34",
+    "candidateId": "mmr4atr8-24t16bxag",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 76,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 76,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 71,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 74,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 76,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.844Z",
+    "badgeId": "mmr4atr8-cltdkgn21"
+  },
+  {
+    "_id": "mmr4atra-8hvdsc5n3",
+    "candidateId": "mmr4atr9-gmd18z9ke",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 87,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 87,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 82,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 85,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 87,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.846Z",
+    "badgeId": "mmr4atra-q0vi1oud2"
+  },
+  {
+    "_id": "mmr4atrc-yidm4nbfd",
+    "candidateId": "mmr4atrb-xcu3n9syd",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.848Z",
+    "badgeId": "mmr4atrc-heumd2ja9"
+  },
+  {
+    "_id": "mmr4atrd-e6m6wgyzt",
+    "candidateId": "mmr4atrd-upcn11y8h",
+    "skillName": "DevOps / Docker",
+    "industry": "IT / Software",
+    "overallScore": 87,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 87,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 82,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 85,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 87,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "DevOps / Docker"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.849Z",
+    "badgeId": "mmr4atre-08er1ikah"
+  },
+  {
+    "_id": "mmr4atrf-mtvspysdd",
+    "candidateId": "mmr4atrf-94n1uyf47",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 61,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 61,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 56,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 59,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 61,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.851Z"
+  },
+  {
+    "_id": "mmr4atrg-2y7880g32",
+    "candidateId": "mmr4atrf-grl0y3o4j",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 66,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 66,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 61,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 64,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 66,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.852Z"
+  },
+  {
+    "_id": "mmr4atrh-0yf7hfpsj",
+    "candidateId": "mmr4atrg-7pxk0jq0i",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.853Z"
+  },
+  {
+    "_id": "mmr4atrh-1cgofakz4",
+    "candidateId": "mmr4atrh-s12kd5njr",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 73,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 73,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 68,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 71,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 73,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.853Z",
+    "badgeId": "mmr4atri-bpdzh8pn6"
+  },
+  {
+    "_id": "mmr4atrj-0i1ds6nvr",
+    "candidateId": "mmr4atrj-euxzsorso",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 78,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 78,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 73,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 76,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 78,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.855Z",
+    "badgeId": "mmr4atrj-qqz6dk75n"
+  },
+  {
+    "_id": "mmr4atrl-80kkcunsf",
+    "candidateId": "mmr4atrk-4rjqlufr3",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.857Z",
+    "badgeId": "mmr4atrl-2ikdl8mjg"
+  },
+  {
+    "_id": "mmr4atrm-na7c9jm0l",
+    "candidateId": "mmr4atrm-f2xtqgfau",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 95,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.858Z",
+    "badgeId": "mmr4atrn-vc4j0y6ux"
+  },
+  {
+    "_id": "mmr4atro-84fbqw8ss",
+    "candidateId": "mmr4atro-v6adreub4",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.860Z",
+    "badgeId": "mmr4atrp-7b3wd08rz"
+  },
+  {
+    "_id": "mmr4atrq-d43epyqtu",
+    "candidateId": "mmr4atrq-kopi84zbb",
+    "skillName": "C++ Scripting",
+    "industry": "IT / Software",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 95,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "C++ Scripting"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.862Z",
+    "badgeId": "mmr4atrq-fpsacnd9l"
+  },
+  {
+    "_id": "mmr4atrs-temioubys",
+    "candidateId": "mmr4atrr-nt6ykffeb",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 61,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 61,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 56,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 59,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 61,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.864Z"
+  },
+  {
+    "_id": "mmr4atrt-0hagclmok",
+    "candidateId": "mmr4atrs-qb8z5suu4",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.865Z"
+  },
+  {
+    "_id": "mmr4atrt-antiu60or",
+    "candidateId": "mmr4atrt-ydjkhrzrc",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 62,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 62,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 57,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 60,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 62,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.865Z"
+  },
+  {
+    "_id": "mmr4atru-uv4pl18vc",
+    "candidateId": "mmr4atru-ah1vncmuk",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 78,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 78,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 73,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 76,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 78,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.866Z",
+    "badgeId": "mmr4atrv-ra2se6cju"
+  },
+  {
+    "_id": "mmr4atrw-nx2wn1pqh",
+    "candidateId": "mmr4atrw-o38um6bjz",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.868Z",
+    "badgeId": "mmr4atrx-ukqx9rbyn"
+  },
+  {
+    "_id": "mmr4atry-qmp9s16sz",
+    "candidateId": "mmr4atry-dgmc2l8mi",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 85,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 85,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 80,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 83,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 85,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.870Z",
+    "badgeId": "mmr4atry-j0ymworre"
+  },
+  {
+    "_id": "mmr4ats0-28a061c27",
+    "candidateId": "mmr4atrz-623lpwmdp",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 88,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 88,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 83,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 86,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 88,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.872Z",
+    "badgeId": "mmr4ats0-khg4ouvds"
+  },
+  {
+    "_id": "mmr4ats2-lc4hn58b1",
+    "candidateId": "mmr4ats1-zr5aie4tk",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 87,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 87,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 82,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 85,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 87,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.874Z",
+    "badgeId": "mmr4ats2-rc50a0hje"
+  },
+  {
+    "_id": "mmr4ats4-7svm6ivqw",
+    "candidateId": "mmr4ats3-xmkypybhf",
+    "skillName": "Wound Dressing",
+    "industry": "Healthcare",
+    "overallScore": 93,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 93,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 88,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 91,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 93,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Wound Dressing"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.876Z",
+    "badgeId": "mmr4ats4-c3axt1gr1"
+  },
+  {
+    "_id": "mmr4ats6-zzggalgu5",
+    "candidateId": "mmr4ats5-uxs7f4481",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 63,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 63,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 58,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 61,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 63,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.878Z"
+  },
+  {
+    "_id": "mmr4ats7-4119q8heq",
+    "candidateId": "mmr4ats6-s3qvckvfj",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.879Z"
+  },
+  {
+    "_id": "mmr4ats7-u6d79g1fh",
+    "candidateId": "mmr4ats7-bilrs7ojh",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 70,
+    "passed": true,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 70,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 65,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 68,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 70,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.880Z",
+    "badgeId": "mmr4ats8-ia8b5q0xe"
+  },
+  {
+    "_id": "mmr4ats9-3lggg8pr3",
+    "candidateId": "mmr4ats9-ltoz67kmq",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.881Z",
+    "badgeId": "mmr4atsa-rrl16d3sl"
+  },
+  {
+    "_id": "mmr4atsb-0pspk4tck",
+    "candidateId": "mmr4atsb-f0iqe6lz7",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 73,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 73,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 68,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 71,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 73,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.883Z",
+    "badgeId": "mmr4atsc-549r0gyl8"
+  },
+  {
+    "_id": "mmr4atsd-yle6z1nfr",
+    "candidateId": "mmr4atsd-38wwdlqdt",
     "skillName": "Circuit Wiring",
     "industry": "Electrical / ITI",
     "overallScore": 76,
@@ -291,39 +3264,1989 @@
     "skillLevel": "Intermediate",
     "dimensions": {
       "technicalAccuracy": {
-        "score": 77,
-        "observation": "Demonstrated solid technical understanding of the subject matter."
+        "score": 76,
+        "observation": "Consistent performance for this level."
       },
       "efficiency": {
-        "score": 74,
-        "observation": "Completed the task in a reasonable timeframe with good efficiency."
+        "score": 71,
+        "observation": "Good approach."
       },
       "bestPractices": {
-        "score": 76,
-        "observation": "Followed industry-standard best practices throughout the demonstration."
+        "score": 74,
+        "observation": "Followed basic guidelines."
       },
       "problemSolving": {
-        "score": 75,
-        "observation": "Showed logical problem-solving approach when facing challenges."
+        "score": 76,
+        "observation": "Standard solutioning."
       }
     },
     "strengths": [
-      "Solid technical fundamentals",
-      "Good problem-solving approach",
-      "Clean work methodology"
+      "Consistent behavior",
+      "Accuracy"
     ],
     "improvements": [
-      "Could explore more advanced techniques",
-      "Consider edge case handling"
+      "Could be more complex"
     ],
-    "employerSummary": "Candidate demonstrated intermediate-level proficiency in Circuit Wiring. Shows strong potential and is recommended for relevant roles.",
+    "employerSummary": "Bot data for testing.",
     "verifiedSkills": [
-      "Circuit",
-      "Problem Solving",
-      "Technical Skills"
+      "Circuit Wiring"
     ],
-    "videoPath": "C:\\Users\\jeshm\\Aura-audit\\server\\uploads\\video-1772919261912-194732832.webm",
-    "createdAt": "2026-03-07T21:34:32.142Z",
-    "badgeId": "ed16f5e2-74b0-45ad-8363-ec77585c8c9a"
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.885Z",
+    "badgeId": "mmr4atsd-hbjydy7r0"
+  },
+  {
+    "_id": "mmr4atsf-kzd020f3k",
+    "candidateId": "mmr4atse-f12yt05k5",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.887Z",
+    "badgeId": "mmr4atsf-mc3l1u21p"
+  },
+  {
+    "_id": "mmr4atsh-jci795fhi",
+    "candidateId": "mmr4atsh-t2z25p5cn",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.889Z",
+    "badgeId": "mmr4atsh-52zryqlai"
+  },
+  {
+    "_id": "mmr4atsj-vcb8245cj",
+    "candidateId": "mmr4atsi-2msaky70h",
+    "skillName": "Circuit Wiring",
+    "industry": "Electrical / ITI",
+    "overallScore": 86,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 86,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 81,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 84,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 86,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Circuit Wiring"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.891Z",
+    "badgeId": "mmr4atsj-b32qn568s"
+  },
+  {
+    "_id": "mmr4atsl-4m2i19z5p",
+    "candidateId": "mmr4atsk-k3jatbit4",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 68,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 68,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 63,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 66,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 68,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.893Z"
+  },
+  {
+    "_id": "mmr4atsm-bzywupshd",
+    "candidateId": "mmr4atsl-qb38gauro",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 68,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 68,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 63,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 66,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 68,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.894Z"
+  },
+  {
+    "_id": "mmr4atsn-aomnonjwr",
+    "candidateId": "mmr4atsm-vw7xulcx7",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.895Z"
+  },
+  {
+    "_id": "mmr4atso-tmqtdv2el",
+    "candidateId": "mmr4atsn-4p08m8oyf",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 79,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 79,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 74,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 77,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 79,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.896Z",
+    "badgeId": "mmr4atso-kmuup6asa"
+  },
+  {
+    "_id": "mmr4atsq-y38aaugjw",
+    "candidateId": "mmr4atsp-fwrpby7e5",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.898Z",
+    "badgeId": "mmr4atsq-jaffvhg89"
+  },
+  {
+    "_id": "mmr4atsr-mdm0d3zto",
+    "candidateId": "mmr4atsr-2w6ivhn4a",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 77,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 77,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 72,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 75,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 77,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.899Z",
+    "badgeId": "mmr4atss-sw0ooi7ov"
+  },
+  {
+    "_id": "mmr4atsu-j686fj8m8",
+    "candidateId": "mmr4atst-brym9zv69",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.902Z",
+    "badgeId": "mmr4atsu-x8l2xcy5m"
+  },
+  {
+    "_id": "mmr4atsv-ajzcxx9ct",
+    "candidateId": "mmr4atsv-tiz4tbpv6",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 86,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 86,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 81,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 84,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 86,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.903Z",
+    "badgeId": "mmr4atsw-tgafpqgnf"
+  },
+  {
+    "_id": "mmr4atsy-dobm06dln",
+    "candidateId": "mmr4atsx-m9si2s054",
+    "skillName": "Music",
+    "industry": "Performing Arts",
+    "overallScore": 87,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 87,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 82,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 85,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 87,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Music"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.906Z",
+    "badgeId": "mmr4atsy-b8woeifk5"
+  },
+  {
+    "_id": "mmr4att0-wlxbao0gk",
+    "candidateId": "mmr4atsz-g5k8agq0s",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 62,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 62,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 57,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 60,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 62,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.908Z"
+  },
+  {
+    "_id": "mmr4att1-eqs4ithgm",
+    "candidateId": "mmr4att0-17boi2jzr",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 62,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 62,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 57,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 60,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 62,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.909Z"
+  },
+  {
+    "_id": "mmr4att2-nntkt9djr",
+    "candidateId": "mmr4att1-2orbrkpsf",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.910Z"
+  },
+  {
+    "_id": "mmr4att2-5ji6567mp",
+    "candidateId": "mmr4att2-2eh9fa8lx",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 80,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 80,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 75,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 78,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 80,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.910Z",
+    "badgeId": "mmr4att3-4rgdn085t"
+  },
+  {
+    "_id": "mmr4att5-jvmtglhuk",
+    "candidateId": "mmr4att4-hvkrzzohg",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 71,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 71,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 66,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 69,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 71,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.913Z",
+    "badgeId": "mmr4att5-maajf2drm"
+  },
+  {
+    "_id": "mmr4att7-9efq0o6ts",
+    "candidateId": "mmr4att6-j1b1zm1ps",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.915Z",
+    "badgeId": "mmr4att7-82qdkihi0"
+  },
+  {
+    "_id": "mmr4att9-hrs7skpn3",
+    "candidateId": "mmr4att8-n2z4ihpcf",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 94,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 94,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 89,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 92,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 94,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.917Z",
+    "badgeId": "mmr4att9-p8vft3vrs"
+  },
+  {
+    "_id": "mmr4attb-sip15oesi",
+    "candidateId": "mmr4atta-9j11wlwvq",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.919Z",
+    "badgeId": "mmr4attb-gy2dqmpap"
+  },
+  {
+    "_id": "mmr4attd-ub2zlfdwr",
+    "candidateId": "mmr4attc-nbmoipiit",
+    "skillName": "Musical Instruments",
+    "industry": "Performing Arts",
+    "overallScore": 94,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 94,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 89,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 92,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 94,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Musical Instruments"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.921Z",
+    "badgeId": "mmr4attd-oiqpp8i3f"
+  },
+  {
+    "_id": "mmr4attf-e3jg0aa85",
+    "candidateId": "mmr4atte-1f4ce3zsh",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 70,
+    "passed": true,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 70,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 65,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 68,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 70,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.923Z",
+    "badgeId": "mmr4attf-j2r88fcyq"
+  },
+  {
+    "_id": "mmr4atth-nvdjdt4p0",
+    "candidateId": "mmr4atth-4vqdaw51d",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.925Z"
+  },
+  {
+    "_id": "mmr4atti-2fzoj81i0",
+    "candidateId": "mmr4atti-eat8jr0g1",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.926Z"
+  },
+  {
+    "_id": "mmr4attj-wk85r97kc",
+    "candidateId": "mmr4attj-c5ksodpko",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.927Z",
+    "badgeId": "mmr4attk-xf3wou9sg"
+  },
+  {
+    "_id": "mmr4attl-9tnvvmn7a",
+    "candidateId": "mmr4attl-i90etlc55",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.929Z",
+    "badgeId": "mmr4attm-gds0u0fpq"
+  },
+  {
+    "_id": "mmr4atto-h3myt11te",
+    "candidateId": "mmr4attn-7dhtkxvdg",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 82,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 82,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 77,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 80,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 82,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.932Z",
+    "badgeId": "mmr4atto-bop565njm"
+  },
+  {
+    "_id": "mmr4attq-4u5l7khb0",
+    "candidateId": "mmr4attp-macwhh92i",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 91,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 91,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 86,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 89,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 91,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.934Z",
+    "badgeId": "mmr4attq-vlxqfdzgm"
+  },
+  {
+    "_id": "mmr4atts-at2ivbg1h",
+    "candidateId": "mmr4attr-na6cgw9r9",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 87,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 87,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 82,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 85,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 87,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.936Z",
+    "badgeId": "mmr4atts-bxf51lgys"
+  },
+  {
+    "_id": "mmr4attu-d3hadv6dc",
+    "candidateId": "mmr4attt-1fnp41f4l",
+    "skillName": "Speech / Public Speaking",
+    "industry": "Communication",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Speech / Public Speaking"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.938Z",
+    "badgeId": "mmr4attv-3tm70mqbr"
+  },
+  {
+    "_id": "mmr4attw-ka4ibeygb",
+    "candidateId": "mmr4attw-atw6or7cx",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.940Z"
+  },
+  {
+    "_id": "mmr4attx-z0l0c3wm1",
+    "candidateId": "mmr4attx-29yqe9qat",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 64,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 64,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 59,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 62,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 64,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.941Z"
+  },
+  {
+    "_id": "mmr4attz-l372nb5vn",
+    "candidateId": "mmr4atty-l5fes41m2",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.943Z"
+  },
+  {
+    "_id": "mmr4atu0-vzs68una6",
+    "candidateId": "mmr4attz-zw99yyui9",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 76,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 76,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 71,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 74,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 76,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.944Z",
+    "badgeId": "mmr4atu1-01gcqxh9i"
+  },
+  {
+    "_id": "mmr4atu2-984u35oat",
+    "candidateId": "mmr4atu2-b71aod8e3",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 85,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 85,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 80,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 83,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 85,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.946Z",
+    "badgeId": "mmr4atu3-m0fbfb61t"
+  },
+  {
+    "_id": "mmr4atu5-07gyjnaqj",
+    "candidateId": "mmr4atu4-klrutizdw",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 81,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 81,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 76,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 79,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 81,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.949Z",
+    "badgeId": "mmr4atu5-oribkl9eq"
+  },
+  {
+    "_id": "mmr4atu7-hinx7qxd3",
+    "candidateId": "mmr4atu6-1050fmsi7",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 93,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 93,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 88,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 91,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 93,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.951Z",
+    "badgeId": "mmr4atu7-pc4rg9mg1"
+  },
+  {
+    "_id": "mmr4atu9-7jcpow1rn",
+    "candidateId": "mmr4atu9-kxxizky2l",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 92,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 92,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 87,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 90,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 92,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.953Z",
+    "badgeId": "mmr4atua-1izsiqvk4"
+  },
+  {
+    "_id": "mmr4atub-mjxgf0a5f",
+    "candidateId": "mmr4atub-19sr7iuos",
+    "skillName": "Teaching / Explaining Concepts",
+    "industry": "Education",
+    "overallScore": 89,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 89,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 84,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 87,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 89,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Teaching / Explaining Concepts"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.955Z",
+    "badgeId": "mmr4atuc-2k7cx9r1x"
+  },
+  {
+    "_id": "mmr4atue-qqp3mqglr",
+    "candidateId": "mmr4atud-3od9e73ga",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 65,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 65,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 60,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 63,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 65,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.958Z"
+  },
+  {
+    "_id": "mmr4atuf-zrg8uc1vo",
+    "candidateId": "mmr4atue-ogqw01lud",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 69,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 69,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 64,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 67,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 69,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.959Z"
+  },
+  {
+    "_id": "mmr4atug-05daf0yd8",
+    "candidateId": "mmr4atuf-kb4znm8yk",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 63,
+    "passed": false,
+    "skillLevel": "Beginner",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 63,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 58,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 61,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 63,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.960Z"
+  },
+  {
+    "_id": "mmr4atuh-6s5mcpgt8",
+    "candidateId": "mmr4atuh-53y3ygyke",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 75,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 75,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 70,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 73,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 75,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.961Z",
+    "badgeId": "mmr4atui-pll1fl6q1"
+  },
+  {
+    "_id": "mmr4atuj-qnev6ucgh",
+    "candidateId": "mmr4atuj-kyeoxo8xt",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 83,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 83,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 78,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 81,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 83,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.963Z",
+    "badgeId": "mmr4atuk-10pgoyqen"
+  },
+  {
+    "_id": "mmr4atum-dltlj4nmi",
+    "candidateId": "mmr4atul-nil31wgbs",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 78,
+    "passed": true,
+    "skillLevel": "Intermediate",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 78,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 73,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 76,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 78,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.966Z",
+    "badgeId": "mmr4atum-w16hnxekx"
+  },
+  {
+    "_id": "mmr4atuo-amnluaq2v",
+    "candidateId": "mmr4atuo-5fz1al033",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 95,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 95,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 90,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 93,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 95,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.968Z",
+    "badgeId": "mmr4atup-iju1s28kw"
+  },
+  {
+    "_id": "mmr4atur-vpqpmrbw8",
+    "candidateId": "mmr4atuq-dz6ahrtrv",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 86,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 86,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 81,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 84,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 86,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.971Z",
+    "badgeId": "mmr4atur-9rwbxo15p"
+  },
+  {
+    "_id": "mmr4atut-uqgei2yir",
+    "candidateId": "mmr4atus-gb5c4166r",
+    "skillName": "Yoga / Physical Demonstration",
+    "industry": "Fitness / Wellness",
+    "overallScore": 90,
+    "passed": true,
+    "skillLevel": "Advanced",
+    "dimensions": {
+      "technicalAccuracy": {
+        "score": 90,
+        "observation": "Consistent performance for this level."
+      },
+      "efficiency": {
+        "score": 85,
+        "observation": "Good approach."
+      },
+      "bestPractices": {
+        "score": 88,
+        "observation": "Followed basic guidelines."
+      },
+      "problemSolving": {
+        "score": 90,
+        "observation": "Standard solutioning."
+      }
+    },
+    "strengths": [
+      "Consistent behavior",
+      "Accuracy"
+    ],
+    "improvements": [
+      "Could be more complex"
+    ],
+    "employerSummary": "Bot data for testing.",
+    "verifiedSkills": [
+      "Yoga / Physical Demonstration"
+    ],
+    "videoPath": "",
+    "createdAt": "2026-03-15T02:10:31.973Z",
+    "badgeId": "mmr4atut-jvy1y2yyh"
   }
 ]

@@ -1,162 +1,1192 @@
 [
   {
-    "_id": "mmgssjie-e7i252khr",
-    "name": "Test",
-    "email": "test@test.com",
-    "password": "$2a$12$v/.TmO.N7qjfSTRRA63DZu8NxX0LRZVMtpUb6EDWIFqBdAVDLGd62",
+    "_id": "mmr4atp7-64dmkdiih",
+    "name": "Dr. Sarah Connor",
+    "email": "dr..sarah.connor@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-07T20:50:41.222Z"
+    "bio": "Expert level bot candidate",
+    "createdAt": "2026-03-15T02:10:31.771Z"
   },
   {
-    "_id": "mmgsw31w-dye0byl33",
-    "name": "Jesh",
-    "email": "jesh.mahun@gmail.com",
-    "password": "$2a$12$nbGXtW5yYg54b/I5sT4Rhu9gEBloWNSfKt63NHnkqba3a0HEIgzMO",
+    "_id": "mmr4atp9-2bei5emya",
+    "name": "Marcus Wright",
+    "email": "marcus.wright@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-07T20:53:26.516Z"
+    "bio": "Expert level bot candidate",
+    "createdAt": "2026-03-15T02:10:31.773Z"
   },
   {
-    "_id": "mmgszzry-xfjfqf3kz",
-    "name": "Jesh",
-    "email": "dongdevil10@gmail.com",
-    "password": "$2a$12$YjXsfMjgGtJM26.QMi0gMOxm0/jnPsfWyiXqUO70xL3Ci4XAA60hy",
+    "_id": "mmr4atpa-w2nhl9ny7",
+    "name": "Kyle Reese",
+    "email": "kyle.reese@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-07T20:56:28.894Z"
+    "bio": "Expert level bot candidate",
+    "createdAt": "2026-03-15T02:10:31.774Z"
   },
   {
-    "_id": "mmgt8jfo-zf8emuowy",
-    "name": "TestUser",
-    "email": "test2@test.com",
-    "password": "$2a$12$ic1DCUL9REQOJJd2dtNpeO7EQSvhBcGJEODYKSFCkm3FN1Vi.R5uu",
+    "_id": "mmr4atpc-b0puhicf0",
+    "name": "Beginner Bot 1 - React",
+    "email": "beginner.bot.1.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-07T21:03:07.620Z"
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.776Z"
   },
   {
-    "_id": "mmqqf2vr-16s31s3l6",
-    "name": "Test Candidate",
-    "email": "candidate_test@test.com",
-    "password": "$2a$12$bIHT0Ww9kaR8V2JlkZi.2ewc2cCWoOGHiOdrCmxp.vEDvU5p2YXoS",
+    "_id": "mmr4atpd-n4di8x8fa",
+    "name": "Beginner Bot 2 - React",
+    "email": "beginner.bot.2.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:41:55.671Z"
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.777Z"
   },
   {
-    "_id": "mmqqfduj-sdxzkfi08",
-    "name": "Test Candidate",
-    "email": "test1@test.com",
-    "password": "$2a$12$uyUJ.fvrkUdGrX0pY0PdPexLi9.P9U67QMzMz7XG5EH6djNLyFMUO",
+    "_id": "mmr4atpd-yejq6ctxq",
+    "name": "Beginner Bot 3 - React",
+    "email": "beginner.bot.3.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:42:09.883Z"
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.777Z"
   },
   {
-    "_id": "mmqqhplz-e8ck6thgz",
-    "name": "Test Candidate",
-    "email": "candidate@test.com",
-    "password": "$2a$12$qQuglSnaGNE98bCmBUAyGeu/0bEhj1hmZb7bIWI6VVAWU/MsAZqFS",
+    "_id": "mmr4atpe-8rj4cybrb",
+    "name": "Intermediate Bot 1 - React",
+    "email": "intermediate.bot.1.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:43:58.439Z"
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.778Z"
   },
   {
-    "_id": "mmqqic52-6w2v95orc",
-    "name": "Test Candidate",
-    "email": "candidate_cv_test@test.com",
-    "password": "$2a$12$3yUgxvRXu3GnhZAJMT11/OaJIyaQEk8PK1ecafnIKSS3ck5vQXZbu",
+    "_id": "mmr4atpg-aglq8jr0n",
+    "name": "Intermediate Bot 2 - React",
+    "email": "intermediate.bot.2.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:44:27.638Z"
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.780Z"
   },
   {
-    "_id": "mmqql4ge-o1xx7h3ef",
-    "name": "Test Candidate",
-    "email": "test_candidate@email.com",
-    "password": "$2a$12$F.AJctmMS5x7jP/X9DDhCOYusRMRu6PsWTNMfV8FeWf3NI1vQmggi",
+    "_id": "mmr4atph-71huh80va",
+    "name": "Intermediate Bot 3 - React",
+    "email": "intermediate.bot.3.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:46:37.646Z"
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.781Z"
   },
   {
-    "_id": "mmqqn141-dlg0mv0ct",
-    "name": "Test Employer",
-    "email": "test_employer@email.com",
-    "password": "$2a$12$viXHNg8h/4rE.fT2v0UURO14Il56TQJdWRhhllXM4BkX4M7zHxVPC",
+    "_id": "mmr4atpi-mbt3thzra",
+    "name": "Advanced Bot 1 - React",
+    "email": "advanced.bot.1.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.782Z"
+  },
+  {
+    "_id": "mmr4atpk-fd4wkw0kk",
+    "name": "Advanced Bot 2 - React",
+    "email": "advanced.bot.2.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.784Z"
+  },
+  {
+    "_id": "mmr4atpl-3hpb9m1kr",
+    "name": "Advanced Bot 3 - React",
+    "email": "advanced.bot.3.-.react@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.785Z"
+  },
+  {
+    "_id": "mmr4atpn-nygco8wsp",
+    "name": "Beginner Bot 1 - Node.js",
+    "email": "beginner.bot.1.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.787Z"
+  },
+  {
+    "_id": "mmr4atpn-s3wzvjali",
+    "name": "Beginner Bot 2 - Node.js",
+    "email": "beginner.bot.2.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.787Z"
+  },
+  {
+    "_id": "mmr4atpo-u0uwiggxi",
+    "name": "Beginner Bot 3 - Node.js",
+    "email": "beginner.bot.3.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.788Z"
+  },
+  {
+    "_id": "mmr4atpo-y7vl1gx9s",
+    "name": "Intermediate Bot 1 - Node.js",
+    "email": "intermediate.bot.1.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.788Z"
+  },
+  {
+    "_id": "mmr4atpq-tdvnv04yu",
+    "name": "Intermediate Bot 2 - Node.js",
+    "email": "intermediate.bot.2.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.790Z"
+  },
+  {
+    "_id": "mmr4atpr-kfbot1n2j",
+    "name": "Intermediate Bot 3 - Node.js",
+    "email": "intermediate.bot.3.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.791Z"
+  },
+  {
+    "_id": "mmr4atps-bro7l7buf",
+    "name": "Advanced Bot 1 - Node.js",
+    "email": "advanced.bot.1.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.792Z"
+  },
+  {
+    "_id": "mmr4atpt-wmw3cyb9b",
+    "name": "Advanced Bot 2 - Node.js",
+    "email": "advanced.bot.2.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.793Z"
+  },
+  {
+    "_id": "mmr4atpv-11n8sqes7",
+    "name": "Advanced Bot 3 - Node.js",
+    "email": "advanced.bot.3.-.node.js@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.795Z"
+  },
+  {
+    "_id": "mmr4atpx-85z9lnjfs",
+    "name": "Beginner Bot 1 - JavaScript",
+    "email": "beginner.bot.1.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.797Z"
+  },
+  {
+    "_id": "mmr4atpy-f6alnlxti",
+    "name": "Beginner Bot 2 - JavaScript",
+    "email": "beginner.bot.2.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.798Z"
+  },
+  {
+    "_id": "mmr4atpy-h3k5231e0",
+    "name": "Beginner Bot 3 - JavaScript",
+    "email": "beginner.bot.3.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.798Z"
+  },
+  {
+    "_id": "mmr4atpz-f8eibbtst",
+    "name": "Intermediate Bot 1 - JavaScript",
+    "email": "intermediate.bot.1.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.799Z"
+  },
+  {
+    "_id": "mmr4atq1-lyml49lji",
+    "name": "Intermediate Bot 2 - JavaScript",
+    "email": "intermediate.bot.2.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.801Z"
+  },
+  {
+    "_id": "mmr4atq2-7w9s68pco",
+    "name": "Intermediate Bot 3 - JavaScript",
+    "email": "intermediate.bot.3.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.802Z"
+  },
+  {
+    "_id": "mmr4atq4-ccw2ujnao",
+    "name": "Advanced Bot 1 - JavaScript",
+    "email": "advanced.bot.1.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.804Z"
+  },
+  {
+    "_id": "mmr4atqb-e51st2pwf",
+    "name": "Advanced Bot 2 - JavaScript",
+    "email": "advanced.bot.2.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.811Z"
+  },
+  {
+    "_id": "mmr4atqc-xgzcy0u0s",
+    "name": "Advanced Bot 3 - JavaScript",
+    "email": "advanced.bot.3.-.javascript@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.812Z"
+  },
+  {
+    "_id": "mmr4atqe-uk2rttz7z",
+    "name": "Beginner Bot 1 - SQL",
+    "email": "beginner.bot.1.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.814Z"
+  },
+  {
+    "_id": "mmr4atqf-lum0gq9w1",
+    "name": "Beginner Bot 2 - SQL",
+    "email": "beginner.bot.2.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.815Z"
+  },
+  {
+    "_id": "mmr4atqf-97mtfo37i",
+    "name": "Beginner Bot 3 - SQL",
+    "email": "beginner.bot.3.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.815Z"
+  },
+  {
+    "_id": "mmr4atqg-ys06hvgap",
+    "name": "Intermediate Bot 1 - SQL",
+    "email": "intermediate.bot.1.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.816Z"
+  },
+  {
+    "_id": "mmr4atqi-vbvne941s",
+    "name": "Intermediate Bot 2 - SQL",
+    "email": "intermediate.bot.2.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.818Z"
+  },
+  {
+    "_id": "mmr4atqj-6o5j2s3l1",
+    "name": "Intermediate Bot 3 - SQL",
+    "email": "intermediate.bot.3.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.819Z"
+  },
+  {
+    "_id": "mmr4atql-4cjp3z9fs",
+    "name": "Advanced Bot 1 - SQL",
+    "email": "advanced.bot.1.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.821Z"
+  },
+  {
+    "_id": "mmr4atqm-4pmza2bxa",
+    "name": "Advanced Bot 2 - SQL",
+    "email": "advanced.bot.2.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.822Z"
+  },
+  {
+    "_id": "mmr4atqn-x9wi27ffv",
+    "name": "Advanced Bot 3 - SQL",
+    "email": "advanced.bot.3.-.sql@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.823Z"
+  },
+  {
+    "_id": "mmr4atqp-kau1mjvpt",
+    "name": "Beginner Bot 1 - Python",
+    "email": "beginner.bot.1.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.825Z"
+  },
+  {
+    "_id": "mmr4atqq-k33rtc4qu",
+    "name": "Beginner Bot 2 - Python",
+    "email": "beginner.bot.2.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.826Z"
+  },
+  {
+    "_id": "mmr4atqr-x8aund1rw",
+    "name": "Beginner Bot 3 - Python",
+    "email": "beginner.bot.3.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.827Z"
+  },
+  {
+    "_id": "mmr4atqr-fpg2sstah",
+    "name": "Intermediate Bot 1 - Python",
+    "email": "intermediate.bot.1.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.827Z"
+  },
+  {
+    "_id": "mmr4atqt-6f6wiaivn",
+    "name": "Intermediate Bot 2 - Python",
+    "email": "intermediate.bot.2.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.829Z"
+  },
+  {
+    "_id": "mmr4atqu-rct4l3k9y",
+    "name": "Intermediate Bot 3 - Python",
+    "email": "intermediate.bot.3.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.830Z"
+  },
+  {
+    "_id": "mmr4atqw-tpk9y24hl",
+    "name": "Advanced Bot 1 - Python",
+    "email": "advanced.bot.1.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.832Z"
+  },
+  {
+    "_id": "mmr4atqy-9jckcktwq",
+    "name": "Advanced Bot 2 - Python",
+    "email": "advanced.bot.2.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.834Z"
+  },
+  {
+    "_id": "mmr4atr0-ypmiu79yo",
+    "name": "Advanced Bot 3 - Python",
+    "email": "advanced.bot.3.-.python@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.836Z"
+  },
+  {
+    "_id": "mmr4atr1-vn0gj27b2",
+    "name": "Beginner Bot 1 - DevOps",
+    "email": "beginner.bot.1.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.837Z"
+  },
+  {
+    "_id": "mmr4atr2-hcatlnnih",
+    "name": "Beginner Bot 2 - DevOps",
+    "email": "beginner.bot.2.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.838Z"
+  },
+  {
+    "_id": "mmr4atr3-qpnlqdxc8",
+    "name": "Beginner Bot 3 - DevOps",
+    "email": "beginner.bot.3.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.839Z"
+  },
+  {
+    "_id": "mmr4atr4-0x8h8cfoi",
+    "name": "Intermediate Bot 1 - DevOps",
+    "email": "intermediate.bot.1.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.840Z"
+  },
+  {
+    "_id": "mmr4atr6-oxr0jhfc9",
+    "name": "Intermediate Bot 2 - DevOps",
+    "email": "intermediate.bot.2.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.842Z"
+  },
+  {
+    "_id": "mmr4atr8-24t16bxag",
+    "name": "Intermediate Bot 3 - DevOps",
+    "email": "intermediate.bot.3.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.844Z"
+  },
+  {
+    "_id": "mmr4atr9-gmd18z9ke",
+    "name": "Advanced Bot 1 - DevOps",
+    "email": "advanced.bot.1.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.845Z"
+  },
+  {
+    "_id": "mmr4atrb-xcu3n9syd",
+    "name": "Advanced Bot 2 - DevOps",
+    "email": "advanced.bot.2.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.847Z"
+  },
+  {
+    "_id": "mmr4atrd-upcn11y8h",
+    "name": "Advanced Bot 3 - DevOps",
+    "email": "advanced.bot.3.-.devops@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.849Z"
+  },
+  {
+    "_id": "mmr4atrf-94n1uyf47",
+    "name": "Beginner Bot 1 - C++",
+    "email": "beginner.bot.1.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.851Z"
+  },
+  {
+    "_id": "mmr4atrf-grl0y3o4j",
+    "name": "Beginner Bot 2 - C++",
+    "email": "beginner.bot.2.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.851Z"
+  },
+  {
+    "_id": "mmr4atrg-7pxk0jq0i",
+    "name": "Beginner Bot 3 - C++",
+    "email": "beginner.bot.3.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.852Z"
+  },
+  {
+    "_id": "mmr4atrh-s12kd5njr",
+    "name": "Intermediate Bot 1 - C++",
+    "email": "intermediate.bot.1.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.853Z"
+  },
+  {
+    "_id": "mmr4atrj-euxzsorso",
+    "name": "Intermediate Bot 2 - C++",
+    "email": "intermediate.bot.2.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.855Z"
+  },
+  {
+    "_id": "mmr4atrk-4rjqlufr3",
+    "name": "Intermediate Bot 3 - C++",
+    "email": "intermediate.bot.3.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.856Z"
+  },
+  {
+    "_id": "mmr4atrm-f2xtqgfau",
+    "name": "Advanced Bot 1 - C++",
+    "email": "advanced.bot.1.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.858Z"
+  },
+  {
+    "_id": "mmr4atro-v6adreub4",
+    "name": "Advanced Bot 2 - C++",
+    "email": "advanced.bot.2.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.860Z"
+  },
+  {
+    "_id": "mmr4atrq-kopi84zbb",
+    "name": "Advanced Bot 3 - C++",
+    "email": "advanced.bot.3.-.c++@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.862Z"
+  },
+  {
+    "_id": "mmr4atrr-nt6ykffeb",
+    "name": "Beginner Bot 1 - Wound",
+    "email": "beginner.bot.1.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.863Z"
+  },
+  {
+    "_id": "mmr4atrs-qb8z5suu4",
+    "name": "Beginner Bot 2 - Wound",
+    "email": "beginner.bot.2.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.864Z"
+  },
+  {
+    "_id": "mmr4atrt-ydjkhrzrc",
+    "name": "Beginner Bot 3 - Wound",
+    "email": "beginner.bot.3.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.865Z"
+  },
+  {
+    "_id": "mmr4atru-ah1vncmuk",
+    "name": "Intermediate Bot 1 - Wound",
+    "email": "intermediate.bot.1.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.866Z"
+  },
+  {
+    "_id": "mmr4atrw-o38um6bjz",
+    "name": "Intermediate Bot 2 - Wound",
+    "email": "intermediate.bot.2.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.868Z"
+  },
+  {
+    "_id": "mmr4atry-dgmc2l8mi",
+    "name": "Intermediate Bot 3 - Wound",
+    "email": "intermediate.bot.3.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.870Z"
+  },
+  {
+    "_id": "mmr4atrz-623lpwmdp",
+    "name": "Advanced Bot 1 - Wound",
+    "email": "advanced.bot.1.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.871Z"
+  },
+  {
+    "_id": "mmr4ats1-zr5aie4tk",
+    "name": "Advanced Bot 2 - Wound",
+    "email": "advanced.bot.2.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.873Z"
+  },
+  {
+    "_id": "mmr4ats3-xmkypybhf",
+    "name": "Advanced Bot 3 - Wound",
+    "email": "advanced.bot.3.-.wound@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.875Z"
+  },
+  {
+    "_id": "mmr4ats5-uxs7f4481",
+    "name": "Beginner Bot 1 - Circuit",
+    "email": "beginner.bot.1.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.877Z"
+  },
+  {
+    "_id": "mmr4ats6-s3qvckvfj",
+    "name": "Beginner Bot 2 - Circuit",
+    "email": "beginner.bot.2.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.878Z"
+  },
+  {
+    "_id": "mmr4ats7-bilrs7ojh",
+    "name": "Beginner Bot 3 - Circuit",
+    "email": "beginner.bot.3.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.879Z"
+  },
+  {
+    "_id": "mmr4ats9-ltoz67kmq",
+    "name": "Intermediate Bot 1 - Circuit",
+    "email": "intermediate.bot.1.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.881Z"
+  },
+  {
+    "_id": "mmr4atsb-f0iqe6lz7",
+    "name": "Intermediate Bot 2 - Circuit",
+    "email": "intermediate.bot.2.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.883Z"
+  },
+  {
+    "_id": "mmr4atsd-38wwdlqdt",
+    "name": "Intermediate Bot 3 - Circuit",
+    "email": "intermediate.bot.3.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.885Z"
+  },
+  {
+    "_id": "mmr4atse-f12yt05k5",
+    "name": "Advanced Bot 1 - Circuit",
+    "email": "advanced.bot.1.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.886Z"
+  },
+  {
+    "_id": "mmr4atsh-t2z25p5cn",
+    "name": "Advanced Bot 2 - Circuit",
+    "email": "advanced.bot.2.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.889Z"
+  },
+  {
+    "_id": "mmr4atsi-2msaky70h",
+    "name": "Advanced Bot 3 - Circuit",
+    "email": "advanced.bot.3.-.circuit@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.890Z"
+  },
+  {
+    "_id": "mmr4atsk-k3jatbit4",
+    "name": "Beginner Bot 1 - Music",
+    "email": "beginner.bot.1.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.892Z"
+  },
+  {
+    "_id": "mmr4atsl-qb38gauro",
+    "name": "Beginner Bot 2 - Music",
+    "email": "beginner.bot.2.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.893Z"
+  },
+  {
+    "_id": "mmr4atsm-vw7xulcx7",
+    "name": "Beginner Bot 3 - Music",
+    "email": "beginner.bot.3.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.894Z"
+  },
+  {
+    "_id": "mmr4atsn-4p08m8oyf",
+    "name": "Intermediate Bot 1 - Music",
+    "email": "intermediate.bot.1.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.895Z"
+  },
+  {
+    "_id": "mmr4atsp-fwrpby7e5",
+    "name": "Intermediate Bot 2 - Music",
+    "email": "intermediate.bot.2.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.897Z"
+  },
+  {
+    "_id": "mmr4atsr-2w6ivhn4a",
+    "name": "Intermediate Bot 3 - Music",
+    "email": "intermediate.bot.3.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.899Z"
+  },
+  {
+    "_id": "mmr4atst-brym9zv69",
+    "name": "Advanced Bot 1 - Music",
+    "email": "advanced.bot.1.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.901Z"
+  },
+  {
+    "_id": "mmr4atsv-tiz4tbpv6",
+    "name": "Advanced Bot 2 - Music",
+    "email": "advanced.bot.2.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.903Z"
+  },
+  {
+    "_id": "mmr4atsx-m9si2s054",
+    "name": "Advanced Bot 3 - Music",
+    "email": "advanced.bot.3.-.music@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.905Z"
+  },
+  {
+    "_id": "mmr4atsz-g5k8agq0s",
+    "name": "Beginner Bot 1 - Musical",
+    "email": "beginner.bot.1.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.907Z"
+  },
+  {
+    "_id": "mmr4att0-17boi2jzr",
+    "name": "Beginner Bot 2 - Musical",
+    "email": "beginner.bot.2.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.908Z"
+  },
+  {
+    "_id": "mmr4att1-2orbrkpsf",
+    "name": "Beginner Bot 3 - Musical",
+    "email": "beginner.bot.3.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.909Z"
+  },
+  {
+    "_id": "mmr4att2-2eh9fa8lx",
+    "name": "Intermediate Bot 1 - Musical",
+    "email": "intermediate.bot.1.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.910Z"
+  },
+  {
+    "_id": "mmr4att4-hvkrzzohg",
+    "name": "Intermediate Bot 2 - Musical",
+    "email": "intermediate.bot.2.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.912Z"
+  },
+  {
+    "_id": "mmr4att6-j1b1zm1ps",
+    "name": "Intermediate Bot 3 - Musical",
+    "email": "intermediate.bot.3.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.914Z"
+  },
+  {
+    "_id": "mmr4att8-n2z4ihpcf",
+    "name": "Advanced Bot 1 - Musical",
+    "email": "advanced.bot.1.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.916Z"
+  },
+  {
+    "_id": "mmr4atta-9j11wlwvq",
+    "name": "Advanced Bot 2 - Musical",
+    "email": "advanced.bot.2.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.918Z"
+  },
+  {
+    "_id": "mmr4attc-nbmoipiit",
+    "name": "Advanced Bot 3 - Musical",
+    "email": "advanced.bot.3.-.musical@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.920Z"
+  },
+  {
+    "_id": "mmr4atte-1f4ce3zsh",
+    "name": "Beginner Bot 1 - Speech",
+    "email": "beginner.bot.1.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.922Z"
+  },
+  {
+    "_id": "mmr4atth-4vqdaw51d",
+    "name": "Beginner Bot 2 - Speech",
+    "email": "beginner.bot.2.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.925Z"
+  },
+  {
+    "_id": "mmr4atti-eat8jr0g1",
+    "name": "Beginner Bot 3 - Speech",
+    "email": "beginner.bot.3.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.926Z"
+  },
+  {
+    "_id": "mmr4attj-c5ksodpko",
+    "name": "Intermediate Bot 1 - Speech",
+    "email": "intermediate.bot.1.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.927Z"
+  },
+  {
+    "_id": "mmr4attl-i90etlc55",
+    "name": "Intermediate Bot 2 - Speech",
+    "email": "intermediate.bot.2.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.929Z"
+  },
+  {
+    "_id": "mmr4attn-7dhtkxvdg",
+    "name": "Intermediate Bot 3 - Speech",
+    "email": "intermediate.bot.3.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.931Z"
+  },
+  {
+    "_id": "mmr4attp-macwhh92i",
+    "name": "Advanced Bot 1 - Speech",
+    "email": "advanced.bot.1.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.933Z"
+  },
+  {
+    "_id": "mmr4attr-na6cgw9r9",
+    "name": "Advanced Bot 2 - Speech",
+    "email": "advanced.bot.2.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.935Z"
+  },
+  {
+    "_id": "mmr4attt-1fnp41f4l",
+    "name": "Advanced Bot 3 - Speech",
+    "email": "advanced.bot.3.-.speech@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.937Z"
+  },
+  {
+    "_id": "mmr4attw-atw6or7cx",
+    "name": "Beginner Bot 1 - Teaching",
+    "email": "beginner.bot.1.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.940Z"
+  },
+  {
+    "_id": "mmr4attx-29yqe9qat",
+    "name": "Beginner Bot 2 - Teaching",
+    "email": "beginner.bot.2.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.941Z"
+  },
+  {
+    "_id": "mmr4atty-l5fes41m2",
+    "name": "Beginner Bot 3 - Teaching",
+    "email": "beginner.bot.3.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.942Z"
+  },
+  {
+    "_id": "mmr4attz-zw99yyui9",
+    "name": "Intermediate Bot 1 - Teaching",
+    "email": "intermediate.bot.1.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.943Z"
+  },
+  {
+    "_id": "mmr4atu2-b71aod8e3",
+    "name": "Intermediate Bot 2 - Teaching",
+    "email": "intermediate.bot.2.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.946Z"
+  },
+  {
+    "_id": "mmr4atu4-klrutizdw",
+    "name": "Intermediate Bot 3 - Teaching",
+    "email": "intermediate.bot.3.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.948Z"
+  },
+  {
+    "_id": "mmr4atu6-1050fmsi7",
+    "name": "Advanced Bot 1 - Teaching",
+    "email": "advanced.bot.1.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.950Z"
+  },
+  {
+    "_id": "mmr4atu9-kxxizky2l",
+    "name": "Advanced Bot 2 - Teaching",
+    "email": "advanced.bot.2.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.953Z"
+  },
+  {
+    "_id": "mmr4atub-19sr7iuos",
+    "name": "Advanced Bot 3 - Teaching",
+    "email": "advanced.bot.3.-.teaching@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.955Z"
+  },
+  {
+    "_id": "mmr4atud-3od9e73ga",
+    "name": "Beginner Bot 1 - Yoga",
+    "email": "beginner.bot.1.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.957Z"
+  },
+  {
+    "_id": "mmr4atue-ogqw01lud",
+    "name": "Beginner Bot 2 - Yoga",
+    "email": "beginner.bot.2.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.958Z"
+  },
+  {
+    "_id": "mmr4atuf-kb4znm8yk",
+    "name": "Beginner Bot 3 - Yoga",
+    "email": "beginner.bot.3.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Beginner bot for testing",
+    "createdAt": "2026-03-15T02:10:31.959Z"
+  },
+  {
+    "_id": "mmr4atuh-53y3ygyke",
+    "name": "Intermediate Bot 1 - Yoga",
+    "email": "intermediate.bot.1.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.961Z"
+  },
+  {
+    "_id": "mmr4atuj-kyeoxo8xt",
+    "name": "Intermediate Bot 2 - Yoga",
+    "email": "intermediate.bot.2.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.963Z"
+  },
+  {
+    "_id": "mmr4atul-nil31wgbs",
+    "name": "Intermediate Bot 3 - Yoga",
+    "email": "intermediate.bot.3.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Intermediate bot for testing",
+    "createdAt": "2026-03-15T02:10:31.965Z"
+  },
+  {
+    "_id": "mmr4atuo-5fz1al033",
+    "name": "Advanced Bot 1 - Yoga",
+    "email": "advanced.bot.1.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.968Z"
+  },
+  {
+    "_id": "mmr4atuq-dz6ahrtrv",
+    "name": "Advanced Bot 2 - Yoga",
+    "email": "advanced.bot.2.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.970Z"
+  },
+  {
+    "_id": "mmr4atus-gb5c4166r",
+    "name": "Advanced Bot 3 - Yoga",
+    "email": "advanced.bot.3.-.yoga@bot.com",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "role": "candidate",
+    "bio": "Automated Advanced bot for testing",
+    "createdAt": "2026-03-15T02:10:31.972Z"
+  },
+  {
+    "_id": "mmr4atuv-devyuvo7n",
+    "name": "SkillBuster Admin",
+    "email": "admin@skillbuster.io",
+    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
     "role": "employer",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:48:06.625Z"
+    "bio": "Lead Overseer",
+    "createdAt": "2026-03-15T02:10:31.975Z"
   },
   {
-    "_id": "mmqqpsf5-x80t7azlr",
-    "name": "Final Test",
-    "email": "final_test@test.com",
-    "password": "$2a$12$BgIn7HjmFSutVChG.YweJuPiOC05BVTdBtxVESGAgurnHFz55i1py",
+    "_id": "mmr4dczx-n0wnvmabb",
+    "name": "11111111",
+    "email": "test@gmail.com",
+    "password": "$2a$12$7itXe8yHjo8tcsIsCB72mOd62ca6bHIBVSU.2YBnewKA03MYHqyLq",
     "role": "candidate",
     "skills": [],
     "bio": "",
-    "createdAt": "2026-03-14T19:50:15.329Z"
+    "createdAt": "2026-03-15T02:12:30.093Z"
   },
   {
-    "_id": "mmqqtp8p-zmnamgqmd",
-    "name": "Candidate Test",
-    "email": "candidate_cv_test_123@test.com",
-    "password": "$2a$12$gCTot7AOxAfW6nGeiTENF.1JDlCoVAZdGz.kv7.JscDL86eKtlEau",
+    "_id": "mmr8o5lz-vigm4ar87",
+    "name": "jesh",
+    "email": "dongdevil10101@gmail.com",
+    "password": "$2a$12$6waxpqKOjq/hhKqd.DVtnu7VedFtHpG4qVFIrdFfnipGUhnmJ4eli",
     "role": "candidate",
     "skills": [],
     "bio": "",
-    "createdAt": "2026-03-14T19:53:17.833Z"
-  },
-  {
-    "_id": "mmqqwnbv-cok5lqic3",
-    "name": "Test Candidate",
-    "email": "candidate_cv_test_456@test.com",
-    "password": "$2a$12$0HGq.C6W7PchLS6O3HRdpOZ.m0zi5/7oZ0y6Uq9zvwj0JSZTbBK0W",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:55:35.323Z"
-  },
-  {
-    "_id": "mmqqy6fs-lggibtd2w",
-    "name": "Final Candidate",
-    "email": "candidate_cv_test_final@test.com",
-    "password": "$2a$12$cf6xCnuZ1QZ/EoP51/RR9urtj0I.YTLgSmgGKXddfuQqkhzNLmEYK",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:56:46.744Z"
-  },
-  {
-    "_id": "mmqr28o4-ngjlj90eq",
-    "name": "Test Candidate One",
-    "email": "test_cand_1@test.com",
-    "password": "$2a$12$WeOfZqcDsi4lL9kBwc4vD.SmayNfCuvdZblERtKhZWHpH4B2e24Xq",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T19:59:56.260Z"
-  },
-  {
-    "_id": "mmqr5lpy-subbqloiq",
-    "name": "Test Cand",
-    "email": "testcand@test.com",
-    "password": "$2a$12$n6fRYUV9w4tty0DU77pdLeknojQFPcboVCyyn1GHHTOPSzdbqeASy",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-14T20:02:33.142Z"
+    "createdAt": "2026-03-15T04:12:52.199Z"
   }
 ]

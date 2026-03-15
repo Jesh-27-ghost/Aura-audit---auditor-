@@ -58,7 +58,7 @@ export default function VerifyBadge() {
                         </h1>
                         <p style={{ color: 'var(--text-secondary)', marginTop: '0.5rem' }}>
                             {result.valid
-                                ? 'This is an authentic SkillProof verified skill badge'
+                                ? 'This is an authentic SkillBuster verified skill badge'
                                 : 'This badge ID does not exist in our system'
                             }
                         </p>
@@ -174,7 +174,7 @@ export default function VerifyBadge() {
                                 Badge ID: {result.badge.badgeId}
                             </p>
                             <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
-                                Powered by SkillProof × Gemini Vision AI
+                                Powered by SkillBuster × Gemini Vision AI
                             </p>
                         </div>
                     </>
@@ -183,7 +183,7 @@ export default function VerifyBadge() {
                 {!result.valid && (
                     <div style={{ textAlign: 'center', marginTop: '1rem' }}>
                         <Link to="/" className="btn btn-primary">
-                            Go to SkillProof
+                            Go to SkillBuster
                         </Link>
                     </div>
                 )}

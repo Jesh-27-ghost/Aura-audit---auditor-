@@ -2,7 +2,7 @@
  * Prompt for generating adaptive skill assessments based on candidate profile
  */
 const getAdaptiveAssessmentPrompt = (candidateProfile, selectedSkills, testConfig) => {
-    const { testType = 'Mixed', numberOfQuestions = 5 } = testConfig || {};
+    const { testType = 'Mixed', numberOfQuestions = 5, timeLimitMinutes = 30 } = testConfig || {};
 
     // Build skill context from the profile
     const skillContext = selectedSkills.map(skill => {
@@ -10,51 +10,71 @@ const getAdaptiveAssessmentPrompt = (candidateProfile, selectedSkills, testConfi
             s => s.skillName.toLowerCase() === skill.toLowerCase()
         );
         if (profileSkill) {
-            return `- ${profileSkill.skillName}: ${profileSkill.estimatedYears} years exp, ${profileSkill.proficiencyLevel} level. Evidence: "${profileSkill.evidenceFromCV}"`;
+            return `- ${profileSkill.skillName}: ${profileSkill.estimatedYears} years experience, ${profileSkill.proficiencyLevel} level. Evidence: "${profileSkill.evidenceFromCV}"`;
         }
-        return `- ${skill}: Not found in profile (Assumed Beginner)`;
+        return `- ${skill}: No prior experience found in CV (treat as Beginner)`;
     }).join('\n');
 
     return `
-You are a senior technical interviewer designing a custom skill assessment.
-Generate ${numberOfQuestions} questions of type "${testType}" tailored to the candidate's specific background.
+You are a senior technical interviewer creating a personalized skill assessment.
+Generate ${numberOfQuestions} assessment questions/tasks that are precisely calibrated to the candidate's experience level.
 
 ### CANDIDATE PROFILE:
-- Name: ${candidateProfile.name}
-- Role: ${candidateProfile.primaryRole}
-- Total Experience: ${candidateProfile.totalYearsExperience} years
+- Name: ${candidateProfile.name || 'Unknown'}
+- Primary Role: ${candidateProfile.primaryRole || 'Developer'}
+- Total Experience: ${candidateProfile.totalYearsExperience || 0} years
 
-### SKILLS TO ASSESS:
+### SKILLS TO ASSESS (with experience data from their CV):
 ${skillContext}
 
-### DIFFICULTY MAPPING RULES (STRICTLY FOLLOW):
-- 0-1 year (Beginner): Basic MCQ, Terminology, Simple Concepts
-- 1-3 years (Junior): Conceptual Questions, Simple Practical Tasks
-- 3-5 years (Intermediate): Scenario-Based Questions, Debugging Tasks, Applied Problems
-- 5-8 years (Advanced): Complex Problem Solving, System Design Basics, Optimization Challenges
-- 8+ years (Expert): Architecture Design, Strategy Questions, Advanced Case Studies
+### TIME LIMIT: ${timeLimitMinutes} minutes
 
-### QUESTION TYPES TO INCLUDE:
-Choose based on "${testType}" and candidate level: Conceptual, Scenarios, Coding, Debugging, architecture, or Problem-solving.
+### DIFFICULTY MAPPING RULES (STRICTLY FOLLOW):
+| Experience | Level | Question Types |
+|------------|-------|---------------|
+| 0-1 year   | Beginner | Basic MCQ, Terminology, Simple Concepts, "What is X?" |
+| 1-3 years  | Junior | Conceptual Questions, Simple Practical Tasks, Code Reading |
+| 3-5 years  | Intermediate | Scenario-Based Questions, Debugging Tasks, Applied Problems |
+| 5-8 years  | Advanced | Complex Problem Solving, System Design Basics, Optimization |
+| 8+ years   | Expert | Architecture Design, Strategy Questions, Advanced Case Studies |
+
+### TEST TYPE PREFERENCE: ${testType}
+Available types: MCQ, Coding, Scenario, Debugging, Case Study, Short Answer
 
 ### REQUIRED OUTPUT FORMAT (JSON ONLY):
 {
-  "skill": "${selectedSkills.join(', ')}",
-  "difficultyLevel": "Adaptive",
+  "assessmentTitle": "Adaptive ${selectedSkills[0] || 'Skill'} Assessment",
+  "candidateName": "${candidateProfile.name || 'Candidate'}",
+  "totalQuestions": ${numberOfQuestions},
+  "estimatedDuration": "${timeLimitMinutes} minutes",
   "questions": [
     {
-      "questionType": "MCQ | Coding | Scenario | Debugging | Case Study",
-      "question": "string",
-      "expectedSkillsEvaluated": "string",
-      "difficulty": "Beginner | Intermediate | Advanced | Expert"
+      "questionNumber": 1,
+      "skill": "React.js",
+      "questionType": "Scenario",
+      "difficulty": "Intermediate",
+      "basedOnExperience": "3 years",
+      "question": "Given a React component that re-renders excessively...",
+      "expectedSkillsEvaluated": "React performance optimization, useMemo, useCallback",
+      "evaluationCriteria": "Identifies the cause and proposes at least 2 optimization strategies"
     }
-  ]
+  ],
+  "difficultyDistribution": {
+    "Beginner": 1,
+    "Junior": 1,
+    "Intermediate": 2,
+    "Advanced": 1,
+    "Expert": 0
+  }
 }
 
-### RULES:
-- Ensure questions evaluate both theoretical knowledge and practical application.
-- Adjust complexity dynamically based on the tiers above.
-- Return ONLY valid JSON. No markdown fences.
+### CRITICAL RULES:
+1. Each question's difficulty MUST match the candidate's experience in that specific skill.
+2. Questions should feel like real interview questions, not textbook exercises.
+3. Mix question types for a balanced assessment.
+4. Include practical, real-world scenarios over theoretical trivia.
+5. The assessment should be completable within the time limit.
+6. Return valid JSON only. No extra text.
 `;
 };
 

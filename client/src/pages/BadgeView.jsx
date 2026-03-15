@@ -48,7 +48,7 @@ export default function BadgeView() {
     const handleShare = async () => {
         if (navigator.share) {
             await navigator.share({
-                title: `SkillProof Badge - ${badge.skillName}`,
+                title: `SkillBuster Badge - ${badge.skillName}`,
                 text: `${badge.candidateName} earned a verified ${badge.skillLevel} badge in ${badge.skillName}!`,
                 url: verifyUrl
             });

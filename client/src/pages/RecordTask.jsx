@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { submitAssessment, getSkills } from '../api';
 import toast from 'react-hot-toast';
 import { Video, Square, Upload, Camera, Monitor, Sparkles } from 'lucide-react';
+import AIAnalysisOverlay from '../components/AIAnalysisOverlay';
+import ConfidenceSlider from '../components/ConfidenceSlider';
 
 export default function RecordTask() {
     const [skills, setSkills] = useState([]);
@@ -14,6 +16,7 @@ export default function RecordTask() {
     const [timer, setTimer] = useState(0);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [recordingMode, setRecordingMode] = useState('screen'); // 'screen' or 'camera'
+    const [confidenceValue, setConfidenceValue] = useState(50);
 
     const mediaRecorderRef = useRef(null);
     const streamRef = useRef(null);
@@ -145,6 +148,7 @@ export default function RecordTask() {
         formData.append('video', recordedBlob, 'skill-recording.webm');
         formData.append('skillName', selectedSkill);
         formData.append('industry', selectedIndustry);
+        formData.append('confidenceValue', String(confidenceValue));
 
         try {
             const { data } = await submitAssessment(formData);
@@ -154,7 +158,15 @@ export default function RecordTask() {
             }
             navigate(`/results/${data.assessment._id}`);
         } catch (err) {
-            toast.error(err.response?.data?.message || 'Assessment failed. Please try again.');
+            const errorData = err.response?.data;
+            const errorMsg = errorData?.error || errorData?.message || 'Assessment failed.';
+
+            if (errorData?.retryable) {
+                toast.error(errorMsg, { duration: 8000 });
+                toast('You can try again in a few moments.', { icon: '💡', duration: 5000 });
+            } else {
+                toast.error(errorMsg);
+            }
         } finally {
             setIsSubmitting(false);
         }
@@ -219,6 +231,10 @@ export default function RecordTask() {
                     </div>
                 </div>
 
+                <div style={{ marginBottom: '2rem' }}>
+                    <ConfidenceSlider value={confidenceValue} onChange={setConfidenceValue} />
+                </div>
+
                 {/* Video Preview */}
                 <div className="video-preview" id="video-preview">
                     {recordedUrl ? (
@@ -266,17 +282,8 @@ export default function RecordTask() {
                     )}
                 </div>
 
-                {/* Submitting State */}
-                {isSubmitting && (
-                    <div className="loading-container" style={{ minHeight: 'auto', padding: '2rem 0' }}>
-                        <div className="spinner"></div>
-                        <p className="loading-text">
-                            <span className="gradient-text">Gemini is evaluating your skill...</span>
-                            <br />
-                            <span style={{ fontSize: '0.85rem' }}>This may take up to 30 seconds</span>
-                        </p>
-                    </div>
-                )}
+                {/* AI Analysis Overlay */}
+                <AIAnalysisOverlay visible={isSubmitting} />
 
                 {/* Tips */}
                 {!isSubmitting && (

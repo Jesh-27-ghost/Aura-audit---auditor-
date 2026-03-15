@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Navbar from './components/Navbar';
+import PageLoader from './components/PageLoader';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -11,12 +12,15 @@ import ScoreCardPage from './pages/ScoreCardPage';
 import BadgeView from './pages/BadgeView';
 import EmployerDashboard from './pages/EmployerDashboard';
 import VerifyBadge from './pages/VerifyBadge';
-import CVUpload from './pages/CVUpload';
 import Leaderboard from './pages/Leaderboard';
 import AnalyticsDashboard from './pages/AnalyticsDashboard';
 import Walkthrough from './pages/Walkthrough';
-// import SkillArena from './pages/SkillArena';
 import PuzzleArena from './pages/PuzzleArena';
+import EmployerTasks from './pages/EmployerTasks';
+import TaskSubmissions from './pages/TaskSubmissions';
+import CandidateTaskList from './pages/CandidateTaskList';
+import CandidateTaskTest from './pages/CandidateTaskTest';
+import CandidateTaskSubmissionView from './pages/CandidateTaskSubmissionView';
 
 function ProtectedRoute({ children, role }) {
     const { user, loading } = useAuth();
@@ -38,6 +42,7 @@ function ProtectedRoute({ children, role }) {
 function AppRoutes() {
     return (
         <>
+
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -70,18 +75,35 @@ function AppRoutes() {
                     }
                 />
                 <Route
-                    path="/record"
+                    path="/tasks"
                     element={
                         <ProtectedRoute role="candidate">
-                            <RecordTask />
+                            <CandidateTaskList />
+                        </ProtectedRoute>
+                    }
+                />
+
+                <Route
+                    path="/tasks/:taskId/test"
+                    element={
+                        <ProtectedRoute role="candidate">
+                            <CandidateTaskTest />
                         </ProtectedRoute>
                     }
                 />
                 <Route
-                    path="/cv-upload"
+                    path="/tasks/submission/:id"
                     element={
                         <ProtectedRoute role="candidate">
-                            <CVUpload />
+                            <CandidateTaskSubmissionView />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/record"
+                    element={
+                        <ProtectedRoute role="candidate">
+                            <RecordTask />
                         </ProtectedRoute>
                     }
                 />
@@ -102,6 +124,22 @@ function AppRoutes() {
                         </ProtectedRoute>
                     }
                 />
+                <Route
+                    path="/employer/tasks"
+                    element={
+                        <ProtectedRoute role="employer">
+                            <EmployerTasks />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/employer/tasks/:taskId/submissions"
+                    element={
+                        <ProtectedRoute role="employer">
+                            <TaskSubmissions />
+                        </ProtectedRoute>
+                    }
+                />
                 <Route path="/verify/:badgeId" element={<VerifyBadge />} />
             </Routes>
         </>
@@ -112,6 +150,7 @@ export default function App() {
     return (
         <AuthProvider>
             <Router>
+                <PageLoader />
                 <AppRoutes />
                 <Toaster
                     position="top-right"

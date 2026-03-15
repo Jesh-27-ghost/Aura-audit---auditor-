@@ -1,7 +1,7 @@
 {
   "name": "skillproof-server",
   "version": "1.0.0",
-  "description": "SkillProof Backend - AI-Powered Skill Verification",
+  "description": "SkillBuster Backend - AI-Powered Skill Verification",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
