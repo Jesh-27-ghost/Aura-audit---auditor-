@@ -15,14 +15,19 @@ export default function RecordTask() {
     const [recordedUrl, setRecordedUrl] = useState(null);
     const [timer, setTimer] = useState(0);
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const [recordingMode, setRecordingMode] = useState('screen'); // 'screen' or 'camera'
+    const [recordingMode, setRecordingMode] = useState('dual'); // 'screen', 'camera', or 'dual'
     const [confidenceValue, setConfidenceValue] = useState(50);
 
     const mediaRecorderRef = useRef(null);
     const streamRef = useRef(null);
+    const screenStreamRef = useRef(null);
+    const cameraStreamRef = useRef(null);
     const videoRef = useRef(null);
     const previewRef = useRef(null);
+    const cameraPreviewRef = useRef(null);
+    const canvasRef = useRef(null);
     const timerRef = useRef(null);
+    const animationFrameRef = useRef(null);
     const chunksRef = useRef([]);
     const navigate = useNavigate();
 
@@ -42,14 +47,26 @@ export default function RecordTask() {
         fetchSkills();
 
         return () => {
-            if (streamRef.current) {
-                streamRef.current.getTracks().forEach(track => track.stop());
-            }
+            stopStream();
             if (timerRef.current) clearInterval(timerRef.current);
+            if (animationFrameRef.current) cancelAnimationFrame(animationFrameRef.current);
         };
     }, []);
 
+    const stopStream = () => {
+        if (streamRef.current) {
+            streamRef.current.getTracks().forEach(track => track.stop());
+        }
+        if (screenStreamRef.current) {
+            screenStreamRef.current.getTracks().forEach(track => track.stop());
+        }
+        if (cameraStreamRef.current) {
+            cameraStreamRef.current.getTracks().forEach(track => track.stop());
+        }
+    };
+
     const startRecording = async () => {
+        let isActuallyRecording = true;
         try {
             chunksRef.current = [];
             let stream;
@@ -59,7 +76,6 @@ export default function RecordTask() {
                     video: { mediaSource: 'screen' },
                     audio: true
                 });
-                // Try to add mic audio
                 try {
                     const audioStream = await navigator.mediaDevices.getUserMedia({ audio: true });
                     const tracks = [...displayStream.getTracks(), ...audioStream.getAudioTracks()];
@@ -67,11 +83,75 @@ export default function RecordTask() {
                 } catch {
                     stream = displayStream;
                 }
-            } else {
+            } else if (recordingMode === 'camera') {
                 stream = await navigator.mediaDevices.getUserMedia({
                     video: { facingMode: 'user', width: 1280, height: 720 },
                     audio: true
                 });
+            } else if (recordingMode === 'dual') {
+                // Dual mode: Screen + Camera PiP
+                const displayStream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
+                const cameraStream = await navigator.mediaDevices.getUserMedia({ video: true, audio: true });
+
+                screenStreamRef.current = displayStream;
+                cameraStreamRef.current = cameraStream;
+
+                // Create hidden video elements for internal processing
+                const vScreen = document.createElement('video');
+                vScreen.srcObject = displayStream;
+                await vScreen.play();
+
+                const vCamera = document.createElement('video');
+                vCamera.srcObject = cameraStream;
+                await vCamera.play();
+
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                canvas.width = 1280;
+                canvas.height = 720;
+
+                const draw = () => {
+                    if (!isActuallyRecording) return;
+                    
+                    // Draw Screen (Base)
+                    ctx.drawImage(vScreen, 0, 0, canvas.width, canvas.height);
+                    
+                    // Draw Camera (Overlay - PiP)
+                    const camWidth = 320;
+                    const camHeight = 180;
+                    const padding = 20;
+                    
+                    // Circular/Rounded clipping for premium look
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.roundRect(canvas.width - camWidth - padding, canvas.height - camHeight - padding, camWidth, camHeight, 15);
+                    ctx.clip();
+                    ctx.drawImage(vCamera, canvas.width - camWidth - padding, canvas.height - camHeight - padding, camWidth, camHeight);
+                    ctx.restore();
+                    
+                    // Border for PiP
+                    ctx.strokeStyle = '#6366f1';
+                    ctx.lineWidth = 3;
+                    ctx.stroke();
+
+                    // AI Sentinel Monitoring Indicator
+                    ctx.font = 'bold 20px Inter, sans-serif';
+                    ctx.fillStyle = '#10b981';
+                    ctx.fillText('● AI SENTINEL ACTIVE — MONITORING SCREEN & CAMERA', 40, 50);
+                    
+                    ctx.font = '14px Inter, sans-serif';
+                    ctx.fillStyle = 'rgba(255,255,255,0.7)';
+                    ctx.fillText('SkillBuster Forensic Integrity Protocol v2.5', 40, 75);
+
+                    animationFrameRef.current = requestAnimationFrame(draw);
+                };
+                draw();
+
+                const canvasStream = canvas.captureStream(30);
+                // Combine canvas video with camera audio
+                const tracks = [...canvasStream.getVideoTracks(), ...cameraStream.getAudioTracks()];
+                stream = new MediaStream(tracks);
+                canvasRef.current = canvas;
             }
 
             streamRef.current = stream;
@@ -83,7 +163,8 @@ export default function RecordTask() {
             const mediaRecorder = new MediaRecorder(stream, {
                 mimeType: MediaRecorder.isTypeSupported('video/webm;codecs=vp9')
                     ? 'video/webm;codecs=vp9'
-                    : 'video/webm'
+                    : 'video/webm',
+                videoBitsPerSecond: 2500000 
             });
 
             mediaRecorder.ondataavailable = (e) => {
@@ -91,10 +172,12 @@ export default function RecordTask() {
             };
 
             mediaRecorder.onstop = () => {
+                isActuallyRecording = false;
                 const blob = new Blob(chunksRef.current, { type: 'video/webm' });
                 setRecordedBlob(blob);
                 setRecordedUrl(URL.createObjectURL(blob));
-                stream.getTracks().forEach(track => track.stop());
+                stopStream();
+                if (animationFrameRef.current) cancelAnimationFrame(animationFrameRef.current);
             };
 
             mediaRecorderRef.current = mediaRecorder;
@@ -104,9 +187,9 @@ export default function RecordTask() {
 
             timerRef.current = setInterval(() => {
                 setTimer(prev => {
-                    if (prev >= 300) { // 5 minutes max
+                    if (prev >= 600) { // Increased to 10 minutes for dual mode
                         stopRecording();
-                        return 300;
+                        return 600;
                     }
                     return prev + 1;
                 });
@@ -114,6 +197,7 @@ export default function RecordTask() {
 
         } catch (err) {
             console.error('Recording error:', err);
+            stopStream();
             toast.error('Failed to access camera/screen. Please check permissions.');
         }
     };
@@ -123,6 +207,7 @@ export default function RecordTask() {
             mediaRecorderRef.current.stop();
         }
         if (timerRef.current) clearInterval(timerRef.current);
+        if (animationFrameRef.current) cancelAnimationFrame(animationFrameRef.current);
         setIsRecording(false);
     }, []);
 
@@ -131,6 +216,7 @@ export default function RecordTask() {
         setRecordedUrl(null);
         setTimer(0);
         if (previewRef.current) previewRef.current.srcObject = null;
+        stopStream();
     };
 
     const handleSubmit = async () => {
@@ -214,6 +300,13 @@ export default function RecordTask() {
                         <label>Recording Mode</label>
                         <div style={{ display: 'flex', gap: '8px' }}>
                             <button
+                                className={`role-option ${recordingMode === 'dual' ? 'selected' : ''}`}
+                                onClick={() => setRecordingMode('dual')}
+                                style={{ padding: '10px', fontSize: '0.85rem' }}
+                            >
+                                <Sparkles size={16} /> Dual
+                            </button>
+                            <button
                                 className={`role-option ${recordingMode === 'screen' ? 'selected' : ''}`}
                                 onClick={() => setRecordingMode('screen')}
                                 style={{ padding: '10px', fontSize: '0.85rem' }}
@@ -250,10 +343,19 @@ export default function RecordTask() {
                     ) : (
                         <div className="video-placeholder">
                             <div className="icon">
-                                {recordingMode === 'screen' ? <Monitor size={48} /> : <Camera size={48} />}
+                                {recordingMode === 'dual' ? (
+                                    <div style={{ position: 'relative' }}>
+                                        <Monitor size={48} />
+                                        <Camera size={24} style={{ position: 'absolute', bottom: -5, right: -5, background: 'var(--bg-card)', borderRadius: '4px', padding: '2px' }} />
+                                    </div>
+                                ) : recordingMode === 'screen' ? (
+                                    <Monitor size={48} />
+                                ) : (
+                                    <Camera size={48} />
+                                )}
                             </div>
                             <p>Click "Start Recording" to begin your skill demonstration</p>
-                            <p style={{ fontSize: '0.8rem', marginTop: '0.5rem' }}>Maximum 5 minutes allowed</p>
+                            <p style={{ fontSize: '0.8rem', marginTop: '0.5rem' }}>Maximum {recordingMode === 'dual' ? '10' : '5'} minutes allowed</p>
                         </div>
                     )}
                 </div>
@@ -292,10 +394,10 @@ export default function RecordTask() {
                             <Sparkles size={14} /> Pro Tips for Best Results
                         </p>
                         <ul style={{ fontSize: '0.82rem', color: 'var(--text-muted)', paddingLeft: '1.25rem', lineHeight: 1.8 }}>
-                            <li>For IT skills, use screen recording to capture your code</li>
+                            <li>Use <b>Dual Mode</b> for best assessment — captures your screen and face simultaneously</li>
                             <li>Narrate what you're doing — Gemini considers verbal explanations</li>
                             <li>Show your debug process, not just the final result</li>
-                            <li>Keep recording under 5 minutes for best analysis</li>
+                            <li>Keep recording under 10 minutes for best analysis</li>
                         </ul>
                     </div>
                 )}

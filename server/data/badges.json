@@ -1,1449 +1,617 @@
 [
   {
-    "_id": "mmr4atp9-ygxsivk3y",
-    "badgeId": "dd01a9e7-b590-4429-a354-52f8569d3fc2",
-    "candidateId": "mmr4atp7-64dmkdiih",
-    "assessmentId": "mmr4atp8-tycsmkb9y",
-    "candidateName": "Dr. Sarah Connor",
+    "_id": "mmraszfu-ppupmo8p5",
+    "badgeId": "d94cd030-9986-42ed-bb99-8e6d328ebfed",
+    "candidateId": "mmraszfs-jl7wb58o2",
+    "assessmentId": "mmraszft-krzx42vo1",
+    "candidateName": "Arjun Mehta",
     "skillName": "React Frontend Development",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 94,
+    "skillLevel": "Expert",
     "verifiedSkills": [
-      "React Frontend Development"
+      "React Frontend Development",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.773Z",
-    "createdAt": "2026-03-15T02:10:31.773Z"
+    "employerSummary": "Arjun Mehta demonstrated exceptional mastery in React Frontend Development. Their solution was architecturally sound, highly optimized, and followed every industry best practice. They are clearly ready for senior-level responsibilities.",
+    "issuedAt": "2026-03-06T05:12:36.713Z",
+    "createdAt": "2026-03-15T05:12:36.714Z"
   },
   {
-    "_id": "mmr4atpa-wda3ptbcq",
-    "badgeId": "e8d7729f-4c59-4b69-bde6-e513910def85",
-    "candidateId": "mmr4atp9-2bei5emya",
-    "assessmentId": "mmr4atpa-059na1azn",
-    "candidateName": "Marcus Wright",
+    "_id": "mmraszfv-f4ckr604t",
+    "badgeId": "cec37fd4-2b6b-4675-a7ee-9ab0773425c4",
+    "candidateId": "mmraszfv-vbjx7egci",
+    "assessmentId": "mmraszfv-ukeqka1a6",
+    "candidateName": "Elena Rodriguez",
     "skillName": "Node.js API Development",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 92,
+    "skillLevel": "Expert",
     "verifiedSkills": [
-      "Node.js API Development"
+      "Node.js API Development",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.774Z",
-    "createdAt": "2026-03-15T02:10:31.774Z"
+    "employerSummary": "Elena Rodriguez demonstrated exceptional mastery in Node.js API Development. Their solution was architecturally sound, highly optimized, and followed every industry best practice. They are clearly ready for senior-level responsibilities.",
+    "issuedAt": "2026-02-17T05:12:36.715Z",
+    "createdAt": "2026-03-15T05:12:36.715Z"
   },
   {
-    "_id": "mmr4atpb-0br4mk0qm",
-    "badgeId": "d91c3174-edfb-4f04-ade1-bbcbeb138b8e",
-    "candidateId": "mmr4atpa-w2nhl9ny7",
-    "assessmentId": "mmr4atpb-v16q746sx",
-    "candidateName": "Kyle Reese",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.775Z",
-    "createdAt": "2026-03-15T02:10:31.775Z"
-  },
-  {
-    "_id": "mmr4atpe-2gsujq999",
-    "badgeId": "49a1bb3d-7c96-4dc0-9955-3fc9539cd183",
-    "candidateId": "mmr4atpd-yejq6ctxq",
-    "assessmentId": "mmr4atpe-cyyruism0",
-    "candidateName": "Beginner Bot 3 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.778Z",
-    "createdAt": "2026-03-15T02:10:31.778Z"
-  },
-  {
-    "_id": "mmr4atpf-gcebxxkks",
-    "badgeId": "8ba1ea57-1f0e-442f-ba8b-770f5a1906f3",
-    "candidateId": "mmr4atpe-8rj4cybrb",
-    "assessmentId": "mmr4atpf-3ekiwp46g",
-    "candidateName": "Intermediate Bot 1 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.779Z",
-    "createdAt": "2026-03-15T02:10:31.779Z"
-  },
-  {
-    "_id": "mmr4atpg-uw9ony1da",
-    "badgeId": "9543ce1a-88c5-49a6-b4f2-7caf78845887",
-    "candidateId": "mmr4atpg-aglq8jr0n",
-    "assessmentId": "mmr4atpg-ptl7auwkc",
-    "candidateName": "Intermediate Bot 2 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.780Z",
-    "createdAt": "2026-03-15T02:10:31.780Z"
-  },
-  {
-    "_id": "mmr4atph-rdbhs5pu2",
-    "badgeId": "2c63debe-8ef1-4828-ad59-ca8d9a7cc549",
-    "candidateId": "mmr4atph-71huh80va",
-    "assessmentId": "mmr4atph-dim5bd8fb",
-    "candidateName": "Intermediate Bot 3 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.781Z",
-    "createdAt": "2026-03-15T02:10:31.781Z"
-  },
-  {
-    "_id": "mmr4atpj-3eahb4yvs",
-    "badgeId": "43818e49-5ee0-49df-a436-14fa234789bc",
-    "candidateId": "mmr4atpi-mbt3thzra",
-    "assessmentId": "mmr4atpj-9pzyrzrcj",
-    "candidateName": "Advanced Bot 1 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.783Z",
-    "createdAt": "2026-03-15T02:10:31.783Z"
-  },
-  {
-    "_id": "mmr4atpl-9fzjgxku8",
-    "badgeId": "12384c57-f2d4-4d3e-861d-370c5252e4e1",
-    "candidateId": "mmr4atpk-fd4wkw0kk",
-    "assessmentId": "mmr4atpk-oq3seiczw",
-    "candidateName": "Advanced Bot 2 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.785Z",
-    "createdAt": "2026-03-15T02:10:31.785Z"
-  },
-  {
-    "_id": "mmr4atpm-jixxrzu0r",
-    "badgeId": "0936ae74-ca91-4f0c-b6da-96a8ab762249",
-    "candidateId": "mmr4atpl-3hpb9m1kr",
-    "assessmentId": "mmr4atpm-ryjppuw10",
-    "candidateName": "Advanced Bot 3 - React",
-    "skillName": "React Frontend Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "React Frontend Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.786Z",
-    "createdAt": "2026-03-15T02:10:31.786Z"
-  },
-  {
-    "_id": "mmr4atpp-ollysqevi",
-    "badgeId": "ccf77cd1-13db-4cc2-9e62-ea17330c570f",
-    "candidateId": "mmr4atpo-y7vl1gx9s",
-    "assessmentId": "mmr4atpp-8yi3ohgs3",
-    "candidateName": "Intermediate Bot 1 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.789Z",
-    "createdAt": "2026-03-15T02:10:31.789Z"
-  },
-  {
-    "_id": "mmr4atpq-7mmqfrew2",
-    "badgeId": "2ad7f202-b202-4c83-94d4-62a790eab66a",
-    "candidateId": "mmr4atpq-tdvnv04yu",
-    "assessmentId": "mmr4atpq-wl7qwok7a",
-    "candidateName": "Intermediate Bot 2 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.790Z",
-    "createdAt": "2026-03-15T02:10:31.790Z"
-  },
-  {
-    "_id": "mmr4atps-da8giwipg",
-    "badgeId": "6e6f1443-d138-4ebd-b092-3849109555e4",
-    "candidateId": "mmr4atpr-kfbot1n2j",
-    "assessmentId": "mmr4atpr-oqay1tgde",
-    "candidateName": "Intermediate Bot 3 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.791Z",
-    "createdAt": "2026-03-15T02:10:31.792Z"
-  },
-  {
-    "_id": "mmr4atpt-y1j4h7540",
-    "badgeId": "2987aadf-ef21-4d5f-938a-b2f4d8b1a50f",
-    "candidateId": "mmr4atps-bro7l7buf",
-    "assessmentId": "mmr4atps-simnike78",
-    "candidateName": "Advanced Bot 1 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.793Z",
-    "createdAt": "2026-03-15T02:10:31.793Z"
-  },
-  {
-    "_id": "mmr4atpu-5m749khli",
-    "badgeId": "948e4eae-b5d6-489e-9ae8-8bfd3d2c8d70",
-    "candidateId": "mmr4atpt-wmw3cyb9b",
-    "assessmentId": "mmr4atpu-9v4aqosp0",
-    "candidateName": "Advanced Bot 2 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.794Z",
-    "createdAt": "2026-03-15T02:10:31.794Z"
-  },
-  {
-    "_id": "mmr4atpw-1qoras5ew",
-    "badgeId": "8ee7832b-6fe3-44ba-8f8f-b7295a106784",
-    "candidateId": "mmr4atpv-11n8sqes7",
-    "assessmentId": "mmr4atpw-dc5nl4foi",
-    "candidateName": "Advanced Bot 3 - Node.js",
-    "skillName": "Node.js API Development",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Node.js API Development"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.796Z",
-    "createdAt": "2026-03-15T02:10:31.796Z"
-  },
-  {
-    "_id": "mmr4atq0-we2i6x7mb",
-    "badgeId": "d9f05bc6-4bf0-442c-a4ab-41eabd3e4732",
-    "candidateId": "mmr4atpz-f8eibbtst",
-    "assessmentId": "mmr4atpz-3l4rp2589",
-    "candidateName": "Intermediate Bot 1 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.800Z",
-    "createdAt": "2026-03-15T02:10:31.800Z"
-  },
-  {
-    "_id": "mmr4atq1-sqfq8mg0s",
-    "badgeId": "83208b04-c7a7-4435-851d-b64b8694bad5",
-    "candidateId": "mmr4atq1-lyml49lji",
-    "assessmentId": "mmr4atq1-jzdkseimv",
-    "candidateName": "Intermediate Bot 2 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.801Z",
-    "createdAt": "2026-03-15T02:10:31.801Z"
-  },
-  {
-    "_id": "mmr4atq3-wtivnfvn0",
-    "badgeId": "b89b983e-fa28-471c-a46d-cf06c4673add",
-    "candidateId": "mmr4atq2-7w9s68pco",
-    "assessmentId": "mmr4atq2-8fbfj1kmj",
-    "candidateName": "Intermediate Bot 3 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.803Z",
-    "createdAt": "2026-03-15T02:10:31.803Z"
-  },
-  {
-    "_id": "mmr4atqa-r6m37p6x6",
-    "badgeId": "b739c9ef-45cb-4a58-bddd-9fb8593c0e42",
-    "candidateId": "mmr4atq4-ccw2ujnao",
-    "assessmentId": "mmr4atq4-6bympk9cj",
-    "candidateName": "Advanced Bot 1 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.810Z",
-    "createdAt": "2026-03-15T02:10:31.810Z"
-  },
-  {
-    "_id": "mmr4atqc-hd1ocgp9t",
-    "badgeId": "fe3ebf94-5601-4f4f-b12c-a1980479975b",
-    "candidateId": "mmr4atqb-e51st2pwf",
-    "assessmentId": "mmr4atqb-dvh64yubk",
-    "candidateName": "Advanced Bot 2 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.812Z",
-    "createdAt": "2026-03-15T02:10:31.812Z"
-  },
-  {
-    "_id": "mmr4atqd-zoehyz3kx",
-    "badgeId": "f05a6f3f-dadc-4100-b9e6-eeca40c72fd3",
-    "candidateId": "mmr4atqc-xgzcy0u0s",
-    "assessmentId": "mmr4atqd-jwr4az6i9",
-    "candidateName": "Advanced Bot 3 - JavaScript",
-    "skillName": "JavaScript Debugging",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "JavaScript Debugging"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.813Z",
-    "createdAt": "2026-03-15T02:10:31.813Z"
-  },
-  {
-    "_id": "mmr4atqh-69v4tef2b",
-    "badgeId": "efe0cdaf-dac6-483b-8723-bda89fea7672",
-    "candidateId": "mmr4atqg-ys06hvgap",
-    "assessmentId": "mmr4atqg-jhzwt2q1j",
-    "candidateName": "Intermediate Bot 1 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.817Z",
-    "createdAt": "2026-03-15T02:10:31.817Z"
-  },
-  {
-    "_id": "mmr4atqj-73dxsz3p9",
-    "badgeId": "27f35a8a-d34e-4bab-95c4-7591ccf4c913",
-    "candidateId": "mmr4atqi-vbvne941s",
-    "assessmentId": "mmr4atqi-kekd5799b",
-    "candidateName": "Intermediate Bot 2 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.818Z",
-    "createdAt": "2026-03-15T02:10:31.819Z"
-  },
-  {
-    "_id": "mmr4atqk-mp7ugt0uu",
-    "badgeId": "1666e725-0f77-408e-9a61-7f1979768faf",
-    "candidateId": "mmr4atqj-6o5j2s3l1",
-    "assessmentId": "mmr4atqk-map74725b",
-    "candidateName": "Intermediate Bot 3 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.820Z",
-    "createdAt": "2026-03-15T02:10:31.820Z"
-  },
-  {
-    "_id": "mmr4atql-6t2fjhg2i",
-    "badgeId": "9b07161f-ed75-4050-acf8-adab9a06f82e",
-    "candidateId": "mmr4atql-4cjp3z9fs",
-    "assessmentId": "mmr4atql-ppx4bxfvg",
-    "candidateName": "Advanced Bot 1 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.821Z",
-    "createdAt": "2026-03-15T02:10:31.821Z"
-  },
-  {
-    "_id": "mmr4atqn-ptlkl0zpc",
-    "badgeId": "e41e1dfd-09d0-4dc0-bb05-1e640fa09029",
-    "candidateId": "mmr4atqm-4pmza2bxa",
-    "assessmentId": "mmr4atqm-9uscdpmd9",
-    "candidateName": "Advanced Bot 2 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.823Z",
-    "createdAt": "2026-03-15T02:10:31.823Z"
-  },
-  {
-    "_id": "mmr4atqo-54fd5lbnv",
-    "badgeId": "b5aaa15e-3fca-425b-955d-7cfe38ab81ce",
-    "candidateId": "mmr4atqn-x9wi27ffv",
-    "assessmentId": "mmr4atqo-2ykurld1n",
-    "candidateName": "Advanced Bot 3 - SQL",
-    "skillName": "SQL Database Querying",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "SQL Database Querying"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.824Z",
-    "createdAt": "2026-03-15T02:10:31.824Z"
-  },
-  {
-    "_id": "mmr4atqs-xi6eos39y",
-    "badgeId": "fc03a110-a750-43c2-b638-0c2ce228b14b",
-    "candidateId": "mmr4atqr-fpg2sstah",
-    "assessmentId": "mmr4atqs-f0ugfqlc9",
-    "candidateName": "Intermediate Bot 1 - Python",
+    "_id": "mmraszfx-z6pl5mo6v",
+    "badgeId": "c59b537a-d217-498d-9300-b705455ace6e",
+    "candidateId": "mmraszfw-c1kwwqz1n",
+    "assessmentId": "mmraszfw-ki65qhpt2",
+    "candidateName": "Sarah Chen",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 95,
+    "skillLevel": "Expert",
     "verifiedSkills": [
-      "Python Scripting"
+      "Python Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.828Z",
-    "createdAt": "2026-03-15T02:10:31.828Z"
+    "employerSummary": "Sarah Chen demonstrated exceptional mastery in Python Scripting. Their solution was architecturally sound, highly optimized, and followed every industry best practice. They are clearly ready for senior-level responsibilities.",
+    "issuedAt": "2026-02-22T05:12:36.716Z",
+    "createdAt": "2026-03-15T05:12:36.717Z"
   },
   {
-    "_id": "mmr4atqu-90wefcy1v",
-    "badgeId": "b3a5c812-590b-44a5-9502-e44604af3e0a",
-    "candidateId": "mmr4atqt-6f6wiaivn",
-    "assessmentId": "mmr4atqt-w0ljr8fwp",
-    "candidateName": "Intermediate Bot 2 - Python",
+    "_id": "mmraszg0-xy29zc8h5",
+    "badgeId": "f4456695-1ac9-4900-8fd4-89754b32919b",
+    "candidateId": "mmraszfz-d9mlpzzhy",
+    "assessmentId": "mmraszg0-uxoov0gu5",
+    "candidateName": "Samantha King",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 74,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "React Frontend Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Samantha King is proficient in React Frontend Development and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-04T05:12:36.720Z",
+    "createdAt": "2026-03-15T05:12:36.720Z"
+  },
+  {
+    "_id": "mmraszg2-5ecosd67m",
+    "badgeId": "72de033c-fbca-4fdf-9813-67147f6059af",
+    "candidateId": "mmraszg1-jdlqgqv69",
+    "assessmentId": "mmraszg1-4vz1yj4t0",
+    "candidateName": "Betty Clark",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 76,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "React Frontend Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Betty Clark is proficient in React Frontend Development and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-01T05:12:36.721Z",
+    "createdAt": "2026-03-15T05:12:36.722Z"
+  },
+  {
+    "_id": "mmraszg3-er6rvvpze",
+    "badgeId": "e6fe46d8-1c7e-405c-9a86-fe808e3c426a",
+    "candidateId": "mmraszg2-ppmrunfze",
+    "assessmentId": "mmraszg3-bgp7s9k79",
+    "candidateName": "Nicole Lee",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 84,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "React Frontend Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Nicole Lee showed a strong command of React Frontend Development. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-14T05:12:36.723Z",
+    "createdAt": "2026-03-15T05:12:36.723Z"
+  },
+  {
+    "_id": "mmraszg4-l54xyuc5w",
+    "badgeId": "705bb8d1-c260-4e75-97c6-85f8221cc5f5",
+    "candidateId": "mmraszg4-43crzbieb",
+    "assessmentId": "mmraszg4-drqrjh3jh",
+    "candidateName": "Jason Hill",
+    "skillName": "React Frontend Development",
+    "industry": "IT / Software",
+    "overallScore": 83,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "React Frontend Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Jason Hill showed a strong command of React Frontend Development. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-15T05:12:36.724Z",
+    "createdAt": "2026-03-15T05:12:36.724Z"
+  },
+  {
+    "_id": "mmraszg9-copmol8bm",
+    "badgeId": "af256bcd-459d-46de-a759-56f7bed3acbf",
+    "candidateId": "mmraszg8-yb5bnq5ld",
+    "assessmentId": "mmraszg8-uqv2awjjl",
+    "candidateName": "Janet Thompson",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 71,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "Node.js API Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Janet Thompson is proficient in Node.js API Development and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-14T05:12:36.728Z",
+    "createdAt": "2026-03-15T05:12:36.729Z"
+  },
+  {
+    "_id": "mmraszgb-q2jvg5s2j",
+    "badgeId": "8440894e-e0cc-4489-b29b-67fd77d12f08",
+    "candidateId": "mmraszga-gua2ibz5e",
+    "assessmentId": "mmraszga-owaw74syo",
+    "candidateName": "Nicole Nguyen",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 71,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "Node.js API Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Nicole Nguyen is proficient in Node.js API Development and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-21T05:12:36.730Z",
+    "createdAt": "2026-03-15T05:12:36.731Z"
+  },
+  {
+    "_id": "mmraszgd-dryiw5zh8",
+    "badgeId": "d33f4e1c-1b2c-4295-87e6-1bdea6bae577",
+    "candidateId": "mmraszgc-ci2fx3o4c",
+    "assessmentId": "mmraszgc-l8q1bv4wf",
+    "candidateName": "Eric White",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 88,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "Node.js API Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Eric White showed a strong command of Node.js API Development. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-05T05:12:36.732Z",
+    "createdAt": "2026-03-15T05:12:36.733Z"
+  },
+  {
+    "_id": "mmraszge-iwtnm2bd4",
+    "badgeId": "d64c5075-6874-44e1-9d8d-85f397ebb981",
+    "candidateId": "mmraszgd-ijf66z69d",
+    "assessmentId": "mmraszge-g45naae81",
+    "candidateName": "Karen Harris",
+    "skillName": "Node.js API Development",
+    "industry": "IT / Software",
+    "overallScore": 81,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "Node.js API Development",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Karen Harris showed a strong command of Node.js API Development. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-02-17T05:12:36.733Z",
+    "createdAt": "2026-03-15T05:12:36.734Z"
+  },
+  {
+    "_id": "mmraszgi-47ijevz6a",
+    "badgeId": "1877617c-ecf0-4346-bcd6-a9bb4247ede5",
+    "candidateId": "mmraszgh-5b4mhje6u",
+    "assessmentId": "mmraszgi-r3i0l1rb4",
+    "candidateName": "Jacob Davis",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 71,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "JavaScript Debugging",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Jacob Davis is proficient in JavaScript Debugging and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-02T05:12:36.738Z",
+    "createdAt": "2026-03-15T05:12:36.738Z"
+  },
+  {
+    "_id": "mmraszgk-reab5drzv",
+    "badgeId": "b177a257-756d-464f-9aac-45298572bc3f",
+    "candidateId": "mmraszgj-ik24tbwea",
+    "assessmentId": "mmraszgj-4gr5m1ait",
+    "candidateName": "Janet Thompson",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 77,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "JavaScript Debugging",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Janet Thompson is proficient in JavaScript Debugging and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-28T05:12:36.739Z",
+    "createdAt": "2026-03-15T05:12:36.740Z"
+  },
+  {
+    "_id": "mmraszgl-fytb0pofi",
+    "badgeId": "3a17b60e-1a44-404a-9f13-ca9e91ab5b52",
+    "candidateId": "mmraszgl-13fwpe1l9",
+    "assessmentId": "mmraszgl-o27lfpkco",
+    "candidateName": "David Rivera",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 81,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "JavaScript Debugging",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "David Rivera showed a strong command of JavaScript Debugging. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-11T05:12:36.741Z",
+    "createdAt": "2026-03-15T05:12:36.741Z"
+  },
+  {
+    "_id": "mmraszgn-4kzsiqaje",
+    "badgeId": "b677d47f-334d-4952-b8ef-8698d914cddf",
+    "candidateId": "mmraszgm-km9l7nsyg",
+    "assessmentId": "mmraszgm-0yrmxbz74",
+    "candidateName": "Gary Brown",
+    "skillName": "JavaScript Debugging",
+    "industry": "IT / Software",
+    "overallScore": 89,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "JavaScript Debugging",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Gary Brown showed a strong command of JavaScript Debugging. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-02-26T05:12:36.742Z",
+    "createdAt": "2026-03-15T05:12:36.743Z"
+  },
+  {
+    "_id": "mmraszgs-933vx81e1",
+    "badgeId": "a89b7ee7-9f8f-44db-91be-e98eaddb9adb",
+    "candidateId": "mmraszgr-0zzmecnxo",
+    "assessmentId": "mmraszgr-m5emg2k4e",
+    "candidateName": "Betty Green",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 70,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "SQL Database Querying",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Betty Green is proficient in SQL Database Querying and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-14T05:12:36.747Z",
+    "createdAt": "2026-03-15T05:12:36.748Z"
+  },
+  {
+    "_id": "mmraszgt-96l8pggrs",
+    "badgeId": "18fe5eb7-ac3d-4dca-9b07-99665cd30c69",
+    "candidateId": "mmraszgt-ork635c1j",
+    "assessmentId": "mmraszgt-wpbvhcz0a",
+    "candidateName": "Joseph Jones",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 79,
+    "skillLevel": "Intermediate",
+    "verifiedSkills": [
+      "SQL Database Querying",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Joseph Jones is proficient in SQL Database Querying and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-15T05:12:36.749Z",
+    "createdAt": "2026-03-15T05:12:36.749Z"
+  },
+  {
+    "_id": "mmraszgv-yhi3aswyy",
+    "badgeId": "b31b04ca-9028-465e-a0f9-1d57cbada39b",
+    "candidateId": "mmraszgu-vvw4gis81",
+    "assessmentId": "mmraszgv-15zjxkick",
+    "candidateName": "Robert Garcia",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 81,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "SQL Database Querying",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Robert Garcia showed a strong command of SQL Database Querying. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-10T05:12:36.751Z",
+    "createdAt": "2026-03-15T05:12:36.751Z"
+  },
+  {
+    "_id": "mmraszgx-2b4pozqnz",
+    "badgeId": "bd82766a-1c1b-4f5f-bc11-06e667239199",
+    "candidateId": "mmraszgw-pdv0saxnw",
+    "assessmentId": "mmraszgw-rr17qig7n",
+    "candidateName": "Sharon Jones",
+    "skillName": "SQL Database Querying",
+    "industry": "IT / Software",
+    "overallScore": 83,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "SQL Database Querying",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Sharon Jones showed a strong command of SQL Database Querying. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-10T05:12:36.752Z",
+    "createdAt": "2026-03-15T05:12:36.753Z"
+  },
+  {
+    "_id": "mmraszh1-rg6usfxig",
+    "badgeId": "97558e35-c199-40a5-862b-ad948fb1b358",
+    "candidateId": "mmraszh1-gu5l7v8ou",
+    "assessmentId": "mmraszh1-53e6rinc4",
+    "candidateName": "Jennifer Gonzalez",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 71,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "Python Scripting"
+      "Python Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.830Z",
-    "createdAt": "2026-03-15T02:10:31.830Z"
+    "employerSummary": "Jennifer Gonzalez is proficient in Python Scripting and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-01T05:12:36.757Z",
+    "createdAt": "2026-03-15T05:12:36.757Z"
   },
   {
-    "_id": "mmr4atqv-wt3ydvsqb",
-    "badgeId": "5ad83067-bac6-40f4-9096-f1834e85e70b",
-    "candidateId": "mmr4atqu-rct4l3k9y",
-    "assessmentId": "mmr4atqv-pjwd66x3o",
-    "candidateName": "Intermediate Bot 3 - Python",
+    "_id": "mmraszh9-bulf2ck2f",
+    "badgeId": "96f1fa5a-bd97-4003-9654-6e9accdcaa81",
+    "candidateId": "mmraszh2-vcfaaxlgk",
+    "assessmentId": "mmraszh3-wekna3pmc",
+    "candidateName": "Debra Brown",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 73,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "Python Scripting"
+      "Python Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.831Z",
-    "createdAt": "2026-03-15T02:10:31.831Z"
+    "employerSummary": "Debra Brown is proficient in Python Scripting and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-19T05:12:36.759Z",
+    "createdAt": "2026-03-15T05:12:36.765Z"
   },
   {
-    "_id": "mmr4atqx-pmukvjy1i",
-    "badgeId": "5384c40c-b26f-4bbd-866f-1a89753621ea",
-    "candidateId": "mmr4atqw-tpk9y24hl",
-    "assessmentId": "mmr4atqx-zqxyphx7q",
-    "candidateName": "Advanced Bot 1 - Python",
+    "_id": "mmraszhb-jj934hs05",
+    "badgeId": "0791ca76-c1b5-4bf8-b7d0-3eebccfff5f6",
+    "candidateId": "mmraszha-0miithtkm",
+    "assessmentId": "mmraszhb-97k2nukdz",
+    "candidateName": "Dorothy Harris",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 80,
+    "skillLevel": "Advanced",
     "verifiedSkills": [
-      "Python Scripting"
+      "Python Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.833Z",
-    "createdAt": "2026-03-15T02:10:31.833Z"
+    "employerSummary": "Dorothy Harris showed a strong command of Python Scripting. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-15T05:12:36.767Z",
+    "createdAt": "2026-03-15T05:12:36.767Z"
   },
   {
-    "_id": "mmr4atqz-8mz8sykjk",
-    "badgeId": "2baa6e9b-86f6-4eaf-8b5b-15479135af79",
-    "candidateId": "mmr4atqy-9jckcktwq",
-    "assessmentId": "mmr4atqy-b220l164y",
-    "candidateName": "Advanced Bot 2 - Python",
+    "_id": "mmraszhd-apmk638is",
+    "badgeId": "a1394551-43ec-492b-92bc-ef9d1ab687f7",
+    "candidateId": "mmraszhc-ofpjybosf",
+    "assessmentId": "mmraszhd-ag6xo2wtv",
+    "candidateName": "Jason Hall",
     "skillName": "Python Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 87,
+    "skillLevel": "Advanced",
     "verifiedSkills": [
-      "Python Scripting"
+      "Python Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.835Z",
-    "createdAt": "2026-03-15T02:10:31.835Z"
+    "employerSummary": "Jason Hall showed a strong command of Python Scripting. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-02T05:12:36.769Z",
+    "createdAt": "2026-03-15T05:12:36.769Z"
   },
   {
-    "_id": "mmr4atr0-bnw9ps39z",
-    "badgeId": "76a0454a-9ff0-4c4c-9b82-866bcd4c870e",
-    "candidateId": "mmr4atr0-ypmiu79yo",
-    "assessmentId": "mmr4atr0-2g4l883nt",
-    "candidateName": "Advanced Bot 3 - Python",
-    "skillName": "Python Scripting",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Python Scripting"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.836Z",
-    "createdAt": "2026-03-15T02:10:31.836Z"
-  },
-  {
-    "_id": "mmr4atr5-o5wm67236",
-    "badgeId": "508d4c9f-b3ba-4474-bf67-4cba4409ddd3",
-    "candidateId": "mmr4atr4-0x8h8cfoi",
-    "assessmentId": "mmr4atr5-nxnlgzrny",
-    "candidateName": "Intermediate Bot 1 - DevOps",
+    "_id": "mmraszhh-2vu835xfy",
+    "badgeId": "df1da395-9732-4118-9983-74fe888239e0",
+    "candidateId": "mmraszhg-tr4bahi09",
+    "assessmentId": "mmraszhh-ijbcil3a1",
+    "candidateName": "Ashley Scott",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 78,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "DevOps / Docker"
+      "DevOps / Docker",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.841Z",
-    "createdAt": "2026-03-15T02:10:31.841Z"
+    "employerSummary": "Ashley Scott is proficient in DevOps / Docker and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-13T05:12:36.773Z",
+    "createdAt": "2026-03-15T05:12:36.773Z"
   },
   {
-    "_id": "mmr4atr7-vzww7p50b",
-    "badgeId": "864dec38-9a75-4049-9999-44f83e7b9ce2",
-    "candidateId": "mmr4atr6-oxr0jhfc9",
-    "assessmentId": "mmr4atr6-gmllw60lv",
-    "candidateName": "Intermediate Bot 2 - DevOps",
+    "_id": "mmraszhj-fuouc4llw",
+    "badgeId": "8d6ed170-b496-4e50-9e69-61b7fee04b81",
+    "candidateId": "mmraszhi-f3qnrzdll",
+    "assessmentId": "mmraszhi-kskpsj2tz",
+    "candidateName": "Elizabeth Flores",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 75,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "DevOps / Docker"
+      "DevOps / Docker",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.843Z",
-    "createdAt": "2026-03-15T02:10:31.843Z"
+    "employerSummary": "Elizabeth Flores is proficient in DevOps / Docker and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-06T05:12:36.774Z",
+    "createdAt": "2026-03-15T05:12:36.775Z"
   },
   {
-    "_id": "mmr4atr8-cltdkgn21",
-    "badgeId": "d05c32d6-ef37-4a3c-b543-67aae5a0bea7",
-    "candidateId": "mmr4atr8-24t16bxag",
-    "assessmentId": "mmr4atr8-9xnzmjk34",
-    "candidateName": "Intermediate Bot 3 - DevOps",
+    "_id": "mmraszhl-9jlf478xi",
+    "badgeId": "36f3ac20-e606-4b51-b5d0-df9ae2bc615a",
+    "candidateId": "mmraszhk-ejij5uu9a",
+    "assessmentId": "mmraszhk-bhz73a47i",
+    "candidateName": "Brian Nelson",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 88,
+    "skillLevel": "Advanced",
     "verifiedSkills": [
-      "DevOps / Docker"
+      "DevOps / Docker",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.844Z",
-    "createdAt": "2026-03-15T02:10:31.844Z"
+    "employerSummary": "Brian Nelson showed a strong command of DevOps / Docker. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-02-24T05:12:36.776Z",
+    "createdAt": "2026-03-15T05:12:36.777Z"
   },
   {
-    "_id": "mmr4atra-q0vi1oud2",
-    "badgeId": "738f6eeb-f101-4721-8fb2-4dcf8300b7b2",
-    "candidateId": "mmr4atr9-gmd18z9ke",
-    "assessmentId": "mmr4atra-8hvdsc5n3",
-    "candidateName": "Advanced Bot 1 - DevOps",
+    "_id": "mmraszhm-ut70im2u9",
+    "badgeId": "7e660c9f-5658-4a9c-abb7-1d954821ee13",
+    "candidateId": "mmraszhl-yu8x3q50b",
+    "assessmentId": "mmraszhm-cmhs9jarh",
+    "candidateName": "Frank Lopez",
     "skillName": "DevOps / Docker",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 89,
+    "skillLevel": "Advanced",
     "verifiedSkills": [
-      "DevOps / Docker"
+      "DevOps / Docker",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.846Z",
-    "createdAt": "2026-03-15T02:10:31.846Z"
+    "employerSummary": "Frank Lopez showed a strong command of DevOps / Docker. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-04T05:12:36.778Z",
+    "createdAt": "2026-03-15T05:12:36.778Z"
   },
   {
-    "_id": "mmr4atrc-heumd2ja9",
-    "badgeId": "4806f117-2a32-4ca2-9ae3-528d2b4d3044",
-    "candidateId": "mmr4atrb-xcu3n9syd",
-    "assessmentId": "mmr4atrc-yidm4nbfd",
-    "candidateName": "Advanced Bot 2 - DevOps",
-    "skillName": "DevOps / Docker",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "DevOps / Docker"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.848Z",
-    "createdAt": "2026-03-15T02:10:31.848Z"
-  },
-  {
-    "_id": "mmr4atre-08er1ikah",
-    "badgeId": "44ead539-9ca2-459f-86a8-4b389257f0bc",
-    "candidateId": "mmr4atrd-upcn11y8h",
-    "assessmentId": "mmr4atrd-e6m6wgyzt",
-    "candidateName": "Advanced Bot 3 - DevOps",
-    "skillName": "DevOps / Docker",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "DevOps / Docker"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.850Z",
-    "createdAt": "2026-03-15T02:10:31.850Z"
-  },
-  {
-    "_id": "mmr4atri-bpdzh8pn6",
-    "badgeId": "cfb7bbdd-79a8-4628-afab-2611e1b77d39",
-    "candidateId": "mmr4atrh-s12kd5njr",
-    "assessmentId": "mmr4atrh-1cgofakz4",
-    "candidateName": "Intermediate Bot 1 - C++",
+    "_id": "mmraszhs-tim6ebpb6",
+    "badgeId": "5a913939-d2c3-46d7-a4ac-039b497d8f51",
+    "candidateId": "mmraszhr-4hl3gam86",
+    "assessmentId": "mmraszhr-dprejfakw",
+    "candidateName": "Donna Hall",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 74,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "C++ Scripting"
+      "C++ Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.854Z",
-    "createdAt": "2026-03-15T02:10:31.854Z"
+    "employerSummary": "Donna Hall is proficient in C++ Scripting and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-03-15T05:12:36.783Z",
+    "createdAt": "2026-03-15T05:12:36.784Z"
   },
   {
-    "_id": "mmr4atrj-qqz6dk75n",
-    "badgeId": "04254929-bf5e-45fe-9128-8468c16355a9",
-    "candidateId": "mmr4atrj-euxzsorso",
-    "assessmentId": "mmr4atrj-0i1ds6nvr",
-    "candidateName": "Intermediate Bot 2 - C++",
+    "_id": "mmraszhu-8blzshonm",
+    "badgeId": "d199bce9-c411-4b6d-96a9-71ce0cdf1447",
+    "candidateId": "mmraszht-imfgxhj2k",
+    "assessmentId": "mmraszht-ultj4x1fj",
+    "candidateName": "Jonathan Adams",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 74,
+    "skillLevel": "Intermediate",
     "verifiedSkills": [
-      "C++ Scripting"
+      "C++ Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.855Z",
-    "createdAt": "2026-03-15T02:10:31.855Z"
+    "employerSummary": "Jonathan Adams is proficient in C++ Scripting and can handle standard tasks independently. While the core logic was correct, they would benefit from more focus on performance optimization and advanced patterns.",
+    "issuedAt": "2026-02-18T05:12:36.785Z",
+    "createdAt": "2026-03-15T05:12:36.786Z"
   },
   {
-    "_id": "mmr4atrl-2ikdl8mjg",
-    "badgeId": "d2f7cda8-5414-4b4f-908c-73f4abb034a6",
-    "candidateId": "mmr4atrk-4rjqlufr3",
-    "assessmentId": "mmr4atrl-80kkcunsf",
-    "candidateName": "Intermediate Bot 3 - C++",
+    "_id": "mmraszhw-6ddg94asp",
+    "badgeId": "35a28e16-a335-4024-9012-e1958584b2da",
+    "candidateId": "mmraszhu-k6z1zomt3",
+    "assessmentId": "mmraszhv-jk16mfepm",
+    "candidateName": "Matthew Campbell",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
+    "overallScore": 84,
+    "skillLevel": "Advanced",
     "verifiedSkills": [
-      "C++ Scripting"
+      "C++ Scripting",
+      "Problem Solving",
+      "Technical Documentation"
     ],
-    "issuedAt": "2026-03-15T02:10:31.857Z",
-    "createdAt": "2026-03-15T02:10:31.857Z"
+    "employerSummary": "Matthew Campbell showed a strong command of C++ Scripting. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-03-01T05:12:36.787Z",
+    "createdAt": "2026-03-15T05:12:36.788Z"
   },
   {
-    "_id": "mmr4atrn-vc4j0y6ux",
-    "badgeId": "4b2445c7-5d3e-4eec-a52c-e989ec5b0a14",
-    "candidateId": "mmr4atrm-f2xtqgfau",
-    "assessmentId": "mmr4atrm-na7c9jm0l",
-    "candidateName": "Advanced Bot 1 - C++",
+    "_id": "mmraszhx-nlvje1p5f",
+    "badgeId": "62452f39-bb22-4f80-aa76-1ba9a51ec0ca",
+    "candidateId": "mmraszhw-fnb91jb61",
+    "assessmentId": "mmraszhx-mx2ozgnwo",
+    "candidateName": "Thomas Wilson",
     "skillName": "C++ Scripting",
     "industry": "IT / Software",
+    "overallScore": 85,
+    "skillLevel": "Advanced",
+    "verifiedSkills": [
+      "C++ Scripting",
+      "Problem Solving",
+      "Technical Documentation"
+    ],
+    "employerSummary": "Thomas Wilson showed a strong command of C++ Scripting. The code was clean and efficient, with only minor stylistic improvements suggested. They possess a solid foundation for building complex systems.",
+    "issuedAt": "2026-02-28T05:12:36.789Z",
+    "createdAt": "2026-03-15T05:12:36.789Z"
+  },
+  {
+    "_id": "mmraszrh-t0haqyofz",
+    "badgeId": "0035f37d-293f-4db1-9a4e-3c95386525c9",
+    "candidateId": "mmraszq2-h7a8aghy9",
+    "assessmentId": "mmraszrg-g981mmy24",
+    "candidateName": "Aarav Sharma",
+    "skillName": "React Frontend Development",
+    "industry": "Software Engineering",
     "overallScore": 0,
     "skillLevel": "Beginner",
     "verifiedSkills": [
-      "C++ Scripting"
+      "React Basics",
+      "HTML/CSS",
+      "Component Structure"
     ],
-    "issuedAt": "2026-03-15T02:10:31.859Z",
-    "createdAt": "2026-03-15T02:10:31.859Z"
+    "employerSummary": "Demo assessment with 0 score (not yet completed).",
+    "issuedAt": "2026-03-15T05:12:37.131Z",
+    "createdAt": "2026-03-15T05:12:37.133Z"
   },
   {
-    "_id": "mmr4atrp-7b3wd08rz",
-    "badgeId": "bcf4e5cb-a449-48cf-91c7-3ea568961f6f",
-    "candidateId": "mmr4atro-v6adreub4",
-    "assessmentId": "mmr4atro-84fbqw8ss",
-    "candidateName": "Advanced Bot 2 - C++",
-    "skillName": "C++ Scripting",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "C++ Scripting"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.861Z",
-    "createdAt": "2026-03-15T02:10:31.861Z"
-  },
-  {
-    "_id": "mmr4atrq-fpsacnd9l",
-    "badgeId": "900b84f6-c11a-4a5c-aeee-bd0397ea8cbb",
-    "candidateId": "mmr4atrq-kopi84zbb",
-    "assessmentId": "mmr4atrq-d43epyqtu",
-    "candidateName": "Advanced Bot 3 - C++",
-    "skillName": "C++ Scripting",
-    "industry": "IT / Software",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "C++ Scripting"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.862Z",
-    "createdAt": "2026-03-15T02:10:31.862Z"
-  },
-  {
-    "_id": "mmr4atrv-ra2se6cju",
-    "badgeId": "aa4df7e8-a941-4576-8819-8dc3277c273b",
-    "candidateId": "mmr4atru-ah1vncmuk",
-    "assessmentId": "mmr4atru-uv4pl18vc",
-    "candidateName": "Intermediate Bot 1 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.867Z",
-    "createdAt": "2026-03-15T02:10:31.867Z"
-  },
-  {
-    "_id": "mmr4atrx-ukqx9rbyn",
-    "badgeId": "58b60514-4eaf-425f-9d44-6efe9ae8fda1",
-    "candidateId": "mmr4atrw-o38um6bjz",
-    "assessmentId": "mmr4atrw-nx2wn1pqh",
-    "candidateName": "Intermediate Bot 2 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.868Z",
-    "createdAt": "2026-03-15T02:10:31.869Z"
-  },
-  {
-    "_id": "mmr4atry-j0ymworre",
-    "badgeId": "40349cbc-11a3-4f78-8f5d-326d76bfbe06",
-    "candidateId": "mmr4atry-dgmc2l8mi",
-    "assessmentId": "mmr4atry-qmp9s16sz",
-    "candidateName": "Intermediate Bot 3 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.870Z",
-    "createdAt": "2026-03-15T02:10:31.870Z"
-  },
-  {
-    "_id": "mmr4ats0-khg4ouvds",
-    "badgeId": "8d196a36-95aa-4644-86b7-e8c883d6defe",
-    "candidateId": "mmr4atrz-623lpwmdp",
-    "assessmentId": "mmr4ats0-28a061c27",
-    "candidateName": "Advanced Bot 1 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.872Z",
-    "createdAt": "2026-03-15T02:10:31.872Z"
-  },
-  {
-    "_id": "mmr4ats2-rc50a0hje",
-    "badgeId": "c4f26484-fa89-4b46-8add-65834881d7ed",
-    "candidateId": "mmr4ats1-zr5aie4tk",
-    "assessmentId": "mmr4ats2-lc4hn58b1",
-    "candidateName": "Advanced Bot 2 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.874Z",
-    "createdAt": "2026-03-15T02:10:31.874Z"
-  },
-  {
-    "_id": "mmr4ats4-c3axt1gr1",
-    "badgeId": "dcbb8d65-9364-44af-8184-c6862bab52f0",
-    "candidateId": "mmr4ats3-xmkypybhf",
-    "assessmentId": "mmr4ats4-7svm6ivqw",
-    "candidateName": "Advanced Bot 3 - Wound",
-    "skillName": "Wound Dressing",
-    "industry": "Healthcare",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Wound Dressing"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.876Z",
-    "createdAt": "2026-03-15T02:10:31.876Z"
-  },
-  {
-    "_id": "mmr4ats8-ia8b5q0xe",
-    "badgeId": "ccb66e7f-58aa-4df6-a4ea-16086a7e2aa5",
-    "candidateId": "mmr4ats7-bilrs7ojh",
-    "assessmentId": "mmr4ats7-u6d79g1fh",
-    "candidateName": "Beginner Bot 3 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.880Z",
-    "createdAt": "2026-03-15T02:10:31.880Z"
-  },
-  {
-    "_id": "mmr4atsa-rrl16d3sl",
-    "badgeId": "b4ae0c2f-986c-4908-9cfd-ac9f46a57216",
-    "candidateId": "mmr4ats9-ltoz67kmq",
-    "assessmentId": "mmr4ats9-3lggg8pr3",
-    "candidateName": "Intermediate Bot 1 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.882Z",
-    "createdAt": "2026-03-15T02:10:31.882Z"
-  },
-  {
-    "_id": "mmr4atsc-549r0gyl8",
-    "badgeId": "038ba325-ab6a-4105-9223-10d0128232b3",
-    "candidateId": "mmr4atsb-f0iqe6lz7",
-    "assessmentId": "mmr4atsb-0pspk4tck",
-    "candidateName": "Intermediate Bot 2 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.884Z",
-    "createdAt": "2026-03-15T02:10:31.884Z"
-  },
-  {
-    "_id": "mmr4atsd-hbjydy7r0",
-    "badgeId": "d5303fad-3f06-4457-9b07-dfba85abe446",
-    "candidateId": "mmr4atsd-38wwdlqdt",
-    "assessmentId": "mmr4atsd-yle6z1nfr",
-    "candidateName": "Intermediate Bot 3 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.885Z",
-    "createdAt": "2026-03-15T02:10:31.885Z"
-  },
-  {
-    "_id": "mmr4atsf-mc3l1u21p",
-    "badgeId": "d71c6066-2e86-4b5b-bd39-d13579bdfb09",
-    "candidateId": "mmr4atse-f12yt05k5",
-    "assessmentId": "mmr4atsf-kzd020f3k",
-    "candidateName": "Advanced Bot 1 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.887Z",
-    "createdAt": "2026-03-15T02:10:31.887Z"
-  },
-  {
-    "_id": "mmr4atsh-52zryqlai",
-    "badgeId": "e8765597-70af-4395-a5b4-8ea45b780078",
-    "candidateId": "mmr4atsh-t2z25p5cn",
-    "assessmentId": "mmr4atsh-jci795fhi",
-    "candidateName": "Advanced Bot 2 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.889Z",
-    "createdAt": "2026-03-15T02:10:31.889Z"
-  },
-  {
-    "_id": "mmr4atsj-b32qn568s",
-    "badgeId": "b5e80877-fb5e-42b4-b9ce-d03284f28dc8",
-    "candidateId": "mmr4atsi-2msaky70h",
-    "assessmentId": "mmr4atsj-vcb8245cj",
-    "candidateName": "Advanced Bot 3 - Circuit",
-    "skillName": "Circuit Wiring",
-    "industry": "Electrical / ITI",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Circuit Wiring"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.891Z",
-    "createdAt": "2026-03-15T02:10:31.891Z"
-  },
-  {
-    "_id": "mmr4atso-kmuup6asa",
-    "badgeId": "cd64ffae-dfe2-4551-8c7a-2f2b29590576",
-    "candidateId": "mmr4atsn-4p08m8oyf",
-    "assessmentId": "mmr4atso-tmqtdv2el",
-    "candidateName": "Intermediate Bot 1 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.896Z",
-    "createdAt": "2026-03-15T02:10:31.896Z"
-  },
-  {
-    "_id": "mmr4atsq-jaffvhg89",
-    "badgeId": "61c1b586-8ac8-4a27-b309-0e6e4f90028a",
-    "candidateId": "mmr4atsp-fwrpby7e5",
-    "assessmentId": "mmr4atsq-y38aaugjw",
-    "candidateName": "Intermediate Bot 2 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.898Z",
-    "createdAt": "2026-03-15T02:10:31.898Z"
-  },
-  {
-    "_id": "mmr4atss-sw0ooi7ov",
-    "badgeId": "1169045c-d1d6-450b-bb9f-550e09cf28f9",
-    "candidateId": "mmr4atsr-2w6ivhn4a",
-    "assessmentId": "mmr4atsr-mdm0d3zto",
-    "candidateName": "Intermediate Bot 3 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.900Z",
-    "createdAt": "2026-03-15T02:10:31.900Z"
-  },
-  {
-    "_id": "mmr4atsu-x8l2xcy5m",
-    "badgeId": "ceaea786-e382-47d4-a2ba-30523faf11b2",
-    "candidateId": "mmr4atst-brym9zv69",
-    "assessmentId": "mmr4atsu-j686fj8m8",
-    "candidateName": "Advanced Bot 1 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.902Z",
-    "createdAt": "2026-03-15T02:10:31.902Z"
-  },
-  {
-    "_id": "mmr4atsw-tgafpqgnf",
-    "badgeId": "bfa0712e-5de8-4a62-bbf8-ac5021a59fe6",
-    "candidateId": "mmr4atsv-tiz4tbpv6",
-    "assessmentId": "mmr4atsv-ajzcxx9ct",
-    "candidateName": "Advanced Bot 2 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.904Z",
-    "createdAt": "2026-03-15T02:10:31.904Z"
-  },
-  {
-    "_id": "mmr4atsy-b8woeifk5",
-    "badgeId": "994504b7-4d67-4559-b0b7-f0db479b7dce",
-    "candidateId": "mmr4atsx-m9si2s054",
-    "assessmentId": "mmr4atsy-dobm06dln",
-    "candidateName": "Advanced Bot 3 - Music",
-    "skillName": "Music",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Music"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.906Z",
-    "createdAt": "2026-03-15T02:10:31.906Z"
-  },
-  {
-    "_id": "mmr4att3-4rgdn085t",
-    "badgeId": "26cfea2b-5829-46f1-bd1a-210838bf4fbe",
-    "candidateId": "mmr4att2-2eh9fa8lx",
-    "assessmentId": "mmr4att2-5ji6567mp",
-    "candidateName": "Intermediate Bot 1 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.911Z",
-    "createdAt": "2026-03-15T02:10:31.911Z"
-  },
-  {
-    "_id": "mmr4att5-maajf2drm",
-    "badgeId": "804c25dd-751f-4831-8bf0-838a1daf6c07",
-    "candidateId": "mmr4att4-hvkrzzohg",
-    "assessmentId": "mmr4att5-jvmtglhuk",
-    "candidateName": "Intermediate Bot 2 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.913Z",
-    "createdAt": "2026-03-15T02:10:31.913Z"
-  },
-  {
-    "_id": "mmr4att7-82qdkihi0",
-    "badgeId": "caf63d5c-74af-4fe5-be1e-4d3a1ac62039",
-    "candidateId": "mmr4att6-j1b1zm1ps",
-    "assessmentId": "mmr4att7-9efq0o6ts",
-    "candidateName": "Intermediate Bot 3 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.915Z",
-    "createdAt": "2026-03-15T02:10:31.915Z"
-  },
-  {
-    "_id": "mmr4att9-p8vft3vrs",
-    "badgeId": "7c382c82-b8a8-4563-b270-09c83d67165a",
-    "candidateId": "mmr4att8-n2z4ihpcf",
-    "assessmentId": "mmr4att9-hrs7skpn3",
-    "candidateName": "Advanced Bot 1 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.917Z",
-    "createdAt": "2026-03-15T02:10:31.917Z"
-  },
-  {
-    "_id": "mmr4attb-gy2dqmpap",
-    "badgeId": "da78926f-f3d2-45c5-8f0f-7416bac58fcb",
-    "candidateId": "mmr4atta-9j11wlwvq",
-    "assessmentId": "mmr4attb-sip15oesi",
-    "candidateName": "Advanced Bot 2 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.919Z",
-    "createdAt": "2026-03-15T02:10:31.919Z"
-  },
-  {
-    "_id": "mmr4attd-oiqpp8i3f",
-    "badgeId": "ffbaec46-3866-4023-902d-b848a05641e3",
-    "candidateId": "mmr4attc-nbmoipiit",
-    "assessmentId": "mmr4attd-ub2zlfdwr",
-    "candidateName": "Advanced Bot 3 - Musical",
-    "skillName": "Musical Instruments",
-    "industry": "Performing Arts",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Musical Instruments"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.921Z",
-    "createdAt": "2026-03-15T02:10:31.921Z"
-  },
-  {
-    "_id": "mmr4attf-j2r88fcyq",
-    "badgeId": "30906822-6853-43ec-adc6-e80af294d567",
-    "candidateId": "mmr4atte-1f4ce3zsh",
-    "assessmentId": "mmr4attf-e3jg0aa85",
-    "candidateName": "Beginner Bot 1 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.923Z",
-    "createdAt": "2026-03-15T02:10:31.923Z"
-  },
-  {
-    "_id": "mmr4attk-xf3wou9sg",
-    "badgeId": "0746dfbe-e0cd-4b8d-979d-1921e9a01a6c",
-    "candidateId": "mmr4attj-c5ksodpko",
-    "assessmentId": "mmr4attj-wk85r97kc",
-    "candidateName": "Intermediate Bot 1 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.928Z",
-    "createdAt": "2026-03-15T02:10:31.928Z"
-  },
-  {
-    "_id": "mmr4attm-gds0u0fpq",
-    "badgeId": "7ffba157-7bbe-41af-9840-b9d885b2bff3",
-    "candidateId": "mmr4attl-i90etlc55",
-    "assessmentId": "mmr4attl-9tnvvmn7a",
-    "candidateName": "Intermediate Bot 2 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.930Z",
-    "createdAt": "2026-03-15T02:10:31.930Z"
-  },
-  {
-    "_id": "mmr4atto-bop565njm",
-    "badgeId": "c9156142-4e42-4c73-92bf-d78d2d28679f",
-    "candidateId": "mmr4attn-7dhtkxvdg",
-    "assessmentId": "mmr4atto-h3myt11te",
-    "candidateName": "Intermediate Bot 3 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.932Z",
-    "createdAt": "2026-03-15T02:10:31.932Z"
-  },
-  {
-    "_id": "mmr4attq-vlxqfdzgm",
-    "badgeId": "ce8274e7-6998-4c63-8586-2d501d5e86b8",
-    "candidateId": "mmr4attp-macwhh92i",
-    "assessmentId": "mmr4attq-4u5l7khb0",
-    "candidateName": "Advanced Bot 1 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.934Z",
-    "createdAt": "2026-03-15T02:10:31.934Z"
-  },
-  {
-    "_id": "mmr4atts-bxf51lgys",
-    "badgeId": "c5d6c498-ef89-4893-8892-d5a2584f47f4",
-    "candidateId": "mmr4attr-na6cgw9r9",
-    "assessmentId": "mmr4atts-at2ivbg1h",
-    "candidateName": "Advanced Bot 2 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.936Z",
-    "createdAt": "2026-03-15T02:10:31.936Z"
-  },
-  {
-    "_id": "mmr4attv-3tm70mqbr",
-    "badgeId": "7e5ee1f8-a690-4f20-9343-ef00749b0360",
-    "candidateId": "mmr4attt-1fnp41f4l",
-    "assessmentId": "mmr4attu-d3hadv6dc",
-    "candidateName": "Advanced Bot 3 - Speech",
-    "skillName": "Speech / Public Speaking",
-    "industry": "Communication",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Speech / Public Speaking"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.939Z",
-    "createdAt": "2026-03-15T02:10:31.939Z"
-  },
-  {
-    "_id": "mmr4atu1-01gcqxh9i",
-    "badgeId": "ec3d544b-6e5a-4a08-8a95-62e48d6975aa",
-    "candidateId": "mmr4attz-zw99yyui9",
-    "assessmentId": "mmr4atu0-vzs68una6",
-    "candidateName": "Intermediate Bot 1 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.944Z",
-    "createdAt": "2026-03-15T02:10:31.945Z"
-  },
-  {
-    "_id": "mmr4atu3-m0fbfb61t",
-    "badgeId": "d07a90ac-fe70-4a6c-8775-12faa44f12f4",
-    "candidateId": "mmr4atu2-b71aod8e3",
-    "assessmentId": "mmr4atu2-984u35oat",
-    "candidateName": "Intermediate Bot 2 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.947Z",
-    "createdAt": "2026-03-15T02:10:31.947Z"
-  },
-  {
-    "_id": "mmr4atu5-oribkl9eq",
-    "badgeId": "335a36dc-237f-43b4-a5f9-84554b80a24a",
-    "candidateId": "mmr4atu4-klrutizdw",
-    "assessmentId": "mmr4atu5-07gyjnaqj",
-    "candidateName": "Intermediate Bot 3 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.949Z",
-    "createdAt": "2026-03-15T02:10:31.949Z"
-  },
-  {
-    "_id": "mmr4atu7-pc4rg9mg1",
-    "badgeId": "e2bceccb-2431-4791-838a-987594c5478b",
-    "candidateId": "mmr4atu6-1050fmsi7",
-    "assessmentId": "mmr4atu7-hinx7qxd3",
-    "candidateName": "Advanced Bot 1 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.951Z",
-    "createdAt": "2026-03-15T02:10:31.951Z"
-  },
-  {
-    "_id": "mmr4atua-1izsiqvk4",
-    "badgeId": "9b9e7910-28c8-43b5-b266-25dfbb3b563c",
-    "candidateId": "mmr4atu9-kxxizky2l",
-    "assessmentId": "mmr4atu9-7jcpow1rn",
-    "candidateName": "Advanced Bot 2 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.954Z",
-    "createdAt": "2026-03-15T02:10:31.954Z"
-  },
-  {
-    "_id": "mmr4atuc-2k7cx9r1x",
-    "badgeId": "72288308-911a-429a-8288-ea0dcdd6298f",
-    "candidateId": "mmr4atub-19sr7iuos",
-    "assessmentId": "mmr4atub-mjxgf0a5f",
-    "candidateName": "Advanced Bot 3 - Teaching",
-    "skillName": "Teaching / Explaining Concepts",
-    "industry": "Education",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Teaching / Explaining Concepts"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.956Z",
-    "createdAt": "2026-03-15T02:10:31.956Z"
-  },
-  {
-    "_id": "mmr4atui-pll1fl6q1",
-    "badgeId": "d530eaae-e9c3-4130-bd8c-2870add39eaf",
-    "candidateId": "mmr4atuh-53y3ygyke",
-    "assessmentId": "mmr4atuh-6s5mcpgt8",
-    "candidateName": "Intermediate Bot 1 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.961Z",
-    "createdAt": "2026-03-15T02:10:31.962Z"
-  },
-  {
-    "_id": "mmr4atuk-10pgoyqen",
-    "badgeId": "7c747c86-239e-485c-b4c9-3426d7f10de4",
-    "candidateId": "mmr4atuj-kyeoxo8xt",
-    "assessmentId": "mmr4atuj-qnev6ucgh",
-    "candidateName": "Intermediate Bot 2 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.964Z",
-    "createdAt": "2026-03-15T02:10:31.964Z"
-  },
-  {
-    "_id": "mmr4atum-w16hnxekx",
-    "badgeId": "8a541131-8adc-4458-8204-2896c47d2768",
-    "candidateId": "mmr4atul-nil31wgbs",
-    "assessmentId": "mmr4atum-dltlj4nmi",
-    "candidateName": "Intermediate Bot 3 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.966Z",
-    "createdAt": "2026-03-15T02:10:31.966Z"
-  },
-  {
-    "_id": "mmr4atup-iju1s28kw",
-    "badgeId": "54e8412e-6dc0-40bf-8230-93d95adc87ae",
-    "candidateId": "mmr4atuo-5fz1al033",
-    "assessmentId": "mmr4atuo-amnluaq2v",
-    "candidateName": "Advanced Bot 1 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.969Z",
-    "createdAt": "2026-03-15T02:10:31.969Z"
-  },
-  {
-    "_id": "mmr4atur-9rwbxo15p",
-    "badgeId": "8af2557f-e350-4648-923e-67af6ece9846",
-    "candidateId": "mmr4atuq-dz6ahrtrv",
-    "assessmentId": "mmr4atur-vpqpmrbw8",
-    "candidateName": "Advanced Bot 2 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.971Z",
-    "createdAt": "2026-03-15T02:10:31.971Z"
-  },
-  {
-    "_id": "mmr4atut-jvy1y2yyh",
-    "badgeId": "fba29f19-1c83-49c7-9a91-82a5fa13f78d",
-    "candidateId": "mmr4atus-gb5c4166r",
-    "assessmentId": "mmr4atut-uqgei2yir",
-    "candidateName": "Advanced Bot 3 - Yoga",
-    "skillName": "Yoga / Physical Demonstration",
-    "industry": "Fitness / Wellness",
-    "overallScore": 0,
-    "skillLevel": "Beginner",
-    "verifiedSkills": [
-      "Yoga / Physical Demonstration"
-    ],
-    "issuedAt": "2026-03-15T02:10:31.973Z",
-    "createdAt": "2026-03-15T02:10:31.973Z"
-  },
-  {
-    "_id": "mmr9w8h3-r3sadxjad",
-    "badgeId": "f770f61e-f8c7-45bf-9859-4293079a9d72",
+    "_id": "mmraszsv-1tuz2sg4g",
+    "badgeId": "360b8069-a040-44ba-a877-b95e6d72c48d",
     "candidateId": "mmi4rk44-gmin4tlz3",
-    "assessmentId": "mmr9w8h1-e8e8mtf0m",
+    "assessmentId": "mmraszst-uy6282vyi",
     "candidateName": "leon",
     "skillName": "React Frontend Development",
     "industry": "Software Engineering",
@@ -1455,14 +623,14 @@
       "Component Architecture"
     ],
     "employerSummary": "Assessment initiated but no progress demonstrated.",
-    "issuedAt": "2026-02-13T04:47:08.771Z",
-    "createdAt": "2026-03-15T04:47:08.775Z"
+    "issuedAt": "2026-02-13T05:12:37.180Z",
+    "createdAt": "2026-03-15T05:12:37.183Z"
   },
   {
-    "_id": "mmr9w8h5-wy2r3rhg6",
-    "badgeId": "36b5bbea-09a4-4cbc-85fd-879fecdc78ad",
+    "_id": "mmraszsw-7xpls9oe7",
+    "badgeId": "f3bc793e-e7e9-4b68-8629-edbf28db859e",
     "candidateId": "mmi4rk44-gmin4tlz3",
-    "assessmentId": "mmr9w8h4-r4pj5v1ey",
+    "assessmentId": "mmraszsv-yp1dsajtw",
     "candidateName": "leon",
     "skillName": "React Frontend Development",
     "industry": "Software Engineering",
@@ -1474,14 +642,14 @@
       "React Context"
     ],
     "employerSummary": "Assessment initiated but no progress demonstrated.",
-    "issuedAt": "2026-03-05T04:47:08.772Z",
-    "createdAt": "2026-03-15T04:47:08.777Z"
+    "issuedAt": "2026-03-05T05:12:37.180Z",
+    "createdAt": "2026-03-15T05:12:37.184Z"
   },
   {
-    "_id": "mmr9w8h7-lhpd60gkg",
-    "badgeId": "71d499da-c456-4340-8a3d-a75c95d4dc2d",
+    "_id": "mmraszsx-xzrsjm5kk",
+    "badgeId": "c1a3cbd8-cfea-4f9d-bd53-217138a271d2",
     "candidateId": "mmi4rk44-gmin4tlz3",
-    "assessmentId": "mmr9w8h6-eou89st5u",
+    "assessmentId": "mmraszsx-byieeu2t8",
     "candidateName": "leon",
     "skillName": "Node.js API Development",
     "industry": "Software Engineering",
@@ -1493,7 +661,7 @@
       "Middleware"
     ],
     "employerSummary": "Assessment initiated but no progress demonstrated.",
-    "issuedAt": "2026-03-10T04:47:08.772Z",
-    "createdAt": "2026-03-15T04:47:08.779Z"
+    "issuedAt": "2026-03-10T05:12:37.180Z",
+    "createdAt": "2026-03-15T05:12:37.185Z"
   }
 ]

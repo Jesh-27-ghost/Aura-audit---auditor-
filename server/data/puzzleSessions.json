@@ -1,23 +1,548 @@
 [
   {
-    "_id": "mock-puzzle-1",
-    "candidateId": "mmgssjie-e7i252khr",
-    "startTime": "2026-03-15T07:15:00.000Z",
-    "puzzles": [],
-    "currentDifficulty": 4,
+    "_id": "mmraszfu-dxjj38s6y",
+    "candidateId": "mmraszfs-jl7wb58o2",
     "completed": true,
     "metrics": {
-      "reasoning": 0,
-      "patternRecognition": 0,
-      "speed": 0,
-      "flexibility": 0
+      "reasoning": "10.2",
+      "patternRecognition": "9.2",
+      "speed": "8.7",
+      "flexibility": "9.6"
     },
-    "createdAt": "2026-03-15T07:15:00.000Z"
+    "createdAt": "2026-03-06T05:12:36.713Z"
   },
   {
-    "_id": "mmr3yrz8-fhiq6tjco",
-    "candidateId": "mmr3ymga-5zuov6oi9",
-    "startTime": "2026-03-15T02:01:09.667Z",
+    "_id": "mmraszfw-y336uaukl",
+    "candidateId": "mmraszfv-vbjx7egci",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.9",
+      "patternRecognition": "9.7",
+      "speed": "8.9",
+      "flexibility": "9.2"
+    },
+    "createdAt": "2026-02-17T05:12:36.715Z"
+  },
+  {
+    "_id": "mmraszfx-dih8wucvn",
+    "candidateId": "mmraszfw-c1kwwqz1n",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.6",
+      "patternRecognition": "10.3",
+      "speed": "9.9",
+      "flexibility": "10.2"
+    },
+    "createdAt": "2026-02-22T05:12:36.716Z"
+  },
+  {
+    "_id": "mmraszfy-a2ktvunyo",
+    "candidateId": "mmraszfx-b1ucuck97",
+    "completed": true,
+    "metrics": {
+      "reasoning": "4.8",
+      "patternRecognition": "5.4",
+      "speed": "4.7",
+      "flexibility": "4.9"
+    },
+    "createdAt": "2026-02-28T05:12:36.717Z"
+  },
+  {
+    "_id": "mmraszfz-dnz84g4hm",
+    "candidateId": "mmraszfy-fw3zr1pyr",
+    "completed": true,
+    "metrics": {
+      "reasoning": "4.8",
+      "patternRecognition": "5.4",
+      "speed": "5.5",
+      "flexibility": "4.5"
+    },
+    "createdAt": "2026-03-06T05:12:36.719Z"
+  },
+  {
+    "_id": "mmraszg1-14tj0tv0q",
+    "candidateId": "mmraszfz-d9mlpzzhy",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.6",
+      "patternRecognition": "7.0",
+      "speed": "6.8",
+      "flexibility": "8.4"
+    },
+    "createdAt": "2026-03-04T05:12:36.720Z"
+  },
+  {
+    "_id": "mmraszg2-4bfz0ef1p",
+    "candidateId": "mmraszg1-jdlqgqv69",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.2",
+      "patternRecognition": "7.5",
+      "speed": "7.5",
+      "flexibility": "7.8"
+    },
+    "createdAt": "2026-03-01T05:12:36.721Z"
+  },
+  {
+    "_id": "mmraszg3-lcgsxpmpp",
+    "candidateId": "mmraszg2-ppmrunfze",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.3",
+      "patternRecognition": "7.8",
+      "speed": "9.2",
+      "flexibility": "8.0"
+    },
+    "createdAt": "2026-03-14T05:12:36.723Z"
+  },
+  {
+    "_id": "mmraszg5-ysaolgcax",
+    "candidateId": "mmraszg4-43crzbieb",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.2",
+      "patternRecognition": "8.1",
+      "speed": "8.6",
+      "flexibility": "7.7"
+    },
+    "createdAt": "2026-03-15T05:12:36.724Z"
+  },
+  {
+    "_id": "mmraszg6-57fe2stvg",
+    "candidateId": "mmraszg5-a17hyfddy",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.4",
+      "patternRecognition": "6.7",
+      "speed": "6.3",
+      "flexibility": "5.1"
+    },
+    "createdAt": "2026-03-08T05:12:36.725Z"
+  },
+  {
+    "_id": "mmraszg7-2rbbieid5",
+    "candidateId": "mmraszg6-ltprqh3wk",
+    "completed": true,
+    "metrics": {
+      "reasoning": "5.4",
+      "patternRecognition": "6.4",
+      "speed": "4.6",
+      "flexibility": "5.9"
+    },
+    "createdAt": "2026-02-28T05:12:36.726Z"
+  },
+  {
+    "_id": "mmraszg9-m0569elxa",
+    "candidateId": "mmraszg8-yb5bnq5ld",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.8",
+      "patternRecognition": "7.8",
+      "speed": "7.7",
+      "flexibility": "7.3"
+    },
+    "createdAt": "2026-02-14T05:12:36.728Z"
+  },
+  {
+    "_id": "mmraszgb-v8sy888xp",
+    "candidateId": "mmraszga-gua2ibz5e",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.4",
+      "patternRecognition": "7.3",
+      "speed": "8.0",
+      "flexibility": "6.9"
+    },
+    "createdAt": "2026-02-21T05:12:36.730Z"
+  },
+  {
+    "_id": "mmraszgd-ov3llfnz2",
+    "candidateId": "mmraszgc-ci2fx3o4c",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.2",
+      "patternRecognition": "9.8",
+      "speed": "8.6",
+      "flexibility": "9.5"
+    },
+    "createdAt": "2026-03-05T05:12:36.732Z"
+  },
+  {
+    "_id": "mmraszgf-bfy8g052g",
+    "candidateId": "mmraszgd-ijf66z69d",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.5",
+      "patternRecognition": "8.0",
+      "speed": "8.7",
+      "flexibility": "9.0"
+    },
+    "createdAt": "2026-02-17T05:12:36.733Z"
+  },
+  {
+    "_id": "mmraszgg-2pv5y3m7p",
+    "candidateId": "mmraszgf-hw1lade5d",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.2",
+      "patternRecognition": "4.9",
+      "speed": "6.0",
+      "flexibility": "6.8"
+    },
+    "createdAt": "2026-02-20T05:12:36.735Z"
+  },
+  {
+    "_id": "mmraszgh-m1q1j0lld",
+    "candidateId": "mmraszgg-7t8xw8jb1",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.1",
+      "patternRecognition": "6.1",
+      "speed": "4.7",
+      "flexibility": "4.7"
+    },
+    "createdAt": "2026-03-04T05:12:36.737Z"
+  },
+  {
+    "_id": "mmraszgj-ya93ttij3",
+    "candidateId": "mmraszgh-5b4mhje6u",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.4",
+      "patternRecognition": "7.5",
+      "speed": "7.5",
+      "flexibility": "6.4"
+    },
+    "createdAt": "2026-03-02T05:12:36.738Z"
+  },
+  {
+    "_id": "mmraszgk-nz1gzvco7",
+    "candidateId": "mmraszgj-ik24tbwea",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.9",
+      "patternRecognition": "6.8",
+      "speed": "7.5",
+      "flexibility": "8.3"
+    },
+    "createdAt": "2026-02-28T05:12:36.739Z"
+  },
+  {
+    "_id": "mmraszgm-k3awyjuhb",
+    "candidateId": "mmraszgl-13fwpe1l9",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.4",
+      "patternRecognition": "7.8",
+      "speed": "7.3",
+      "flexibility": "9.1"
+    },
+    "createdAt": "2026-03-11T05:12:36.741Z"
+  },
+  {
+    "_id": "mmraszgn-fsb3sgbal",
+    "candidateId": "mmraszgm-km9l7nsyg",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.6",
+      "patternRecognition": "9.2",
+      "speed": "8.7",
+      "flexibility": "8.8"
+    },
+    "createdAt": "2026-02-26T05:12:36.742Z"
+  },
+  {
+    "_id": "mmraszgp-73thhspbp",
+    "candidateId": "mmraszgo-f3mk359ny",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.2",
+      "patternRecognition": "5.8",
+      "speed": "6.3",
+      "flexibility": "6.3"
+    },
+    "createdAt": "2026-02-22T05:12:36.744Z"
+  },
+  {
+    "_id": "mmraszgq-t4ubrpguf",
+    "candidateId": "mmraszgp-8h6kcugpi",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.2",
+      "patternRecognition": "6.4",
+      "speed": "6.3",
+      "flexibility": "6.9"
+    },
+    "createdAt": "2026-03-10T05:12:36.746Z"
+  },
+  {
+    "_id": "mmraszgs-2qri0qa6p",
+    "candidateId": "mmraszgr-0zzmecnxo",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.5",
+      "patternRecognition": "6.8",
+      "speed": "7.1",
+      "flexibility": "7.7"
+    },
+    "createdAt": "2026-02-14T05:12:36.747Z"
+  },
+  {
+    "_id": "mmraszgu-1vfy8homi",
+    "candidateId": "mmraszgt-ork635c1j",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.2",
+      "patternRecognition": "7.7",
+      "speed": "8.2",
+      "flexibility": "8.8"
+    },
+    "createdAt": "2026-02-15T05:12:36.749Z"
+  },
+  {
+    "_id": "mmraszgv-a0wf5c0np",
+    "candidateId": "mmraszgu-vvw4gis81",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.2",
+      "patternRecognition": "7.2",
+      "speed": "8.3",
+      "flexibility": "8.8"
+    },
+    "createdAt": "2026-03-10T05:12:36.751Z"
+  },
+  {
+    "_id": "mmraszgx-h74ku9xw2",
+    "candidateId": "mmraszgw-pdv0saxnw",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.8",
+      "patternRecognition": "9.1",
+      "speed": "8.0",
+      "flexibility": "7.5"
+    },
+    "createdAt": "2026-03-10T05:12:36.752Z"
+  },
+  {
+    "_id": "mmraszgz-3ge0uo6ne",
+    "candidateId": "mmraszgx-te7pmaqh4",
+    "completed": true,
+    "metrics": {
+      "reasoning": "5.6",
+      "patternRecognition": "6.9",
+      "speed": "7.5",
+      "flexibility": "7.1"
+    },
+    "createdAt": "2026-03-14T05:12:36.754Z"
+  },
+  {
+    "_id": "mmraszh0-titd3xq2s",
+    "candidateId": "mmraszgz-vr5kml0t8",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.6",
+      "patternRecognition": "5.3",
+      "speed": "6.8",
+      "flexibility": "6.8"
+    },
+    "createdAt": "2026-03-07T05:12:36.756Z"
+  },
+  {
+    "_id": "mmraszh2-kvsxej3eg",
+    "candidateId": "mmraszh1-gu5l7v8ou",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.4",
+      "patternRecognition": "6.2",
+      "speed": "7.4",
+      "flexibility": "6.9"
+    },
+    "createdAt": "2026-03-01T05:12:36.757Z"
+  },
+  {
+    "_id": "mmraszha-731sbkyd2",
+    "candidateId": "mmraszh2-vcfaaxlgk",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.1",
+      "patternRecognition": "7.6",
+      "speed": "8.1",
+      "flexibility": "7.0"
+    },
+    "createdAt": "2026-02-19T05:12:36.759Z"
+  },
+  {
+    "_id": "mmraszhc-tjhqa4v9n",
+    "candidateId": "mmraszha-0miithtkm",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.5",
+      "patternRecognition": "8.0",
+      "speed": "8.0",
+      "flexibility": "8.8"
+    },
+    "createdAt": "2026-03-15T05:12:36.767Z"
+  },
+  {
+    "_id": "mmraszhe-7t4qdd4kf",
+    "candidateId": "mmraszhc-ofpjybosf",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.4",
+      "patternRecognition": "7.8",
+      "speed": "9.1",
+      "flexibility": "8.2"
+    },
+    "createdAt": "2026-03-02T05:12:36.769Z"
+  },
+  {
+    "_id": "mmraszhf-d599a1g9f",
+    "candidateId": "mmraszhe-wyv7bqjti",
+    "completed": true,
+    "metrics": {
+      "reasoning": "5.6",
+      "patternRecognition": "6.2",
+      "speed": "5.6",
+      "flexibility": "5.1"
+    },
+    "createdAt": "2026-02-18T05:12:36.770Z"
+  },
+  {
+    "_id": "mmraszhg-e0d0s2iza",
+    "candidateId": "mmraszhf-dady2bxbf",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.6",
+      "patternRecognition": "6.2",
+      "speed": "6.7",
+      "flexibility": "7.0"
+    },
+    "createdAt": "2026-03-04T05:12:36.771Z"
+  },
+  {
+    "_id": "mmraszhi-7ha6vbsmb",
+    "candidateId": "mmraszhg-tr4bahi09",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.4",
+      "patternRecognition": "7.4",
+      "speed": "8.3",
+      "flexibility": "8.4"
+    },
+    "createdAt": "2026-03-13T05:12:36.773Z"
+  },
+  {
+    "_id": "mmraszhj-pnr3w2j2o",
+    "candidateId": "mmraszhi-f3qnrzdll",
+    "completed": true,
+    "metrics": {
+      "reasoning": "8.5",
+      "patternRecognition": "8.4",
+      "speed": "7.6",
+      "flexibility": "6.8"
+    },
+    "createdAt": "2026-03-06T05:12:36.774Z"
+  },
+  {
+    "_id": "mmraszhl-23ss5rvbi",
+    "candidateId": "mmraszhk-ejij5uu9a",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.4",
+      "patternRecognition": "8.6",
+      "speed": "7.9",
+      "flexibility": "9.4"
+    },
+    "createdAt": "2026-02-24T05:12:36.776Z"
+  },
+  {
+    "_id": "mmraszhn-6wd1jbfl1",
+    "candidateId": "mmraszhl-yu8x3q50b",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.4",
+      "patternRecognition": "8.3",
+      "speed": "8.1",
+      "flexibility": "8.5"
+    },
+    "createdAt": "2026-03-04T05:12:36.778Z"
+  },
+  {
+    "_id": "mmraszho-748mxbk01",
+    "candidateId": "mmraszhn-rhef5csvf",
+    "completed": true,
+    "metrics": {
+      "reasoning": "5.4",
+      "patternRecognition": "6.0",
+      "speed": "6.4",
+      "flexibility": "4.7"
+    },
+    "createdAt": "2026-02-14T05:12:36.779Z"
+  },
+  {
+    "_id": "mmraszhq-vovycb7y3",
+    "candidateId": "mmraszhp-9zy8tm6gn",
+    "completed": true,
+    "metrics": {
+      "reasoning": "6.1",
+      "patternRecognition": "6.7",
+      "speed": "5.2",
+      "flexibility": "5.9"
+    },
+    "createdAt": "2026-02-21T05:12:36.781Z"
+  },
+  {
+    "_id": "mmraszhs-mbfp1wkco",
+    "candidateId": "mmraszhr-4hl3gam86",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.7",
+      "patternRecognition": "7.2",
+      "speed": "7.0",
+      "flexibility": "8.3"
+    },
+    "createdAt": "2026-03-15T05:12:36.783Z"
+  },
+  {
+    "_id": "mmraszhu-6p59xaz0b",
+    "candidateId": "mmraszht-imfgxhj2k",
+    "completed": true,
+    "metrics": {
+      "reasoning": "7.0",
+      "patternRecognition": "7.2",
+      "speed": "7.1",
+      "flexibility": "7.1"
+    },
+    "createdAt": "2026-02-18T05:12:36.785Z"
+  },
+  {
+    "_id": "mmraszhw-a5rowxolg",
+    "candidateId": "mmraszhu-k6z1zomt3",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.1",
+      "patternRecognition": "7.8",
+      "speed": "9.4",
+      "flexibility": "9.3"
+    },
+    "createdAt": "2026-03-01T05:12:36.787Z"
+  },
+  {
+    "_id": "mmraszhy-bjeo5xqzf",
+    "candidateId": "mmraszhw-fnb91jb61",
+    "completed": true,
+    "metrics": {
+      "reasoning": "9.4",
+      "patternRecognition": "9.1",
+      "speed": "8.2",
+      "flexibility": "9.1"
+    },
+    "createdAt": "2026-02-28T05:12:36.789Z"
+  },
+  {
+    "_id": "mmrb0uy0-2mv3xwvrr",
+    "candidateId": "mmraszq2-h7a8aghy9",
+    "startTime": "2026-03-15T05:18:44.135Z",
     "puzzles": [],
     "currentDifficulty": 1,
     "completed": false,
@@ -27,76 +552,76 @@
       "speed": 0,
       "flexibility": 0
     },
-    "createdAt": "2026-03-15T02:01:09.668Z"
+    "createdAt": "2026-03-15T05:18:44.136Z"
   },
   {
-    "_id": "mmr3ys0w-ehe973x8g",
-    "candidateId": "mmr3ymga-5zuov6oi9",
-    "startTime": "2026-03-15T02:01:09.728Z",
+    "_id": "mmrb0uy7-myego0y21",
+    "candidateId": "mmraszq2-h7a8aghy9",
+    "startTime": "2026-03-15T05:18:44.142Z",
     "puzzles": [
       {
-        "answer": "23",
-        "timeTaken": 9,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "76",
-        "timeTaken": 6,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "39",
-        "timeTaken": 8,
-        "correct": true,
-        "level": 1
-      },
-      {
-        "answer": "76",
-        "timeTaken": 4,
-        "correct": false,
-        "level": 2
-      },
-      {
-        "answer": "654",
-        "timeTaken": 2,
-        "correct": false,
-        "level": 2
-      },
-      {
-        "answer": "87",
+        "answer": "43",
         "timeTaken": 3,
         "correct": false,
-        "level": 2
+        "level": 1
       },
       {
-        "answer": "454",
-        "timeTaken": 2,
+        "answer": "3",
+        "timeTaken": 0,
         "correct": false,
-        "level": 2
+        "level": 1
       },
       {
-        "answer": "65",
-        "timeTaken": 2,
+        "answer": "3",
+        "timeTaken": 0,
         "correct": false,
-        "level": 2
+        "level": 1
+      },
+      {
+        "answer": "3",
+        "timeTaken": 0,
+        "correct": false,
+        "level": 1
+      },
+      {
+        "answer": "3",
+        "timeTaken": 0,
+        "correct": false,
+        "level": 1
+      },
+      {
+        "answer": "33",
+        "timeTaken": 0,
+        "correct": false,
+        "level": 1
+      },
+      {
+        "answer": "3",
+        "timeTaken": 0,
+        "correct": false,
+        "level": 1
+      },
+      {
+        "answer": "3",
+        "timeTaken": 0,
+        "correct": false,
+        "level": 1
       }
     ],
-    "currentDifficulty": 2,
+    "currentDifficulty": 1,
     "completed": true,
     "metrics": {
-      "reasoning": 0,
-      "patternRecognition": 0,
-      "speed": 0,
-      "flexibility": 0
+      "reasoning": "0.0",
+      "patternRecognition": 6,
+      "speed": 9,
+      "flexibility": 7.5
     },
-    "createdAt": "2026-03-15T02:01:09.728Z"
+    "createdAt": "2026-03-15T05:18:44.143Z"
   },
   {
-    "_id": "mmr40dvt-2bj1vqurg",
-    "candidateId": "mmr3ymga-5zuov6oi9",
-    "startTime": "2026-03-15T02:02:24.712Z",
+    "_id": "mmrbfqb4-akgqyfe0x",
+    "candidateId": "mmraszq2-h7a8aghy9",
+    "startTime": "2026-03-15T05:30:17.966Z",
     "puzzles": [],
     "currentDifficulty": 1,
     "completed": false,
@@ -106,70 +631,21 @@
       "speed": 0,
       "flexibility": 0
     },
-    "createdAt": "2026-03-15T02:02:24.713Z"
+    "createdAt": "2026-03-15T05:30:17.969Z"
   },
   {
-    "_id": "mmr40dw2-hwlt9vyng",
-    "candidateId": "mmr3ymga-5zuov6oi9",
-    "startTime": "2026-03-15T02:02:24.721Z",
-    "puzzles": [
-      {
-        "answer": "46",
-        "timeTaken": 4,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "576",
-        "timeTaken": 3,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "78",
-        "timeTaken": 4,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "65",
-        "timeTaken": 3,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "67",
-        "timeTaken": 2,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "768",
-        "timeTaken": 1,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "88",
-        "timeTaken": 1,
-        "correct": false,
-        "level": 1
-      },
-      {
-        "answer": "668",
-        "timeTaken": 1,
-        "correct": false,
-        "level": 1
-      }
-    ],
+    "_id": "mmrbfqbk-lsrkfwehb",
+    "candidateId": "mmraszq2-h7a8aghy9",
+    "startTime": "2026-03-15T05:30:17.983Z",
+    "puzzles": [],
     "currentDifficulty": 1,
-    "completed": true,
+    "completed": false,
     "metrics": {
       "reasoning": 0,
       "patternRecognition": 0,
       "speed": 0,
       "flexibility": 0
     },
-    "createdAt": "2026-03-15T02:02:24.722Z"
+    "createdAt": "2026-03-15T05:30:17.984Z"
   }
 ]

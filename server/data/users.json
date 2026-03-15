@@ -1,1222 +1,562 @@
 [
   {
-    "_id": "mmr4atp7-64dmkdiih",
-    "name": "Dr. Sarah Connor",
-    "email": "dr..sarah.connor@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Expert level bot candidate",
-    "createdAt": "2026-03-15T02:10:31.771Z"
-  },
-  {
-    "_id": "mmr4atp9-2bei5emya",
-    "name": "Marcus Wright",
-    "email": "marcus.wright@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Expert level bot candidate",
-    "createdAt": "2026-03-15T02:10:31.773Z"
-  },
-  {
-    "_id": "mmr4atpa-w2nhl9ny7",
-    "name": "Kyle Reese",
-    "email": "kyle.reese@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Expert level bot candidate",
-    "createdAt": "2026-03-15T02:10:31.774Z"
-  },
-  {
-    "_id": "mmr4atpc-b0puhicf0",
-    "name": "Beginner Bot 1 - React",
-    "email": "beginner.bot.1.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.776Z"
-  },
-  {
-    "_id": "mmr4atpd-n4di8x8fa",
-    "name": "Beginner Bot 2 - React",
-    "email": "beginner.bot.2.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.777Z"
-  },
-  {
-    "_id": "mmr4atpd-yejq6ctxq",
-    "name": "Beginner Bot 3 - React",
-    "email": "beginner.bot.3.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.777Z"
-  },
-  {
-    "_id": "mmr4atpe-8rj4cybrb",
-    "name": "Intermediate Bot 1 - React",
-    "email": "intermediate.bot.1.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.778Z"
-  },
-  {
-    "_id": "mmr4atpg-aglq8jr0n",
-    "name": "Intermediate Bot 2 - React",
-    "email": "intermediate.bot.2.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.780Z"
-  },
-  {
-    "_id": "mmr4atph-71huh80va",
-    "name": "Intermediate Bot 3 - React",
-    "email": "intermediate.bot.3.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.781Z"
-  },
-  {
-    "_id": "mmr4atpi-mbt3thzra",
-    "name": "Advanced Bot 1 - React",
-    "email": "advanced.bot.1.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.782Z"
-  },
-  {
-    "_id": "mmr4atpk-fd4wkw0kk",
-    "name": "Advanced Bot 2 - React",
-    "email": "advanced.bot.2.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.784Z"
-  },
-  {
-    "_id": "mmr4atpl-3hpb9m1kr",
-    "name": "Advanced Bot 3 - React",
-    "email": "advanced.bot.3.-.react@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.785Z"
-  },
-  {
-    "_id": "mmr4atpn-nygco8wsp",
-    "name": "Beginner Bot 1 - Node.js",
-    "email": "beginner.bot.1.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.787Z"
-  },
-  {
-    "_id": "mmr4atpn-s3wzvjali",
-    "name": "Beginner Bot 2 - Node.js",
-    "email": "beginner.bot.2.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.787Z"
-  },
-  {
-    "_id": "mmr4atpo-u0uwiggxi",
-    "name": "Beginner Bot 3 - Node.js",
-    "email": "beginner.bot.3.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.788Z"
-  },
-  {
-    "_id": "mmr4atpo-y7vl1gx9s",
-    "name": "Intermediate Bot 1 - Node.js",
-    "email": "intermediate.bot.1.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.788Z"
-  },
-  {
-    "_id": "mmr4atpq-tdvnv04yu",
-    "name": "Intermediate Bot 2 - Node.js",
-    "email": "intermediate.bot.2.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.790Z"
-  },
-  {
-    "_id": "mmr4atpr-kfbot1n2j",
-    "name": "Intermediate Bot 3 - Node.js",
-    "email": "intermediate.bot.3.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.791Z"
-  },
-  {
-    "_id": "mmr4atps-bro7l7buf",
-    "name": "Advanced Bot 1 - Node.js",
-    "email": "advanced.bot.1.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.792Z"
-  },
-  {
-    "_id": "mmr4atpt-wmw3cyb9b",
-    "name": "Advanced Bot 2 - Node.js",
-    "email": "advanced.bot.2.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.793Z"
-  },
-  {
-    "_id": "mmr4atpv-11n8sqes7",
-    "name": "Advanced Bot 3 - Node.js",
-    "email": "advanced.bot.3.-.node.js@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.795Z"
-  },
-  {
-    "_id": "mmr4atpx-85z9lnjfs",
-    "name": "Beginner Bot 1 - JavaScript",
-    "email": "beginner.bot.1.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.797Z"
-  },
-  {
-    "_id": "mmr4atpy-f6alnlxti",
-    "name": "Beginner Bot 2 - JavaScript",
-    "email": "beginner.bot.2.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.798Z"
-  },
-  {
-    "_id": "mmr4atpy-h3k5231e0",
-    "name": "Beginner Bot 3 - JavaScript",
-    "email": "beginner.bot.3.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.798Z"
-  },
-  {
-    "_id": "mmr4atpz-f8eibbtst",
-    "name": "Intermediate Bot 1 - JavaScript",
-    "email": "intermediate.bot.1.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.799Z"
-  },
-  {
-    "_id": "mmr4atq1-lyml49lji",
-    "name": "Intermediate Bot 2 - JavaScript",
-    "email": "intermediate.bot.2.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.801Z"
-  },
-  {
-    "_id": "mmr4atq2-7w9s68pco",
-    "name": "Intermediate Bot 3 - JavaScript",
-    "email": "intermediate.bot.3.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.802Z"
-  },
-  {
-    "_id": "mmr4atq4-ccw2ujnao",
-    "name": "Advanced Bot 1 - JavaScript",
-    "email": "advanced.bot.1.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.804Z"
-  },
-  {
-    "_id": "mmr4atqb-e51st2pwf",
-    "name": "Advanced Bot 2 - JavaScript",
-    "email": "advanced.bot.2.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.811Z"
-  },
-  {
-    "_id": "mmr4atqc-xgzcy0u0s",
-    "name": "Advanced Bot 3 - JavaScript",
-    "email": "advanced.bot.3.-.javascript@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.812Z"
-  },
-  {
-    "_id": "mmr4atqe-uk2rttz7z",
-    "name": "Beginner Bot 1 - SQL",
-    "email": "beginner.bot.1.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.814Z"
-  },
-  {
-    "_id": "mmr4atqf-lum0gq9w1",
-    "name": "Beginner Bot 2 - SQL",
-    "email": "beginner.bot.2.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.815Z"
-  },
-  {
-    "_id": "mmr4atqf-97mtfo37i",
-    "name": "Beginner Bot 3 - SQL",
-    "email": "beginner.bot.3.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.815Z"
-  },
-  {
-    "_id": "mmr4atqg-ys06hvgap",
-    "name": "Intermediate Bot 1 - SQL",
-    "email": "intermediate.bot.1.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.816Z"
-  },
-  {
-    "_id": "mmr4atqi-vbvne941s",
-    "name": "Intermediate Bot 2 - SQL",
-    "email": "intermediate.bot.2.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.818Z"
-  },
-  {
-    "_id": "mmr4atqj-6o5j2s3l1",
-    "name": "Intermediate Bot 3 - SQL",
-    "email": "intermediate.bot.3.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.819Z"
-  },
-  {
-    "_id": "mmr4atql-4cjp3z9fs",
-    "name": "Advanced Bot 1 - SQL",
-    "email": "advanced.bot.1.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.821Z"
-  },
-  {
-    "_id": "mmr4atqm-4pmza2bxa",
-    "name": "Advanced Bot 2 - SQL",
-    "email": "advanced.bot.2.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.822Z"
-  },
-  {
-    "_id": "mmr4atqn-x9wi27ffv",
-    "name": "Advanced Bot 3 - SQL",
-    "email": "advanced.bot.3.-.sql@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.823Z"
-  },
-  {
-    "_id": "mmr4atqp-kau1mjvpt",
-    "name": "Beginner Bot 1 - Python",
-    "email": "beginner.bot.1.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.825Z"
-  },
-  {
-    "_id": "mmr4atqq-k33rtc4qu",
-    "name": "Beginner Bot 2 - Python",
-    "email": "beginner.bot.2.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.826Z"
-  },
-  {
-    "_id": "mmr4atqr-x8aund1rw",
-    "name": "Beginner Bot 3 - Python",
-    "email": "beginner.bot.3.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.827Z"
-  },
-  {
-    "_id": "mmr4atqr-fpg2sstah",
-    "name": "Intermediate Bot 1 - Python",
-    "email": "intermediate.bot.1.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.827Z"
-  },
-  {
-    "_id": "mmr4atqt-6f6wiaivn",
-    "name": "Intermediate Bot 2 - Python",
-    "email": "intermediate.bot.2.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.829Z"
-  },
-  {
-    "_id": "mmr4atqu-rct4l3k9y",
-    "name": "Intermediate Bot 3 - Python",
-    "email": "intermediate.bot.3.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.830Z"
-  },
-  {
-    "_id": "mmr4atqw-tpk9y24hl",
-    "name": "Advanced Bot 1 - Python",
-    "email": "advanced.bot.1.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.832Z"
-  },
-  {
-    "_id": "mmr4atqy-9jckcktwq",
-    "name": "Advanced Bot 2 - Python",
-    "email": "advanced.bot.2.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.834Z"
-  },
-  {
-    "_id": "mmr4atr0-ypmiu79yo",
-    "name": "Advanced Bot 3 - Python",
-    "email": "advanced.bot.3.-.python@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.836Z"
-  },
-  {
-    "_id": "mmr4atr1-vn0gj27b2",
-    "name": "Beginner Bot 1 - DevOps",
-    "email": "beginner.bot.1.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.837Z"
-  },
-  {
-    "_id": "mmr4atr2-hcatlnnih",
-    "name": "Beginner Bot 2 - DevOps",
-    "email": "beginner.bot.2.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.838Z"
-  },
-  {
-    "_id": "mmr4atr3-qpnlqdxc8",
-    "name": "Beginner Bot 3 - DevOps",
-    "email": "beginner.bot.3.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.839Z"
-  },
-  {
-    "_id": "mmr4atr4-0x8h8cfoi",
-    "name": "Intermediate Bot 1 - DevOps",
-    "email": "intermediate.bot.1.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.840Z"
-  },
-  {
-    "_id": "mmr4atr6-oxr0jhfc9",
-    "name": "Intermediate Bot 2 - DevOps",
-    "email": "intermediate.bot.2.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.842Z"
-  },
-  {
-    "_id": "mmr4atr8-24t16bxag",
-    "name": "Intermediate Bot 3 - DevOps",
-    "email": "intermediate.bot.3.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.844Z"
-  },
-  {
-    "_id": "mmr4atr9-gmd18z9ke",
-    "name": "Advanced Bot 1 - DevOps",
-    "email": "advanced.bot.1.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.845Z"
-  },
-  {
-    "_id": "mmr4atrb-xcu3n9syd",
-    "name": "Advanced Bot 2 - DevOps",
-    "email": "advanced.bot.2.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.847Z"
-  },
-  {
-    "_id": "mmr4atrd-upcn11y8h",
-    "name": "Advanced Bot 3 - DevOps",
-    "email": "advanced.bot.3.-.devops@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.849Z"
-  },
-  {
-    "_id": "mmr4atrf-94n1uyf47",
-    "name": "Beginner Bot 1 - C++",
-    "email": "beginner.bot.1.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.851Z"
-  },
-  {
-    "_id": "mmr4atrf-grl0y3o4j",
-    "name": "Beginner Bot 2 - C++",
-    "email": "beginner.bot.2.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.851Z"
-  },
-  {
-    "_id": "mmr4atrg-7pxk0jq0i",
-    "name": "Beginner Bot 3 - C++",
-    "email": "beginner.bot.3.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.852Z"
-  },
-  {
-    "_id": "mmr4atrh-s12kd5njr",
-    "name": "Intermediate Bot 1 - C++",
-    "email": "intermediate.bot.1.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.853Z"
-  },
-  {
-    "_id": "mmr4atrj-euxzsorso",
-    "name": "Intermediate Bot 2 - C++",
-    "email": "intermediate.bot.2.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.855Z"
-  },
-  {
-    "_id": "mmr4atrk-4rjqlufr3",
-    "name": "Intermediate Bot 3 - C++",
-    "email": "intermediate.bot.3.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.856Z"
-  },
-  {
-    "_id": "mmr4atrm-f2xtqgfau",
-    "name": "Advanced Bot 1 - C++",
-    "email": "advanced.bot.1.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.858Z"
-  },
-  {
-    "_id": "mmr4atro-v6adreub4",
-    "name": "Advanced Bot 2 - C++",
-    "email": "advanced.bot.2.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.860Z"
-  },
-  {
-    "_id": "mmr4atrq-kopi84zbb",
-    "name": "Advanced Bot 3 - C++",
-    "email": "advanced.bot.3.-.c++@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.862Z"
-  },
-  {
-    "_id": "mmr4atrr-nt6ykffeb",
-    "name": "Beginner Bot 1 - Wound",
-    "email": "beginner.bot.1.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.863Z"
-  },
-  {
-    "_id": "mmr4atrs-qb8z5suu4",
-    "name": "Beginner Bot 2 - Wound",
-    "email": "beginner.bot.2.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.864Z"
-  },
-  {
-    "_id": "mmr4atrt-ydjkhrzrc",
-    "name": "Beginner Bot 3 - Wound",
-    "email": "beginner.bot.3.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.865Z"
-  },
-  {
-    "_id": "mmr4atru-ah1vncmuk",
-    "name": "Intermediate Bot 1 - Wound",
-    "email": "intermediate.bot.1.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.866Z"
-  },
-  {
-    "_id": "mmr4atrw-o38um6bjz",
-    "name": "Intermediate Bot 2 - Wound",
-    "email": "intermediate.bot.2.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.868Z"
-  },
-  {
-    "_id": "mmr4atry-dgmc2l8mi",
-    "name": "Intermediate Bot 3 - Wound",
-    "email": "intermediate.bot.3.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.870Z"
-  },
-  {
-    "_id": "mmr4atrz-623lpwmdp",
-    "name": "Advanced Bot 1 - Wound",
-    "email": "advanced.bot.1.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.871Z"
-  },
-  {
-    "_id": "mmr4ats1-zr5aie4tk",
-    "name": "Advanced Bot 2 - Wound",
-    "email": "advanced.bot.2.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.873Z"
-  },
-  {
-    "_id": "mmr4ats3-xmkypybhf",
-    "name": "Advanced Bot 3 - Wound",
-    "email": "advanced.bot.3.-.wound@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.875Z"
-  },
-  {
-    "_id": "mmr4ats5-uxs7f4481",
-    "name": "Beginner Bot 1 - Circuit",
-    "email": "beginner.bot.1.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.877Z"
-  },
-  {
-    "_id": "mmr4ats6-s3qvckvfj",
-    "name": "Beginner Bot 2 - Circuit",
-    "email": "beginner.bot.2.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.878Z"
-  },
-  {
-    "_id": "mmr4ats7-bilrs7ojh",
-    "name": "Beginner Bot 3 - Circuit",
-    "email": "beginner.bot.3.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.879Z"
-  },
-  {
-    "_id": "mmr4ats9-ltoz67kmq",
-    "name": "Intermediate Bot 1 - Circuit",
-    "email": "intermediate.bot.1.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.881Z"
-  },
-  {
-    "_id": "mmr4atsb-f0iqe6lz7",
-    "name": "Intermediate Bot 2 - Circuit",
-    "email": "intermediate.bot.2.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.883Z"
-  },
-  {
-    "_id": "mmr4atsd-38wwdlqdt",
-    "name": "Intermediate Bot 3 - Circuit",
-    "email": "intermediate.bot.3.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.885Z"
-  },
-  {
-    "_id": "mmr4atse-f12yt05k5",
-    "name": "Advanced Bot 1 - Circuit",
-    "email": "advanced.bot.1.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.886Z"
-  },
-  {
-    "_id": "mmr4atsh-t2z25p5cn",
-    "name": "Advanced Bot 2 - Circuit",
-    "email": "advanced.bot.2.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.889Z"
-  },
-  {
-    "_id": "mmr4atsi-2msaky70h",
-    "name": "Advanced Bot 3 - Circuit",
-    "email": "advanced.bot.3.-.circuit@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.890Z"
-  },
-  {
-    "_id": "mmr4atsk-k3jatbit4",
-    "name": "Beginner Bot 1 - Music",
-    "email": "beginner.bot.1.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.892Z"
-  },
-  {
-    "_id": "mmr4atsl-qb38gauro",
-    "name": "Beginner Bot 2 - Music",
-    "email": "beginner.bot.2.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.893Z"
-  },
-  {
-    "_id": "mmr4atsm-vw7xulcx7",
-    "name": "Beginner Bot 3 - Music",
-    "email": "beginner.bot.3.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.894Z"
-  },
-  {
-    "_id": "mmr4atsn-4p08m8oyf",
-    "name": "Intermediate Bot 1 - Music",
-    "email": "intermediate.bot.1.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.895Z"
-  },
-  {
-    "_id": "mmr4atsp-fwrpby7e5",
-    "name": "Intermediate Bot 2 - Music",
-    "email": "intermediate.bot.2.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.897Z"
-  },
-  {
-    "_id": "mmr4atsr-2w6ivhn4a",
-    "name": "Intermediate Bot 3 - Music",
-    "email": "intermediate.bot.3.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.899Z"
-  },
-  {
-    "_id": "mmr4atst-brym9zv69",
-    "name": "Advanced Bot 1 - Music",
-    "email": "advanced.bot.1.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.901Z"
-  },
-  {
-    "_id": "mmr4atsv-tiz4tbpv6",
-    "name": "Advanced Bot 2 - Music",
-    "email": "advanced.bot.2.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.903Z"
-  },
-  {
-    "_id": "mmr4atsx-m9si2s054",
-    "name": "Advanced Bot 3 - Music",
-    "email": "advanced.bot.3.-.music@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
-    "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.905Z"
+    "_id": "mmraszfs-jl7wb58o2",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Experienced in React Frontend Development with a focus on architecture and leadership.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.712Z"
+  },
+  {
+    "_id": "mmraszfv-vbjx7egci",
+    "name": "Elena Rodriguez",
+    "email": "elena.rodriguez@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Creative developer with a strong foundation in Node.js API Development. Currently working at the Expert level.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.715Z"
+  },
+  {
+    "_id": "mmraszfw-c1kwwqz1n",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Expert level professional specializing in Python Scripting. Passionate about building scalable systems.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.716Z"
+  },
+  {
+    "_id": "mmraszfx-b1ucuck97",
+    "name": "Kimberly Baker",
+    "email": "kimberly.baker.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Tech enthusiast and React Frontend Development specialist. Demonstrated Beginner proficiency in recent assessments.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.717Z"
+  },
+  {
+    "_id": "mmraszfy-fw3zr1pyr",
+    "name": "Gregory Clark",
+    "email": "gregory.clark.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Experienced in React Frontend Development with a focus on clean code and performance.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.718Z"
+  },
+  {
+    "_id": "mmraszfz-d9mlpzzhy",
+    "name": "Samantha King",
+    "email": "samantha.king.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Full-stack developer with a deep dive into React Frontend Development. Always learning and improving.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.719Z"
+  },
+  {
+    "_id": "mmraszg1-jdlqgqv69",
+    "name": "Betty Clark",
+    "email": "betty.clark.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Experienced in React Frontend Development with a focus on clean code and performance.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.721Z"
+  },
+  {
+    "_id": "mmraszg2-ppmrunfze",
+    "name": "Nicole Lee",
+    "email": "nicole.lee.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Creative developer with a strong foundation in React Frontend Development. Currently working at the Advanced level.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.722Z"
+  },
+  {
+    "_id": "mmraszg4-43crzbieb",
+    "name": "Jason Hill",
+    "email": "jason.hill.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
+    "role": "candidate",
+    "bio": "Creative developer with a strong foundation in React Frontend Development. Currently working at the Advanced level.",
+    "skills": [
+      "React Frontend Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.724Z"
   },
   {
-    "_id": "mmr4atsz-g5k8agq0s",
-    "name": "Beginner Bot 1 - Musical",
-    "email": "beginner.bot.1.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszg5-a17hyfddy",
+    "name": "Stephen Wilson",
+    "email": "stephen.wilson.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.907Z"
+    "bio": "Creative developer with a strong foundation in Node.js API Development. Currently working at the Beginner level.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.725Z"
   },
   {
-    "_id": "mmr4att0-17boi2jzr",
-    "name": "Beginner Bot 2 - Musical",
-    "email": "beginner.bot.2.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszg6-ltprqh3wk",
+    "name": "Jeffrey Martin",
+    "email": "jeffrey.martin.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.908Z"
+    "bio": "Creative developer with a strong foundation in Node.js API Development. Currently working at the Beginner level.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.726Z"
   },
   {
-    "_id": "mmr4att1-2orbrkpsf",
-    "name": "Beginner Bot 3 - Musical",
-    "email": "beginner.bot.3.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszg8-yb5bnq5ld",
+    "name": "Janet Thompson",
+    "email": "janet.thompson.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.909Z"
+    "bio": "Full-stack developer with a deep dive into Node.js API Development. Always learning and improving.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.728Z"
   },
   {
-    "_id": "mmr4att2-2eh9fa8lx",
-    "name": "Intermediate Bot 1 - Musical",
-    "email": "intermediate.bot.1.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszga-gua2ibz5e",
+    "name": "Nicole Nguyen",
+    "email": "nicole.nguyen.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.910Z"
+    "bio": "Tech enthusiast and Node.js API Development specialist. Demonstrated Intermediate proficiency in recent assessments.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.730Z"
   },
   {
-    "_id": "mmr4att4-hvkrzzohg",
-    "name": "Intermediate Bot 2 - Musical",
-    "email": "intermediate.bot.2.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgc-ci2fx3o4c",
+    "name": "Eric White",
+    "email": "eric.white.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.912Z"
+    "bio": "Tech enthusiast and Node.js API Development specialist. Demonstrated Advanced proficiency in recent assessments.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.732Z"
   },
   {
-    "_id": "mmr4att6-j1b1zm1ps",
-    "name": "Intermediate Bot 3 - Musical",
-    "email": "intermediate.bot.3.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgd-ijf66z69d",
+    "name": "Karen Harris",
+    "email": "karen.harris.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.914Z"
+    "bio": "Experienced in Node.js API Development with a focus on clean code and performance.",
+    "skills": [
+      "Node.js API Development"
+    ],
+    "createdAt": "2026-03-15T05:12:36.733Z"
   },
   {
-    "_id": "mmr4att8-n2z4ihpcf",
-    "name": "Advanced Bot 1 - Musical",
-    "email": "advanced.bot.1.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgf-hw1lade5d",
+    "name": "Angela Scott",
+    "email": "angela.scott.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.916Z"
+    "bio": "Creative developer with a strong foundation in JavaScript Debugging. Currently working at the Beginner level.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.735Z"
   },
   {
-    "_id": "mmr4atta-9j11wlwvq",
-    "name": "Advanced Bot 2 - Musical",
-    "email": "advanced.bot.2.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgg-7t8xw8jb1",
+    "name": "Donald Ramirez",
+    "email": "donald.ramirez.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.918Z"
+    "bio": "Tech enthusiast and JavaScript Debugging specialist. Demonstrated Beginner proficiency in recent assessments.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.736Z"
   },
   {
-    "_id": "mmr4attc-nbmoipiit",
-    "name": "Advanced Bot 3 - Musical",
-    "email": "advanced.bot.3.-.musical@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgh-5b4mhje6u",
+    "name": "Jacob Davis",
+    "email": "jacob.davis.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.920Z"
+    "bio": "Intermediate level professional specializing in JavaScript Debugging. Passionate about building scalable systems.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.737Z"
   },
   {
-    "_id": "mmr4atte-1f4ce3zsh",
-    "name": "Beginner Bot 1 - Speech",
-    "email": "beginner.bot.1.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgj-ik24tbwea",
+    "name": "Janet Thompson",
+    "email": "janet.thompson.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.922Z"
+    "bio": "Intermediate level professional specializing in JavaScript Debugging. Passionate about building scalable systems.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.739Z"
   },
   {
-    "_id": "mmr4atth-4vqdaw51d",
-    "name": "Beginner Bot 2 - Speech",
-    "email": "beginner.bot.2.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgl-13fwpe1l9",
+    "name": "David Rivera",
+    "email": "david.rivera.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.925Z"
+    "bio": "Full-stack developer with a deep dive into JavaScript Debugging. Always learning and improving.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.741Z"
   },
   {
-    "_id": "mmr4atti-eat8jr0g1",
-    "name": "Beginner Bot 3 - Speech",
-    "email": "beginner.bot.3.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgm-km9l7nsyg",
+    "name": "Gary Brown",
+    "email": "gary.brown.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.926Z"
+    "bio": "Advanced level professional specializing in JavaScript Debugging. Passionate about building scalable systems.",
+    "skills": [
+      "JavaScript Debugging"
+    ],
+    "createdAt": "2026-03-15T05:12:36.742Z"
   },
   {
-    "_id": "mmr4attj-c5ksodpko",
-    "name": "Intermediate Bot 1 - Speech",
-    "email": "intermediate.bot.1.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgo-f3mk359ny",
+    "name": "Thomas Nguyen",
+    "email": "thomas.nguyen.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.927Z"
+    "bio": "Experienced in SQL Database Querying with a focus on clean code and performance.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.744Z"
   },
   {
-    "_id": "mmr4attl-i90etlc55",
-    "name": "Intermediate Bot 2 - Speech",
-    "email": "intermediate.bot.2.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgp-8h6kcugpi",
+    "name": "Jeffrey Ramirez",
+    "email": "jeffrey.ramirez.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.929Z"
+    "bio": "Experienced in SQL Database Querying with a focus on clean code and performance.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.745Z"
   },
   {
-    "_id": "mmr4attn-7dhtkxvdg",
-    "name": "Intermediate Bot 3 - Speech",
-    "email": "intermediate.bot.3.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgr-0zzmecnxo",
+    "name": "Betty Green",
+    "email": "betty.green.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.931Z"
+    "bio": "Experienced in SQL Database Querying with a focus on clean code and performance.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.747Z"
   },
   {
-    "_id": "mmr4attp-macwhh92i",
-    "name": "Advanced Bot 1 - Speech",
-    "email": "advanced.bot.1.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgt-ork635c1j",
+    "name": "Joseph Jones",
+    "email": "joseph.jones.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.933Z"
+    "bio": "Full-stack developer with a deep dive into SQL Database Querying. Always learning and improving.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.749Z"
   },
   {
-    "_id": "mmr4attr-na6cgw9r9",
-    "name": "Advanced Bot 2 - Speech",
-    "email": "advanced.bot.2.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgu-vvw4gis81",
+    "name": "Robert Garcia",
+    "email": "robert.garcia.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.935Z"
+    "bio": "Advanced level professional specializing in SQL Database Querying. Passionate about building scalable systems.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.750Z"
   },
   {
-    "_id": "mmr4attt-1fnp41f4l",
-    "name": "Advanced Bot 3 - Speech",
-    "email": "advanced.bot.3.-.speech@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgw-pdv0saxnw",
+    "name": "Sharon Jones",
+    "email": "sharon.jones.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.937Z"
+    "bio": "Advanced level professional specializing in SQL Database Querying. Passionate about building scalable systems.",
+    "skills": [
+      "SQL Database Querying"
+    ],
+    "createdAt": "2026-03-15T05:12:36.752Z"
   },
   {
-    "_id": "mmr4attw-atw6or7cx",
-    "name": "Beginner Bot 1 - Teaching",
-    "email": "beginner.bot.1.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgx-te7pmaqh4",
+    "name": "Gary Martin",
+    "email": "gary.martin.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.940Z"
+    "bio": "Experienced in Python Scripting with a focus on clean code and performance.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.753Z"
   },
   {
-    "_id": "mmr4attx-29yqe9qat",
-    "name": "Beginner Bot 2 - Teaching",
-    "email": "beginner.bot.2.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszgz-vr5kml0t8",
+    "name": "Justin Adams",
+    "email": "justin.adams.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.941Z"
+    "bio": "Tech enthusiast and Python Scripting specialist. Demonstrated Beginner proficiency in recent assessments.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.755Z"
   },
   {
-    "_id": "mmr4atty-l5fes41m2",
-    "name": "Beginner Bot 3 - Teaching",
-    "email": "beginner.bot.3.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszh1-gu5l7v8ou",
+    "name": "Jennifer Gonzalez",
+    "email": "jennifer.gonzalez.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.942Z"
+    "bio": "Experienced in Python Scripting with a focus on clean code and performance.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.757Z"
   },
   {
-    "_id": "mmr4attz-zw99yyui9",
-    "name": "Intermediate Bot 1 - Teaching",
-    "email": "intermediate.bot.1.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszh2-vcfaaxlgk",
+    "name": "Debra Brown",
+    "email": "debra.brown.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.943Z"
+    "bio": "Intermediate level professional specializing in Python Scripting. Passionate about building scalable systems.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.758Z"
   },
   {
-    "_id": "mmr4atu2-b71aod8e3",
-    "name": "Intermediate Bot 2 - Teaching",
-    "email": "intermediate.bot.2.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszha-0miithtkm",
+    "name": "Dorothy Harris",
+    "email": "dorothy.harris.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.946Z"
+    "bio": "Tech enthusiast and Python Scripting specialist. Demonstrated Advanced proficiency in recent assessments.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.766Z"
   },
   {
-    "_id": "mmr4atu4-klrutizdw",
-    "name": "Intermediate Bot 3 - Teaching",
-    "email": "intermediate.bot.3.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhc-ofpjybosf",
+    "name": "Jason Hall",
+    "email": "jason.hall.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.948Z"
+    "bio": "Experienced in Python Scripting with a focus on clean code and performance.",
+    "skills": [
+      "Python Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.768Z"
   },
   {
-    "_id": "mmr4atu6-1050fmsi7",
-    "name": "Advanced Bot 1 - Teaching",
-    "email": "advanced.bot.1.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhe-wyv7bqjti",
+    "name": "Ronald Hill",
+    "email": "ronald.hill.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.950Z"
+    "bio": "Full-stack developer with a deep dive into DevOps / Docker. Always learning and improving.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.770Z"
   },
   {
-    "_id": "mmr4atu9-kxxizky2l",
-    "name": "Advanced Bot 2 - Teaching",
-    "email": "advanced.bot.2.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhf-dady2bxbf",
+    "name": "Debra Campbell",
+    "email": "debra.campbell.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.953Z"
+    "bio": "Full-stack developer with a deep dive into DevOps / Docker. Always learning and improving.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.771Z"
   },
   {
-    "_id": "mmr4atub-19sr7iuos",
-    "name": "Advanced Bot 3 - Teaching",
-    "email": "advanced.bot.3.-.teaching@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhg-tr4bahi09",
+    "name": "Ashley Scott",
+    "email": "ashley.scott.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.955Z"
+    "bio": "Tech enthusiast and DevOps / Docker specialist. Demonstrated Intermediate proficiency in recent assessments.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.772Z"
   },
   {
-    "_id": "mmr4atud-3od9e73ga",
-    "name": "Beginner Bot 1 - Yoga",
-    "email": "beginner.bot.1.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhi-f3qnrzdll",
+    "name": "Elizabeth Flores",
+    "email": "elizabeth.flores.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.957Z"
+    "bio": "Tech enthusiast and DevOps / Docker specialist. Demonstrated Intermediate proficiency in recent assessments.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.774Z"
   },
   {
-    "_id": "mmr4atue-ogqw01lud",
-    "name": "Beginner Bot 2 - Yoga",
-    "email": "beginner.bot.2.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhk-ejij5uu9a",
+    "name": "Brian Nelson",
+    "email": "brian.nelson.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.958Z"
+    "bio": "Creative developer with a strong foundation in DevOps / Docker. Currently working at the Advanced level.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.776Z"
   },
   {
-    "_id": "mmr4atuf-kb4znm8yk",
-    "name": "Beginner Bot 3 - Yoga",
-    "email": "beginner.bot.3.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhl-yu8x3q50b",
+    "name": "Frank Lopez",
+    "email": "frank.lopez.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Beginner bot for testing",
-    "createdAt": "2026-03-15T02:10:31.959Z"
+    "bio": "Experienced in DevOps / Docker with a focus on clean code and performance.",
+    "skills": [
+      "DevOps / Docker"
+    ],
+    "createdAt": "2026-03-15T05:12:36.777Z"
   },
   {
-    "_id": "mmr4atuh-53y3ygyke",
-    "name": "Intermediate Bot 1 - Yoga",
-    "email": "intermediate.bot.1.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhn-rhef5csvf",
+    "name": "Brandon Robinson",
+    "email": "brandon.robinson.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.961Z"
+    "bio": "Experienced in C++ Scripting with a focus on clean code and performance.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.779Z"
   },
   {
-    "_id": "mmr4atuj-kyeoxo8xt",
-    "name": "Intermediate Bot 2 - Yoga",
-    "email": "intermediate.bot.2.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhp-9zy8tm6gn",
+    "name": "Frank Williams",
+    "email": "frank.williams.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.963Z"
+    "bio": "Beginner level professional specializing in C++ Scripting. Passionate about building scalable systems.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.781Z"
   },
   {
-    "_id": "mmr4atul-nil31wgbs",
-    "name": "Intermediate Bot 3 - Yoga",
-    "email": "intermediate.bot.3.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhr-4hl3gam86",
+    "name": "Donna Hall",
+    "email": "donna.hall.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Intermediate bot for testing",
-    "createdAt": "2026-03-15T02:10:31.965Z"
+    "bio": "Tech enthusiast and C++ Scripting specialist. Demonstrated Intermediate proficiency in recent assessments.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.783Z"
   },
   {
-    "_id": "mmr4atuo-5fz1al033",
-    "name": "Advanced Bot 1 - Yoga",
-    "email": "advanced.bot.1.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszht-imfgxhj2k",
+    "name": "Jonathan Adams",
+    "email": "jonathan.adams.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.968Z"
+    "bio": "Tech enthusiast and C++ Scripting specialist. Demonstrated Intermediate proficiency in recent assessments.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.785Z"
   },
   {
-    "_id": "mmr4atuq-dz6ahrtrv",
-    "name": "Advanced Bot 2 - Yoga",
-    "email": "advanced.bot.2.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhu-k6z1zomt3",
+    "name": "Matthew Campbell",
+    "email": "matthew.campbell.0@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.970Z"
+    "bio": "Experienced in C++ Scripting with a focus on clean code and performance.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.786Z"
   },
   {
-    "_id": "mmr4atus-gb5c4166r",
-    "name": "Advanced Bot 3 - Yoga",
-    "email": "advanced.bot.3.-.yoga@bot.com",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszhw-fnb91jb61",
+    "name": "Thomas Wilson",
+    "email": "thomas.wilson.1@bot.com",
+    "password": "$2a$10$2kPDzIzqPYQ2q8JEakPRBe19uJnJAZd4M6vYUK08kEie9YWM.qFdi",
     "role": "candidate",
-    "bio": "Automated Advanced bot for testing",
-    "createdAt": "2026-03-15T02:10:31.972Z"
+    "bio": "Advanced level professional specializing in C++ Scripting. Passionate about building scalable systems.",
+    "skills": [
+      "C++ Scripting"
+    ],
+    "createdAt": "2026-03-15T05:12:36.788Z"
   },
   {
-    "_id": "mmr4atuv-devyuvo7n",
-    "name": "SkillBuster Admin",
-    "email": "admin@skillbuster.io",
-    "password": "$2a$10$WzliVYlDh6Z73RQraZoqSeFJxdWdc7XD4/gHNg26SLDur2kUNsBIm",
+    "_id": "mmraszpz-5ir19vdj0",
+    "name": "TechCorp HR",
+    "email": "hr@techcorp.com",
+    "password": "$2a$12$XbVKWd94QqfzndXn5AFN6uA72NqUPxW21XCma1/Aomp6Fm6jbZHfe",
     "role": "employer",
-    "bio": "Lead Overseer",
-    "createdAt": "2026-03-15T02:10:31.975Z"
+    "skills": [],
+    "bio": "Demo Employer Account",
+    "createdAt": "2026-03-15T05:12:37.079Z"
   },
   {
-    "_id": "mmr4dczx-n0wnvmabb",
-    "name": "11111111",
-    "email": "test@gmail.com",
-    "password": "$2a$12$7itXe8yHjo8tcsIsCB72mOd62ca6bHIBVSU.2YBnewKA03MYHqyLq",
+    "_id": "mmraszq2-h7a8aghy9",
+    "name": "Aarav Sharma",
+    "email": "aarav@example.com",
+    "password": "$2a$12$XbVKWd94QqfzndXn5AFN6uA72NqUPxW21XCma1/Aomp6Fm6jbZHfe",
     "role": "candidate",
     "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-15T02:12:30.093Z"
-  },
-  {
-    "_id": "mmr8o5lz-vigm4ar87",
-    "name": "jesh",
-    "email": "dongdevil10101@gmail.com",
-    "password": "$2a$12$6waxpqKOjq/hhKqd.DVtnu7VedFtHpG4qVFIrdFfnipGUhnmJ4eli",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-15T04:12:52.199Z"
-  },
-  {
-    "_id": "mmr9adzj-pjfhyrevm",
-    "name": "Test Candidate",
-    "email": "test@candidate.com",
-    "password": "$2a$12$tL3HvR.Ygni5XfYzC1btJOoDo7ZzeSC9cTV27zYlV/obzNHxQKakC",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-15T04:30:09.487Z"
-  },
-  {
-    "_id": "mmr9fdbv-zu3tgeo4n",
-    "name": "Checker",
-    "email": "checker@test.com",
-    "password": "$2a$12$gJP.ZbfIlPJmw/zLZemYEuDCwQOVxkXupX1m9p4rZ4ZU9XOhKhzdy",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-15T04:34:01.915Z"
-  },
-  {
-    "_id": "mmra05d3-aqony6an0",
-    "name": "Test Candidate",
-    "email": "dongdevil102@gmail.com",
-    "password": "$2a$12$mIFTA4JfnvbC/6XrEk2Shu7TXmRKaSdux5NM4bHxTH1SvtJ/WqYKO",
-    "role": "candidate",
-    "skills": [],
-    "bio": "",
-    "createdAt": "2026-03-15T04:50:11.367Z"
+    "bio": "Demo Candidate Account",
+    "createdAt": "2026-03-15T05:12:37.082Z"
   }
 ]

@@ -8,10 +8,10 @@ const { generateBadge } = require('./badgeController');
 
 // Model priority list — try each in order until one works
 const MODEL_PRIORITY = [
-    'gemini-2.5-flash',
     'gemini-2.0-flash',
     'gemini-2.0-flash-lite',
-    'gemini-1.5-flash',  // Added as fallback — often has separate quota
+    'gemini-1.5-flash',
+    'gemini-1.5-pro'
 ];
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -143,7 +143,8 @@ const assessSkill = async (req, res) => {
             }
 
             if (file.state === 'FAILED') {
-                throw new Error('Video processing failed by Gemini');
+                const errorDetail = file.error?.message || 'Video processing failed by Gemini. This usually happens with unsupported codecs or corrupt files.';
+                throw new Error(errorDetail);
             }
 
             console.log(`✅ Video processed. State: ${file.state}`);
